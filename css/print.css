@@ -1,0 +1,475 @@
+/* =========================
+   PAGE SETTINGS
+========================= */
+
+@page {
+
+    size: A4 landscape;
+
+    margin: 0;
+
+}
+
+
+/* =========================
+   PAPER PAGE
+========================= */
+
+.paper-page {
+
+    width: 297mm;
+
+    height: 210mm;
+
+    display: flex;
+
+    background: white;
+
+    margin: 0 auto 20px;
+
+    box-sizing: border-box;
+
+    overflow: hidden;
+
+}
+
+
+/* =========================
+   TWO QUESTION PAPER COPIES
+========================= */
+
+.paper-copy {
+
+    width: 50%;
+
+    height: 210mm;
+
+    box-sizing: border-box;
+
+    padding:
+
+        10mm
+        8mm
+        8mm
+        8mm;
+
+    overflow: hidden;
+
+}
+
+
+/* =========================
+   CENTER CUTTING LINE
+========================= */
+
+.paper-copy:first-child {
+
+    border-right:
+
+        1px
+        dashed
+        #777;
+
+}
+
+
+/* =========================
+   PAPER HEADER
+========================= */
+
+.paper-header {
+
+    text-align: center;
+
+    margin-bottom: 5px;
+
+}
+
+
+.paper-school {
+
+    font-size: 14px;
+
+    font-weight: bold;
+
+}
+
+
+.paper-exam {
+
+    font-size: 11px;
+
+    font-weight: bold;
+
+    margin-top: 2px;
+
+}
+
+
+.paper-subject {
+
+    font-size: 10px;
+
+    margin-top: 2px;
+
+}
+
+
+.paper-info {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    font-size: 9px;
+
+    margin-top: 5px;
+
+}
+
+
+/* =========================
+   QUESTION SECTION
+========================= */
+
+.paper-section {
+
+    margin-top: 5px;
+
+}
+
+
+.paper-section-title {
+
+    font-size: 10px;
+
+    font-weight: bold;
+
+    margin-bottom: 4px;
+
+}
+
+
+/* =========================
+   QUESTION
+========================= */
+
+.paper-question {
+
+    font-size: 9px;
+
+    line-height: 1.35;
+
+    margin-bottom: 4px;
+
+    break-inside: avoid;
+
+    page-break-inside: avoid;
+
+}
+
+
+/* =========================
+   MCQ OPTIONS
+========================= */
+
+.paper-options {
+
+    display: flex;
+
+    flex-wrap: wrap;
+
+    align-items: flex-start;
+
+    column-gap: 20px;
+
+    row-gap: 3px;
+
+    margin-top: 2px;
+
+    margin-left: 18px;
+
+    width: calc(100% - 18px);
+
+    box-sizing: border-box;
+
+}
+
+
+/* EACH OPTION */
+
+.paper-options > div {
+
+    flex: 0 0 auto;
+
+    width: auto;
+
+    white-space: nowrap;
+
+}
+
+
+/* =========================
+   FILL BLANK OPTIONS
+========================= */
+
+.jumbled-options-box {
+
+    font-size: 9px;
+
+    margin-bottom: 5px;
+
+    line-height: 1.4;
+
+}
+
+
+.jumbled-options-list {
+
+    margin-left: 4px;
+
+}
+
+
+/* =========================
+   MATCH TABLE
+========================= */
+
+.paper-match-table {
+
+    width: 100%;
+
+    border-collapse: collapse;
+
+    font-size: 9px;
+
+    margin-top: 4px;
+
+}
+
+
+.paper-match-table th,
+
+.paper-match-table td {
+
+    border: 1px solid #000;
+
+    padding: 3px;
+
+    text-align: left;
+
+    vertical-align: top;
+
+}
+
+
+.paper-match-table th {
+
+    text-align: center;
+
+}
+
+
+/* =========================
+   HIDDEN PAGE MEASURER
+========================= */
+
+#pageMeasurer {
+
+    position: fixed;
+
+    left: -99999px;
+
+    top: 0;
+
+    width: 148.5mm;
+
+    height: 210mm;
+
+    padding:
+
+        10mm
+        8mm
+        8mm
+        8mm;
+
+    box-sizing: border-box;
+
+    overflow: hidden;
+
+    visibility: hidden;
+
+}
+
+
+/* =========================
+   PRINT MODE
+========================= */
+
+@media print {
+
+
+    html,
+
+    body {
+
+        width: 297mm;
+
+        height: auto;
+
+        margin: 0;
+
+        padding: 0;
+
+        background: white;
+
+    }
+
+
+    /* Hide application */
+
+    .app,
+
+    .preview-header {
+
+        display: none !important;
+
+    }
+
+
+    /* Show preview only */
+
+    #previewModal {
+
+        display: block !important;
+
+        position: static !important;
+
+        inset: auto !important;
+
+        width: 100% !important;
+
+        height: auto !important;
+
+        margin: 0 !important;
+
+        padding: 0 !important;
+
+        background: white !important;
+
+        overflow: visible !important;
+
+    }
+
+
+    #paperPreview {
+
+        display: block !important;
+
+        margin: 0 !important;
+
+        padding: 0 !important;
+
+        width: 100% !important;
+
+    }
+
+
+    /* Exact A4 landscape */
+
+    .paper-page {
+
+        width: 297mm !important;
+
+        height: 210mm !important;
+
+        margin: 0 !important;
+
+        padding: 0 !important;
+
+        box-shadow: none !important;
+
+        overflow: hidden !important;
+
+        display: flex !important;
+
+        break-after: page;
+
+        page-break-after: always;
+
+        break-inside: avoid;
+
+        page-break-inside: avoid;
+
+    }
+
+
+    .paper-page:last-child {
+
+        break-after: auto;
+
+        page-break-after: auto;
+
+    }
+
+
+    /* Two copies */
+
+    .paper-copy {
+
+        width: 50% !important;
+
+        height: 210mm !important;
+
+        box-sizing: border-box !important;
+
+        padding:
+
+            10mm
+            8mm
+            8mm
+            8mm !important;
+
+        overflow: hidden !important;
+
+    }
+
+
+    /* Center cut line */
+
+    .paper-copy:first-child {
+
+        border-right:
+
+            1px
+            dashed
+            #777 !important;
+
+    }
+
+
+    /* Keep important blocks together */
+
+    .paper-question,
+
+    .paper-section-title,
+
+    .paper-match-table {
+
+        break-inside: avoid;
+
+        page-break-inside: avoid;
+
+    }
+
+
+    /* Hide measuring element */
+
+    #pageMeasurer {
+
+        display: none !important;
+
+    }
+
+
+}

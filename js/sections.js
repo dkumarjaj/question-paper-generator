@@ -5,22 +5,22 @@ function getSectionTitle(
     const titles = {
 
         mcq:
-            "Tick the Correct Option",
+            "Tick ( &#10003; ) the Correct Option.",
 
         truefalse:
-            "Write True or False",
+            "Write \"True\" or \"False\".",
 
         match:
-            "Match the Following",
+            "Match the Following.",
 
         oneword:
-            "Answer in One Word",
+            "Answer in One Word.",
 
         fillblank:
-            "Fill in the Blanks",
+            "Fill in the Blanks.",
 
         custom:
-            "Custom Question Section"
+            "Custom Question Section."
 
     };
 

@@ -423,12 +423,7 @@
 
         box-sizing: border-box !important;
 
-        padding:
-
-            10mm
-            8mm
-            8mm
-            8mm !important;
+        padding:3mm !important;
 
         overflow: hidden !important;
 

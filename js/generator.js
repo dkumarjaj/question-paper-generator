@@ -145,7 +145,7 @@ function createPaperHeader(details) {
 
                 <span>
 
-                    Class:
+                    Class: STD-
                     ${escapeHTML(
                         details.className
                     )}

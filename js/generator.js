@@ -680,15 +680,29 @@ function getQuestionData(question) {
    GET ALL PAPER BLOCKS
 ========================= */
 
+/* =========================
+   GET ALL PAPER BLOCKS
+
+   SECTION NUMBERING:
+   1. MCQ
+   2. Match
+   3. Fill in the Blanks
+   etc.
+
+   QUESTION NUMBERING:
+   (i), (ii), (iii)...
+========================= */
+
 function getPaperBlocks() {
 
     const blocks = [];
-
 
     const sections =
         document.querySelectorAll(
             ".question-section"
         );
+
+    let sectionNumber = 0;
 
 
     sections.forEach(
@@ -719,6 +733,33 @@ function getPaperBlocks() {
             }
 
 
+            /*
+             * Increase section number
+             * only when a real section
+             * contains questions.
+             */
+
+            sectionNumber++;
+
+
+            /*
+             * =========================
+             * SECTION HEADING
+             * =========================
+             */
+
+            const numberedTitle = `
+
+                <div class="paper-section-title">
+
+                    ${sectionNumber}.
+                    ${escapeHTML(title)}
+
+                </div>
+
+            `;
+
+
             /* =========================
                MATCH SECTION
             ========================= */
@@ -727,8 +768,7 @@ function getPaperBlocks() {
                 type === "match"
             ) {
 
-                const matchQuestions =
-                    [];
+                const matchQuestions = [];
 
 
                 questionElements.forEach(
@@ -740,7 +780,6 @@ function getPaperBlocks() {
                                 question.querySelector(
                                     ".match-left"
                                 )?.value || "",
-
 
                             matchRight:
                                 question.querySelector(
@@ -757,11 +796,7 @@ function getPaperBlocks() {
 
                     <div class="paper-section">
 
-                        <div class="paper-section-title">
-
-                            ${escapeHTML(title)}
-
-                        </div>
+                        ${numberedTitle}
 
                 `;
 
@@ -790,7 +825,7 @@ function getPaperBlocks() {
 
 
             /* =========================
-               GET NORMAL QUESTION DATA
+               GET NORMAL QUESTIONS
             ========================= */
 
             const questions = [];
@@ -811,20 +846,152 @@ function getPaperBlocks() {
 
             /* =========================
                FILL IN THE BLANKS
-
-               ENTIRE SECTION IS
-               GENERATED AS ONE BLOCK
             ========================= */
 
             if (
                 type === "fillblank"
             ) {
 
+                let sectionHTML = `
+
+                    <div class="paper-section">
+
+                        ${numberedTitle}
+
+                `;
+
+
+                /*
+                 * COLLECT ALL OPTIONS
+                 */
+
+                const allOptions = [];
+
+
+                questions.forEach(
+                    question => {
+
+                        const rawOptions =
+                            question.jumbledOptions ||
+                            "";
+
+
+                        rawOptions
+                            .split(",")
+                            .map(
+                                option =>
+                                    option.trim()
+                            )
+                            .filter(
+                                option =>
+                                    option !== ""
+                            )
+                            .forEach(
+                                option => {
+
+                                    allOptions.push(
+                                        option
+                                    );
+
+                                }
+                            );
+
+                    }
+                );
+
+
+                /*
+                 * REMOVE DUPLICATES
+                 */
+
+                const uniqueOptions =
+                    [
+                        ...new Set(
+                            allOptions
+                        )
+                    ];
+
+
+                /*
+                 * SHUFFLE
+                 */
+
+                const shuffledOptions =
+                    shuffleArray(
+                        uniqueOptions
+                    );
+
+
+                /*
+                 * SHOW OPTIONS ONCE
+                 */
+
+                if (
+                    shuffledOptions.length > 0
+                ) {
+
+                    sectionHTML += `
+
+                        <div class="jumbled-options-box">
+
+                            <strong>
+                                Choose from:
+                            </strong>
+
+                            <span class="jumbled-options-list">
+
+                                [
+                                ${
+                                    shuffledOptions
+                                        .map(
+                                            option =>
+                                                escapeHTML(
+                                                    option
+                                                )
+                                        )
+                                        .join(", ")
+                                }
+                                ]
+
+                            </span>
+
+                        </div>
+
+                    `;
+
+                }
+
+
+                /*
+                 * QUESTIONS
+                 */
+
+                questions.forEach(
+                    (
+                        questionData,
+                        index
+                    ) => {
+
+                        sectionHTML +=
+                            createQuestionHTML(
+                                "fillblank",
+                                questionData,
+                                index + 1
+                            );
+
+                    }
+                );
+
+
+                sectionHTML += `
+
+                    </div>
+
+                `;
+
+
                 blocks.push(
-                    createFillBlankSectionHTML(
-                        title,
-                        questions
-                    )
+                    sectionHTML
                 );
 
 
@@ -837,8 +1004,13 @@ function getPaperBlocks() {
                OTHER QUESTION TYPES
             ========================= */
 
-            let sectionStarted =
-                false;
+            let sectionHTML = `
+
+                <div class="paper-section">
+
+                    ${numberedTitle}
+
+            `;
 
 
             questions.forEach(
@@ -847,54 +1019,26 @@ function getPaperBlocks() {
                     index
                 ) => {
 
-                    let questionHTML = `
-
-                        <div class="paper-section">
-
-                    `;
-
-
-                    if (
-                        !sectionStarted
-                    ) {
-
-                        questionHTML += `
-
-                            <div class="paper-section-title">
-
-                                ${escapeHTML(title)}
-
-                            </div>
-
-                        `;
-
-
-                        sectionStarted =
-                            true;
-
-                    }
-
-
-                    questionHTML +=
+                    sectionHTML +=
                         createQuestionHTML(
                             type,
                             questionData,
                             index + 1
                         );
 
-
-                    questionHTML += `
-
-                        </div>
-
-                    `;
-
-
-                    blocks.push(
-                        questionHTML
-                    );
-
                 }
+            );
+
+
+            sectionHTML += `
+
+                </div>
+
+            `;
+
+
+            blocks.push(
+                sectionHTML
             );
 
         }
@@ -904,7 +1048,6 @@ function getPaperBlocks() {
     return blocks;
 
 }
-
 
 /* =========================
    SPLIT INTO PAGES

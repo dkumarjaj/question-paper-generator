@@ -135,6 +135,11 @@ function createPaperHeader(details) {
 
                 <span>
 
+                   Student Name: ____________________
+
+                </span>
+                <span>
+
                     Time:
                     ${escapeHTML(
                         details.examTime

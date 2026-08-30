@@ -224,7 +224,6 @@ function loadQuestionPaper() {
             STORAGE_KEY
         );
 
-        console.log(saved)
 
     if (!saved) {
 

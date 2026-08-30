@@ -709,346 +709,148 @@ function getPaperBlocks() {
 
     let sectionNumber = 0;
 
+    sections.forEach(section => {
 
-    sections.forEach(
-        section => {
+        const type = section.dataset.type;
 
-            const type =
-                section.dataset.type;
+        const title =
+            section.querySelector(
+                ".custom-section-title"
+            )?.value || "";
 
-
-            const title =
-                section.querySelector(
-                    ".custom-section-title"
-                )?.value || "";
-
-
-            const questionElements =
-                section.querySelectorAll(
-                    ".question-card"
-                );
-
-
-            if (
-                questionElements.length === 0
-            ) {
-
-                return;
-
-            }
-
-
-            /*
-             * Increase section number
-             * only when a real section
-             * contains questions.
-             */
-
-            sectionNumber++;
-
-
-            /*
-             * =========================
-             * SECTION HEADING
-             * =========================
-             */
-
-            const numberedTitle = `
-
-                <div class="paper-section-title">
-
-                    ${sectionNumber}.
-                    ${escapeHTML(title)}
-
-                </div>
-
-            `;
-
-
-            /* =========================
-               MATCH SECTION
-            ========================= */
-
-            if (
-                type === "match"
-            ) {
-
-                const matchQuestions = [];
-
-
-                questionElements.forEach(
-                    question => {
-
-                        matchQuestions.push({
-
-                            matchLeft:
-                                question.querySelector(
-                                    ".match-left"
-                                )?.value || "",
-
-                            matchRight:
-                                question.querySelector(
-                                    ".match-right"
-                                )?.value || ""
-
-                        });
-
-                    }
-                );
-
-
-                let sectionHTML = `
-
-                    <div class="paper-section">
-
-                        ${numberedTitle}
-
-                `;
-
-
-                sectionHTML +=
-                    createMatchHTML(
-                        matchQuestions
-                    );
-
-
-                sectionHTML += `
-
-                    </div>
-
-                `;
-
-
-                blocks.push(
-                    sectionHTML
-                );
-
-
-                return;
-
-            }
-
-
-            /* =========================
-               GET NORMAL QUESTIONS
-            ========================= */
-
-            const questions = [];
-
-
-            questionElements.forEach(
-                question => {
-
-                    questions.push(
-                        getQuestionData(
-                            question
-                        )
-                    );
-
-                }
+        const questionElements =
+            section.querySelectorAll(
+                ".question-card"
             );
 
+        if (questionElements.length === 0) {
+            return;
+        }
 
-            /* =========================
-               FILL IN THE BLANKS
-            ========================= */
+        sectionNumber++;
 
-            if (
-                type === "fillblank"
-            ) {
+        const numberedTitle = `
+            <div class="paper-section-title">
+                ${sectionNumber}.
+                ${escapeHTML(title)}
+            </div>
+        `;
 
-                let sectionHTML = `
+        /* MATCH THE FOLLOWING
+           Keep the table together as one visual unit. */
+        if (type === "match") {
 
-                    <div class="paper-section">
+            const matchQuestions = [];
 
-                        ${numberedTitle}
+            questionElements.forEach(question => {
+                matchQuestions.push({
+                    matchLeft:
+                        question.querySelector(
+                            ".match-left"
+                        )?.value || "",
+                    matchRight:
+                        question.querySelector(
+                            ".match-right"
+                        )?.value || ""
+                });
+            });
 
-                `;
+            blocks.push(`
+                <div class="paper-section">
+                    ${numberedTitle}
+                    ${createMatchHTML(matchQuestions)}
+                </div>
+            `);
 
+            return;
+        }
 
-                /*
-                 * COLLECT ALL OPTIONS
-                 */
+        const questions = [];
 
-                const allOptions = [];
+        questionElements.forEach(question => {
+            questions.push(
+                getQuestionData(question)
+            );
+        });
 
+        /* FILL IN THE BLANKS
+           Options + first question stay together.
+           Every following question is independently paginated. */
+        if (type === "fillblank") {
 
-                questions.forEach(
-                    question => {
+            const allOptions = [];
 
-                        const rawOptions =
-                            question.jumbledOptions ||
-                            "";
+            questions.forEach(question => {
+                const rawOptions =
+                    question.jumbledOptions || "";
 
+                rawOptions
+                    .split(",")
+                    .map(option => option.trim())
+                    .filter(option => option !== "")
+                    .forEach(option => allOptions.push(option));
+            });
 
-                        rawOptions
-                            .split(",")
-                            .map(
-                                option =>
-                                    option.trim()
-                            )
-                            .filter(
-                                option =>
-                                    option !== ""
-                            )
-                            .forEach(
-                                option => {
+            const uniqueOptions = [
+                ...new Set(allOptions)
+            ];
 
-                                    allOptions.push(
-                                        option
-                                    );
+            const shuffledOptions =
+                shuffleArray(uniqueOptions);
 
-                                }
-                            );
+            let optionsHTML = "";
 
-                    }
-                );
-
-
-                /*
-                 * REMOVE DUPLICATES
-                 */
-
-                const uniqueOptions =
-                    [
-                        ...new Set(
-                            allOptions
-                        )
-                    ];
-
-
-                /*
-                 * SHUFFLE
-                 */
-
-                const shuffledOptions =
-                    shuffleArray(
-                        uniqueOptions
-                    );
-
-
-                /*
-                 * SHOW OPTIONS ONCE
-                 */
-
-                if (
-                    shuffledOptions.length > 0
-                ) {
-
-                    sectionHTML += `
-
-                        <div class="jumbled-options-box">
-
-                            <strong>
-                                Choose from:
-                            </strong>
-
-                            <span class="jumbled-options-list">
-
-                                [
-                                ${
-                                    shuffledOptions
-                                        .map(
-                                            option =>
-                                                escapeHTML(
-                                                    option
-                                                )
-                                        )
-                                        .join(", ")
-                                }
-                                ]
-
-                            </span>
-
-                        </div>
-
-                    `;
-
-                }
-
-
-                /*
-                 * QUESTIONS
-                 */
-
-                questions.forEach(
-                    (
-                        questionData,
-                        index
-                    ) => {
-
-                        sectionHTML +=
-                            createQuestionHTML(
-                                "fillblank",
-                                questionData,
-                                index + 1
-                            );
-
-                    }
-                );
-
-
-                sectionHTML += `
-
+            if (shuffledOptions.length > 0) {
+                optionsHTML = `
+                    <div class="jumbled-options-box">
+                        <strong>Choose from:</strong>
+                        <span class="jumbled-options-list">
+                            [${shuffledOptions
+                                .map(option => escapeHTML(option))
+                                .join(", ")}]
+                        </span>
                     </div>
-
                 `;
-
-
-                blocks.push(
-                    sectionHTML
-                );
-
-
-                return;
-
             }
 
+            questions.forEach((questionData, index) => {
 
-            /* =========================
-               OTHER QUESTION TYPES
-            ========================= */
-
-            let sectionHTML = `
-
-                <div class="paper-section">
-
-                    ${numberedTitle}
-
-            `;
-
-
-            questions.forEach(
-                (
-                    questionData,
-                    index
-                ) => {
-
-                    sectionHTML +=
-                        createQuestionHTML(
-                            type,
+                blocks.push(`
+                    <div class="paper-section">
+                        ${index === 0 ? numberedTitle : ""}
+                        ${index === 0 ? optionsHTML : ""}
+                        ${createQuestionHTML(
+                            "fillblank",
                             questionData,
                             index + 1
-                        );
+                        )}
+                    </div>
+                `);
 
-                }
-            );
+            });
 
-
-            sectionHTML += `
-
-                </div>
-
-            `;
-
-
-            blocks.push(
-                sectionHTML
-            );
-
+            return;
         }
-    );
 
+        /* ALL OTHER TYPES
+           IMPORTANT: one question = one pagination block.
+           A section may therefore continue onto the next page. */
+        questions.forEach((questionData, index) => {
+
+            blocks.push(`
+                <div class="paper-section">
+                    ${index === 0 ? numberedTitle : ""}
+                    ${createQuestionHTML(
+                        type,
+                        questionData,
+                        index + 1
+                    )}
+                </div>
+            `);
+
+        });
+
+    });
 
     return blocks;
 
@@ -1068,21 +870,17 @@ function splitIntoPages(
             "pageMeasurer"
         );
 
-
     const pages = [];
-
-
     let currentBlocks = [];
+    let pageIndex = 0;
 
-
-    function measure(blockList) {
+    function measure(blockList, includeHeader) {
 
         measurer.innerHTML =
-            createPaperHeader(
-                details
-            ) +
+            (includeHeader
+                ? createPaperHeader(details)
+                : "") +
             blockList.join("");
-
 
         return (
             measurer.scrollHeight >
@@ -1091,55 +889,41 @@ function splitIntoPages(
 
     }
 
+    blocks.forEach(block => {
 
-    blocks.forEach(
-        block => {
+        const testBlocks = [
+            ...currentBlocks,
+            block
+        ];
 
-            const testBlocks = [
+        /*
+         * Test the next QUESTION, not the whole section.
+         * If it does not fit, only that question moves to
+         * the next page.
+         */
+        if (
+            currentBlocks.length > 0 &&
+            measure(
+                testBlocks,
+                pageIndex === 0
+            )
+        ) {
 
-                ...currentBlocks,
-                block
+            pages.push(currentBlocks);
+            currentBlocks = [block];
+            pageIndex++;
 
-            ];
+        } else {
 
-
-            if (
-                currentBlocks.length > 0 &&
-                measure(testBlocks)
-            ) {
-
-                pages.push(
-                    currentBlocks
-                );
-
-
-                currentBlocks = [
-                    block
-                ];
-
-            }
-
-            else {
-
-                currentBlocks =
-                    testBlocks;
-
-            }
+            currentBlocks = testBlocks;
 
         }
-    );
 
+    });
 
-    if (
-        currentBlocks.length > 0
-    ) {
-
-        pages.push(
-            currentBlocks
-        );
-
+    if (currentBlocks.length > 0) {
+        pages.push(currentBlocks);
     }
-
 
     return pages;
 
@@ -1149,7 +933,6 @@ function splitIntoPages(
 /* =========================
    GENERATE PREVIEW
 ========================= */
-
 function generatePreview() {
 
     const preview =
@@ -1202,11 +985,20 @@ function generatePreview() {
 
 
     pages.forEach(
-        pageBlocks => {
+        (
+            pageBlocks,
+            pageIndex
+        ) => {
 
+            /*
+             * Paper heading/details appear only on page 1.
+             * Later pages start directly with their sections.
+             */
             const content =
-                createPaperHeader(
-                    details
+                (
+                    pageIndex === 0
+                        ? createPaperHeader(details)
+                        : ""
                 ) +
                 pageBlocks.join("");
 

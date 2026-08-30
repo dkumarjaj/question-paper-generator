@@ -136,6 +136,10 @@
 
     margin-top: 5px;
 
+    /* Keep each complete question section together. */
+    break-inside: avoid;
+    page-break-inside: avoid;
+
 }
 
 
@@ -444,6 +448,8 @@
 
 
     /* Keep important blocks together */
+
+    .paper-section,
 
     .paper-question,
 

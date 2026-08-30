@@ -135,7 +135,7 @@ function createPaperHeader(details) {
 
                 <span>
 
-                   Student Name: ____________________
+                   Admission No.: ____________________
 
                 </span>
                 <span>

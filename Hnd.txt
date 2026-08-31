@@ -1,0 +1,5000 @@
+---- class IV  Hindi
+
+
+KEY:
+questionPaperGeneratorData
+
+VALUE:
+{
+  "paperDetails": {
+    "schoolName": "ST. Columbus Public School",
+    "schoolAddress": " Edara, Jhajha",
+    "examName": "Half Yearly Examination - 2026",
+    "className": "STD- IV",
+    "subjectName": "Hindi",
+    "fullMarks": "___",
+    "examTime": "2 Hours",
+    "numberingScheme": "restart"
+  },
+  "sections": [
+    {
+      "id": "sec_mcq_hindi_001",
+      "heading": "सही विकल्प पर (✓) का निशान लगाइए।",
+      "questions": [
+        {
+          "id": "q_mcq_h_001",
+          "type": "mcq",
+          "title": "पक्षी कैसा गाना गा रहे हैं?",
+          "options": [
+            "भक्ति का",
+            "देश-प्रेम का गीत",
+            "जागृति का एवं खुशी का"
+          ]
+        },
+        {
+          "id": "q_mcq_h_002",
+          "type": "mcq",
+          "title": "युवक को हिसाब में क्या गड़बड़ी आती?",
+          "options": [
+            "खजाना गायब था",
+            "ध्यान देता था",
+            "हिसाब लिखना नहीं आता"
+          ]
+        },
+        {
+          "id": "q_mcq_h_003",
+          "type": "mcq",
+          "title": "राजा अपने महल का रास्ता भूल गया -",
+          "options": [
+            "वर्षा के कारण",
+            "अंधेरे के कारण",
+            "सिपाहियों के अलग होने के कारण",
+            "इनमें सभी"
+          ]
+        },
+        {
+          "id": "q_mcq_h_004",
+          "type": "mcq",
+          "title": "लाला देवीदयाल सुनते थे -",
+          "options": [
+            "अनहोनी बात",
+            "कथा",
+            "कथा",
+            "कोई नहीं"
+          ]
+        },
+        {
+          "id": "q_mcq_h_005",
+          "type": "mcq",
+          "title": "लालाजी के पूछने पर पण्डित जी खीजकर क्या खाने को कहा?",
+          "options": [
+            "दवाई",
+            "मिठाई",
+            "जहर",
+            "सत्तू"
+          ]
+        },
+        {
+          "id": "q_mcq_h_006",
+          "type": "mcq",
+          "title": "गुरु गोविंद से क्या तात्पर्य है -",
+          "options": [
+            "शिक्षक का ज्ञान",
+            "भाई-भगवान",
+            "शिक्षक पिता",
+            "सिख धर्म"
+          ]
+        },
+        {
+          "id": "q_mcq_h_007",
+          "type": "mcq",
+          "title": "दूसरों की बुराई ढूँढने से पहले क्या टटोलना चाहिए?",
+          "options": [
+            "स्वयं का अंतर्मन",
+            "अपनी पॉकेट",
+            "दूसरों का अंतर्मन",
+            "अपना दिमाग"
+          ]
+        },
+        {
+          "id": "q_mcq_h_008",
+          "type": "mcq",
+          "title": "सचिन ने एक दिवसीय करियर की शुरुआत किसके विरुद्ध की थी?",
+          "options": [
+            "इंग्लैंड",
+            "पाकिस्तान",
+            "बांग्लादेश",
+            "ऑस्ट्रेलिया"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sec_short_hindi_002",
+      "heading": "निम्नलिखित प्रश्नों के उत्तर लिखिए।",
+      "questions": [
+        {
+          "id": "q_short_h_001",
+          "type": "shortAnswer",
+          "title": "कवि अपने लुटेरे कौन-सी बात कहने में संकोच कर रहा है?",
+          "answerLines": 2
+        },
+        {
+          "id": "q_short_h_002",
+          "type": "shortAnswer",
+          "title": "एक दिन बादशाह ने अपने मंत्री से क्या कहा?",
+          "answerLines": 2
+        },
+        {
+          "id": "q_short_h_003",
+          "type": "shortAnswer",
+          "title": "गुरुजी के पूछने पर सब राजकुमारों ने क्या किया?",
+          "answerLines": 2
+        },
+        {
+          "id": "q_short_h_004",
+          "type": "shortAnswer",
+          "title": "राजा टीले पर क्यों बैठा था?",
+          "answerLines": 2
+        },
+        {
+          "id": "q_short_h_005",
+          "type": "shortAnswer",
+          "title": "लालाजी को देखकर पण्डितजी क्यों खीज गए?",
+          "answerLines": 2
+        },
+        {
+          "id": "q_short_h_006",
+          "type": "shortAnswer",
+          "title": "बाली को अनमोल क्यों कहा गया है?",
+          "answerLines": 2
+        },
+        {
+          "id": "q_short_h_007",
+          "type": "shortAnswer",
+          "title": "अब तक सचिन कितने टेस्ट खेल चुके हैं?",
+          "answerLines": 2
+        },
+        {
+          "id": "q_short_h_008",
+          "type": "shortAnswer",
+          "title": "हेलेन के जीवन से क्या प्रेरणा मिलती है?",
+          "answerLines": 2
+        }
+      ]
+    },
+    {
+      "id": "sec_fill_hindi_003",
+      "heading": "रिक्त स्थानों को भरिए।",
+      "questions": [
+        {
+          "id": "q_fill_h_001",
+          "type": "fillInBlanks",
+          "title": "कश्मीर में एक छोटी सी _____ सी।",
+          "wordBank": []
+        },
+        {
+          "id": "q_fill_h_002",
+          "type": "fillInBlanks",
+          "title": "चुगलखोरों ने बादशाह से युवक की _____ कर दी।",
+          "wordBank": []
+        },
+        {
+          "id": "q_fill_h_003",
+          "type": "fillInBlanks",
+          "title": "तुमने यह _____ किसके रूप में ली?",
+          "wordBank": []
+        },
+        {
+          "id": "q_fill_h_004",
+          "type": "fillInBlanks",
+          "title": "लालाजी की पत्नी जाकर _____ पूछ आया करती थी।",
+          "wordBank": []
+        },
+        {
+          "id": "q_fill_h_005",
+          "type": "fillInBlanks",
+          "title": "स्वरों की सहायता से बोले जाने वाले वर्ण _____ कहलाते हैं।",
+          "wordBank": []
+        }
+      ]
+    },
+    {
+      "id": "sec_kisne_hindi_004",
+      "heading": "किसने किससे कहा?",
+      "questions": [
+        {
+          "id": "q_kisne_001",
+          "type": "shortAnswer",
+          "title": "किसने किससे कहा - \"किसी को भला बुरा मत कहो\"",
+          "answerLines": 1
+        },
+        {
+          "id": "q_kisne_002",
+          "type": "shortAnswer",
+          "title": "किसने किससे कहा - \"लगता है वही सबसे बुद्धू है\"",
+          "answerLines": 1
+        },
+        {
+          "id": "q_kisne_003",
+          "type": "shortAnswer",
+          "title": "किसने किससे कहा - \"मैं इस रत्न को ही पास रखना चाहता हूँ\"",
+          "answerLines": 1
+        },
+        {
+          "id": "q_kisne_004",
+          "type": "shortAnswer",
+          "title": "किसने किससे कहा - \"सुनो बच्चों उदास मत हो\"",
+          "answerLines": 1
+        },
+        {
+          "id": "q_kisne_005",
+          "type": "shortAnswer",
+          "title": "किसने किससे कहा - \"मैंने कभी दो समय की रोटी नहीं खाई\"",
+          "answerLines": 1
+        }
+      ]
+    },
+    {
+      "id": "sec_grammar_hindi_006",
+      "heading": "व्याकरण — प्रश्नों का उत्तर लिखिए।",
+      "questions": [
+        {
+          "id": "q_grammar_001",
+          "type": "shortAnswer",
+          "title": "भाषा किसे कहते हैं?",
+          "answerLines": 2
+        },
+        {
+          "id": "q_grammar_002",
+          "type": "shortAnswer",
+          "title": "वचन किसे कहते हैं?",
+          "answerLines": 2
+        },
+        {
+          "id": "q_grammar_003",
+          "type": "shortAnswer",
+          "title": "शब्द किसे कहते हैं?",
+          "answerLines": 2
+        },
+        {
+          "id": "q_grammar_004",
+          "type": "shortAnswer",
+          "title": "संज्ञा किसे कहते हैं?",
+          "answerLines": 2
+        }
+      ]
+    },
+    {
+      "id": "sec_muhavare_009",
+      "heading": "मुहावरों का अर्थ लिखो।",
+      "questions": [
+        {
+          "id": "q_muhavara_001",
+          "type": "wordMeaning",
+          "title": "निम्नलिखित मुहावरों के अर्थ लिखो:",
+          "items": [
+            "अक्ल का दुश्मन",
+            "आँख का तारा",
+            "अंधेरे की लकड़ी"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sec_vakyansh_010",
+      "heading": "वाक्यांश लिखो :-",
+      "questions": [
+        {
+          "id": "q_vakyansh_001",
+          "type": "shortAnswer",
+          "title": "जिसे कोई भय न हो।",
+          "answerLines": 1
+        },
+        {
+          "id": "q_vakyansh_002",
+          "type": "shortAnswer",
+          "title": "जो बहुत बोलता है।",
+          "answerLines": 1
+        }
+      ]
+    },
+    {
+      "id": "sec_essay_hindi_011",
+      "heading": "पत्र / निबंध",
+      "questions": [
+        {
+          "id": "q_essay_001",
+          "type": "essayLetter",
+          "title": "मित्र के जन्मदिन के अवसर पर निमंत्रण पत्र लिखो।",
+          "lines": 8
+        },
+        {
+          "id": "q_essay_002",
+          "type": "essayLetter",
+          "title": "खेलों का महत्त्व या स्वतंत्रता दिवस पर निबंध लिखो।",
+          "lines": 8
+        }
+      ]
+    },
+    {
+      "id": "sec_paryayvachi_013",
+      "heading": "भाषा ज्ञान",
+      "questions": [
+        {
+          "id": "q_paryay_001",
+          "type": "wordMeaning",
+          "title": "निम्नलिखित शब्दों के पर्यायवाची लिखो:",
+          "items": [
+            "अमृत",
+            "आँख",
+            "चमन",
+            "जल",
+            "नदी"
+          ]
+        },
+        {
+          "id": "q_1788185912240_879",
+          "type": "mcq",
+          "title": "निम्नलिखित शब्दों के अर्थ लिखो।",
+          "options": [
+            "पथ   ",
+            "उन्नति",
+            "आज्ञा"
+          ]
+        },
+        {
+          "id": "q_1788186206217_623",
+          "type": "mcq",
+          "title": " निम्नलिखित शब्दों का लिंग बदलो:",
+          "options": [
+            "पुत्र ",
+            "शिष्य ",
+            "ब्राह्मण ",
+            "जाट ",
+            "सरदार "
+          ]
+        },
+        {
+          "id": "q_1788186337797_512",
+          "type": "mcq",
+          "title": "निम्नलिखित शब्दों का वचन बदलो:",
+          "options": [
+            "औरत ",
+            "गाय ",
+            "कौआ ",
+            "जाति ",
+            "घाटी "
+          ]
+        },
+        {
+          "id": "q_1788186441154_91",
+          "type": "mcq",
+          "title": "निम्नलिखित शब्दों के विलोम लिखो:",
+          "options": [
+            "आलस्य",
+            "दयालु",
+            "धनी",
+            "प्रकाश",
+            "न्याय"
+          ]
+        }
+      ]
+    }
+  ],
+  "standaloneQuestions": []
+}
+
+// Or JS Variable:
+const questionPaperGeneratorData = {
+  "paperDetails": {
+    "schoolName": "ST. Columbus Public School",
+    "schoolAddress": " Edara, Jhajha",
+    "examName": "Half Yearly Examination - 2026",
+    "className": "STD- IV",
+    "subjectName": "Hindi",
+    "fullMarks": "___",
+    "examTime": "2 Hours",
+    "numberingScheme": "restart"
+  },
+  "sections": [
+    {
+      "id": "sec_mcq_hindi_001",
+      "heading": "सही विकल्प पर (✓) का निशान लगाइए।",
+      "questions": [
+        {
+          "id": "q_mcq_h_001",
+          "type": "mcq",
+          "title": "पक्षी कैसा गाना गा रहे हैं?",
+          "options": [
+            "भक्ति का",
+            "देश-प्रेम का गीत",
+            "जागृति का एवं खुशी का"
+          ]
+        },
+        {
+          "id": "q_mcq_h_002",
+          "type": "mcq",
+          "title": "युवक को हिसाब में क्या गड़बड़ी आती?",
+          "options": [
+            "खजाना गायब था",
+            "ध्यान देता था",
+            "हिसाब लिखना नहीं आता"
+          ]
+        },
+        {
+          "id": "q_mcq_h_003",
+          "type": "mcq",
+          "title": "राजा अपने महल का रास्ता भूल गया -",
+          "options": [
+            "वर्षा के कारण",
+            "अंधेरे के कारण",
+            "सिपाहियों के अलग होने के कारण",
+            "इनमें सभी"
+          ]
+        },
+        {
+          "id": "q_mcq_h_004",
+          "type": "mcq",
+          "title": "लाला देवीदयाल सुनते थे -",
+          "options": [
+            "अनहोनी बात",
+            "कथा",
+            "कथा",
+            "कोई नहीं"
+          ]
+        },
+        {
+          "id": "q_mcq_h_005",
+          "type": "mcq",
+          "title": "लालाजी के पूछने पर पण्डित जी खीजकर क्या खाने को कहा?",
+          "options": [
+            "दवाई",
+            "मिठाई",
+            "जहर",
+            "सत्तू"
+          ]
+        },
+        {
+          "id": "q_mcq_h_006",
+          "type": "mcq",
+          "title": "गुरु गोविंद से क्या तात्पर्य है -",
+          "options": [
+            "शिक्षक का ज्ञान",
+            "भाई-भगवान",
+            "शिक्षक पिता",
+            "सिख धर्म"
+          ]
+        },
+        {
+          "id": "q_mcq_h_007",
+          "type": "mcq",
+          "title": "दूसरों की बुराई ढूँढने से पहले क्या टटोलना चाहिए?",
+          "options": [
+            "स्वयं का अंतर्मन",
+            "अपनी पॉकेट",
+            "दूसरों का अंतर्मन",
+            "अपना दिमाग"
+          ]
+        },
+        {
+          "id": "q_mcq_h_008",
+          "type": "mcq",
+          "title": "सचिन ने एक दिवसीय करियर की शुरुआत किसके विरुद्ध की थी?",
+          "options": [
+            "इंग्लैंड",
+            "पाकिस्तान",
+            "बांग्लादेश",
+            "ऑस्ट्रेलिया"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sec_short_hindi_002",
+      "heading": "निम्नलिखित प्रश्नों के उत्तर लिखिए।",
+      "questions": [
+        {
+          "id": "q_short_h_001",
+          "type": "shortAnswer",
+          "title": "कवि अपने लुटेरे कौन-सी बात कहने में संकोच कर रहा है?",
+          "answerLines": 2
+        },
+        {
+          "id": "q_short_h_002",
+          "type": "shortAnswer",
+          "title": "एक दिन बादशाह ने अपने मंत्री से क्या कहा?",
+          "answerLines": 2
+        },
+        {
+          "id": "q_short_h_003",
+          "type": "shortAnswer",
+          "title": "गुरुजी के पूछने पर सब राजकुमारों ने क्या किया?",
+          "answerLines": 2
+        },
+        {
+          "id": "q_short_h_004",
+          "type": "shortAnswer",
+          "title": "राजा टीले पर क्यों बैठा था?",
+          "answerLines": 2
+        },
+        {
+          "id": "q_short_h_005",
+          "type": "shortAnswer",
+          "title": "लालाजी को देखकर पण्डितजी क्यों खीज गए?",
+          "answerLines": 2
+        },
+        {
+          "id": "q_short_h_006",
+          "type": "shortAnswer",
+          "title": "बाली को अनमोल क्यों कहा गया है?",
+          "answerLines": 2
+        },
+        {
+          "id": "q_short_h_007",
+          "type": "shortAnswer",
+          "title": "अब तक सचिन कितने टेस्ट खेल चुके हैं?",
+          "answerLines": 2
+        },
+        {
+          "id": "q_short_h_008",
+          "type": "shortAnswer",
+          "title": "हेलेन के जीवन से क्या प्रेरणा मिलती है?",
+          "answerLines": 2
+        }
+      ]
+    },
+    {
+      "id": "sec_fill_hindi_003",
+      "heading": "रिक्त स्थानों को भरिए।",
+      "questions": [
+        {
+          "id": "q_fill_h_001",
+          "type": "fillInBlanks",
+          "title": "कश्मीर में एक छोटी सी _____ सी।",
+          "wordBank": []
+        },
+        {
+          "id": "q_fill_h_002",
+          "type": "fillInBlanks",
+          "title": "चुगलखोरों ने बादशाह से युवक की _____ कर दी।",
+          "wordBank": []
+        },
+        {
+          "id": "q_fill_h_003",
+          "type": "fillInBlanks",
+          "title": "तुमने यह _____ किसके रूप में ली?",
+          "wordBank": []
+        },
+        {
+          "id": "q_fill_h_004",
+          "type": "fillInBlanks",
+          "title": "लालाजी की पत्नी जाकर _____ पूछ आया करती थी।",
+          "wordBank": []
+        },
+        {
+          "id": "q_fill_h_005",
+          "type": "fillInBlanks",
+          "title": "स्वरों की सहायता से बोले जाने वाले वर्ण _____ कहलाते हैं।",
+          "wordBank": []
+        }
+      ]
+    },
+    {
+      "id": "sec_kisne_hindi_004",
+      "heading": "किसने किससे कहा?",
+      "questions": [
+        {
+          "id": "q_kisne_001",
+          "type": "shortAnswer",
+          "title": "किसने किससे कहा - \"किसी को भला बुरा मत कहो\"",
+          "answerLines": 1
+        },
+        {
+          "id": "q_kisne_002",
+          "type": "shortAnswer",
+          "title": "किसने किससे कहा - \"लगता है वही सबसे बुद्धू है\"",
+          "answerLines": 1
+        },
+        {
+          "id": "q_kisne_003",
+          "type": "shortAnswer",
+          "title": "किसने किससे कहा - \"मैं इस रत्न को ही पास रखना चाहता हूँ\"",
+          "answerLines": 1
+        },
+        {
+          "id": "q_kisne_004",
+          "type": "shortAnswer",
+          "title": "किसने किससे कहा - \"सुनो बच्चों उदास मत हो\"",
+          "answerLines": 1
+        },
+        {
+          "id": "q_kisne_005",
+          "type": "shortAnswer",
+          "title": "किसने किससे कहा - \"मैंने कभी दो समय की रोटी नहीं खाई\"",
+          "answerLines": 1
+        }
+      ]
+    },
+    {
+      "id": "sec_grammar_hindi_006",
+      "heading": "व्याकरण — प्रश्नों का उत्तर लिखिए।",
+      "questions": [
+        {
+          "id": "q_grammar_001",
+          "type": "shortAnswer",
+          "title": "भाषा किसे कहते हैं?",
+          "answerLines": 2
+        },
+        {
+          "id": "q_grammar_002",
+          "type": "shortAnswer",
+          "title": "वचन किसे कहते हैं?",
+          "answerLines": 2
+        },
+        {
+          "id": "q_grammar_003",
+          "type": "shortAnswer",
+          "title": "शब्द किसे कहते हैं?",
+          "answerLines": 2
+        },
+        {
+          "id": "q_grammar_004",
+          "type": "shortAnswer",
+          "title": "संज्ञा किसे कहते हैं?",
+          "answerLines": 2
+        }
+      ]
+    },
+    {
+      "id": "sec_muhavare_009",
+      "heading": "मुहावरों का अर्थ लिखो।",
+      "questions": [
+        {
+          "id": "q_muhavara_001",
+          "type": "wordMeaning",
+          "title": "निम्नलिखित मुहावरों के अर्थ लिखो:",
+          "items": [
+            "अक्ल का दुश्मन",
+            "आँख का तारा",
+            "अंधेरे की लकड़ी"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sec_vakyansh_010",
+      "heading": "वाक्यांश लिखो :-",
+      "questions": [
+        {
+          "id": "q_vakyansh_001",
+          "type": "shortAnswer",
+          "title": "जिसे कोई भय न हो।",
+          "answerLines": 1
+        },
+        {
+          "id": "q_vakyansh_002",
+          "type": "shortAnswer",
+          "title": "जो बहुत बोलता है।",
+          "answerLines": 1
+        }
+      ]
+    },
+    {
+      "id": "sec_essay_hindi_011",
+      "heading": "पत्र / निबंध",
+      "questions": [
+        {
+          "id": "q_essay_001",
+          "type": "essayLetter",
+          "title": "मित्र के जन्मदिन के अवसर पर निमंत्रण पत्र लिखो।",
+          "lines": 8
+        },
+        {
+          "id": "q_essay_002",
+          "type": "essayLetter",
+          "title": "खेलों का महत्त्व या स्वतंत्रता दिवस पर निबंध लिखो।",
+          "lines": 8
+        }
+      ]
+    },
+    {
+      "id": "sec_paryayvachi_013",
+      "heading": "भाषा ज्ञान",
+      "questions": [
+        {
+          "id": "q_paryay_001",
+          "type": "wordMeaning",
+          "title": "निम्नलिखित शब्दों के पर्यायवाची लिखो:",
+          "items": [
+            "अमृत",
+            "आँख",
+            "चमन",
+            "जल",
+            "नदी"
+          ]
+        },
+        {
+          "id": "q_1788185912240_879",
+          "type": "mcq",
+          "title": "निम्नलिखित शब्दों के अर्थ लिखो।",
+          "options": [
+            "पथ   ",
+            "उन्नति",
+            "आज्ञा"
+          ]
+        },
+        {
+          "id": "q_1788186206217_623",
+          "type": "mcq",
+          "title": " निम्नलिखित शब्दों का लिंग बदलो:",
+          "options": [
+            "पुत्र ",
+            "शिष्य ",
+            "ब्राह्मण ",
+            "जाट ",
+            "सरदार "
+          ]
+        },
+        {
+          "id": "q_1788186337797_512",
+          "type": "mcq",
+          "title": "निम्नलिखित शब्दों का वचन बदलो:",
+          "options": [
+            "औरत ",
+            "गाय ",
+            "कौआ ",
+            "जाति ",
+            "घाटी "
+          ]
+        },
+        {
+          "id": "q_1788186441154_91",
+          "type": "mcq",
+          "title": "निम्नलिखित शब्दों के विलोम लिखो:",
+          "options": [
+            "आलस्य",
+            "दयालु",
+            "धनी",
+            "प्रकाश",
+            "न्याय"
+          ]
+        }
+      ]
+    }
+  ],
+  "standaloneQuestions": []
+};
+
+
+__________________________________________________________
+
+---- class II  Hindi
+
+ KEY:
+
+KEY:
+questionPaperGeneratorData
+
+VALUE:
+{
+  "paperDetails": {
+    "schoolName": "ST. Columbus Public School",
+    "schoolAddress": "Ekdara, Jhajha",
+    "examName": "Half Yearly Examination - 2026",
+    "className": "STD- II",
+    "subjectName": "Hindi",
+    "fullMarks": "___",
+    "examTime": "2 Hours",
+    "numberingScheme": "restart"
+  },
+  "sections": [
+    {
+      "id": "sec_1",
+      "heading": "सही विकल्प पर सही (✓) का निशान लगाइए।",
+      "questions": [
+        {
+          "id": "q_1",
+          "type": "mcq",
+          "title": "देश बड़ा बनता है -",
+          "options": [
+            "लोगों के धन-धान्य से",
+            "लोगों की महत्त्वाकांक्षाओं से",
+            "लोगों के अच्छे सच्चे काम करने से",
+            "भ्रष्ट कर्म करने से"
+          ]
+        },
+        {
+          "id": "q_2",
+          "type": "mcq",
+          "title": "रामदास एक था -",
+          "options": [
+            "किसान",
+            "व्यापारी",
+            "डॉक्टर",
+            "मास्टर"
+          ]
+        },
+        {
+          "id": "q_3",
+          "type": "mcq",
+          "title": "राम बहुत था -",
+          "options": [
+            "परिश्रमी",
+            "वाचाल",
+            "आलसी",
+            "घुमक्कड़"
+          ]
+        },
+        {
+          "id": "q_4",
+          "type": "mcq",
+          "title": "तेंदुआ किन पशुओं का शिकार करता था?",
+          "options": [
+            "जिनके सींग होते थे",
+            "जिनके सींग नहीं होते थे",
+            "जो दौड़ते थे",
+            "जो दौड़ नहीं सकते थे"
+          ]
+        },
+        {
+          "id": "q_5",
+          "type": "mcq",
+          "title": "शिकारी शिकार करना चाहता था -",
+          "options": [
+            "बाज का",
+            "कबूतर का",
+            "इन दोनों का"
+          ]
+        },
+        {
+          "id": "q_6",
+          "type": "mcq",
+          "title": "हमें आजाद पानी किसने दिया?",
+          "options": [
+            "नदियों ने",
+            "ईश्वर ने",
+            "समुद्रों ने"
+          ]
+        },
+        {
+          "id": "q_7",
+          "type": "mcq",
+          "title": "जगन सेठ ने लालच में आकर क्या किया?",
+          "options": [
+            "चोरी",
+            "बेईमानी",
+            "धोखाधड़ी",
+            "मारपीट"
+          ]
+        },
+        {
+          "id": "q_8",
+          "type": "mcq",
+          "title": "जगन के घर का दरवाजा खटखटाने वाली कौन थी?",
+          "options": [
+            "शोभा",
+            "मालती",
+            "सोना",
+            "शीला"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sec_2",
+      "heading": "निम्नलिखित प्रश्नों का उत्तर लिखिए।",
+      "questions": [
+        {
+          "id": "q_9",
+          "type": "shortAnswer",
+          "title": "बीज बोने पर वह क्या बन जाता है?",
+          "answerLines": 2
+        },
+        {
+          "id": "q_10",
+          "type": "shortAnswer",
+          "title": "सफेद हंस क्या है?",
+          "answerLines": 2
+        },
+        {
+          "id": "q_11",
+          "type": "shortAnswer",
+          "title": "तेंदुआ कैसे पशुओं का शिकार करता था?",
+          "answerLines": 2
+        },
+        {
+          "id": "q_12",
+          "type": "shortAnswer",
+          "title": "कबूतर को किस पर दया आयी?",
+          "answerLines": 2
+        },
+        {
+          "id": "q_13",
+          "type": "shortAnswer",
+          "title": "श्री कृष्ण और सुदामा मित्र कैसे बने?",
+          "answerLines": 2
+        },
+        {
+          "id": "q_14",
+          "type": "shortAnswer",
+          "title": "धरती पर किस प्रकार का पानी बहुत कम है?",
+          "answerLines": 2
+        },
+        {
+          "id": "q_15",
+          "type": "shortAnswer",
+          "title": "लोगों ने तुलसी को क्या दर्जा प्रदान किया है?",
+          "answerLines": 2
+        }
+      ]
+    },
+    {
+      "id": "sec_3",
+      "heading": "रिक्त स्थानों को भरिए।",
+      "questions": [
+        {
+          "id": "q_16",
+          "type": "fillInBlanks",
+          "title": "_____ के उत्पात से लोग परेशान थे।",
+          "wordBank": [
+            "अमूल्य",
+            "बहुत",
+            "मित्र",
+            "तेंदुआ",
+            "बहादुर"
+          ]
+        },
+        {
+          "id": "q_17",
+          "type": "fillInBlanks",
+          "title": "तेंदुआ झट से _____ को लेकर चलता बना।",
+          "wordBank": []
+        },
+        {
+          "id": "q_18",
+          "type": "fillInBlanks",
+          "title": "श्री कृष्ण और सुदामा _____ थे।",
+          "wordBank": []
+        },
+        {
+          "id": "q_19",
+          "type": "fillInBlanks",
+          "title": "श्री कृष्ण ने सुदामा का _____ सत्कार किया।",
+          "wordBank": []
+        },
+        {
+          "id": "q_20",
+          "type": "fillInBlanks",
+          "title": "स्वास्थ्य _____ है।",
+          "wordBank": []
+        }
+      ]
+    },
+    {
+      "id": "sec_4",
+      "heading": "सही कथन पर ✓ का और गलत पर ✗ निशान लगाइए।",
+      "questions": [
+        {
+          "id": "q_21",
+          "type": "trueFalse",
+          "title": "तेंदुआ दिन भर गाँव में घूमता रहता था।"
+        },
+        {
+          "id": "q_22",
+          "type": "trueFalse",
+          "title": "गाय ने तेंदुए का पीछा किया।"
+        },
+        {
+          "id": "q_23",
+          "type": "trueFalse",
+          "title": "पशु भी अपने बच्चों को प्यार करते हैं।"
+        }
+      ]
+    },
+    {
+      "id": "sec_5",
+      "heading": "किसने किससे कहा?",
+      "questions": [
+        {
+          "id": "q_24",
+          "type": "shortAnswer",
+          "title": "आपने मेरी चिंता दूर कर दी — _____ ने _____ से कहा।",
+          "answerLines": 1
+        },
+        {
+          "id": "q_25",
+          "type": "shortAnswer",
+          "title": "मैं इस महिला को पहचानता नहीं — _____ ने _____ से कहा।",
+          "answerLines": 1
+        }
+      ]
+    },
+    {
+      "id": "sec_6",
+      "heading": "शब्दार्थ लिखो।",
+      "questions": [
+        {
+          "id": "q_26",
+          "type": "wordMeaning",
+          "title": "निम्नलिखित शब्दों के अर्थ लिखो:",
+          "items": [
+            "कथा",
+            "विपत्ति",
+            "उत्पात",
+            "तीर",
+            "संकट",
+            "व्याकरण"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sec_7",
+      "heading": "प्रश्नों का उत्तर लिखिए।",
+      "questions": [
+        {
+          "id": "q_27",
+          "type": "shortAnswer",
+          "title": "भाषा किसे कहते हैं?",
+          "answerLines": 2
+        },
+        {
+          "id": "q_28",
+          "type": "shortAnswer",
+          "title": "वर्ण किसे कहते हैं?",
+          "answerLines": 2
+        },
+        {
+          "id": "q_29",
+          "type": "shortAnswer",
+          "title": "अर्थ के आधार पर शब्द के कितने भेद होते हैं?",
+          "answerLines": 2
+        },
+        {
+          "id": "q_30",
+          "type": "shortAnswer",
+          "title": "लिंग किसे कहते हैं?",
+          "answerLines": 2
+        }
+      ]
+    },
+    {
+      "id": "sec_8",
+      "heading": "भाषा ज्ञान",
+      "questions": [
+        {
+          "id": "q_31",
+          "type": "wordMeaning",
+          "title": "लिंग बदलो:",
+          "items": [
+            "नर",
+            "देव",
+            "दादा",
+            "नाग",
+            "मामा"
+          ]
+        },
+        {
+          "id": "q_32",
+          "type": "wordMeaning",
+          "title": "पर्यायवाची शब्द लिखो:",
+          "items": [
+            "आकाश",
+            "शरीर",
+            "कमल",
+            "चाँद",
+            "ईश्वर"
+          ]
+        },
+        {
+          "id": "q_33",
+          "type": "wordMeaning",
+          "title": "मुहावरों का अर्थ लिखो:",
+          "items": [
+            "अंधे की लकड़ी",
+            "मोहरे दिखाना"
+          ]
+        },
+        {
+          "id": "q_34",
+          "type": "wordMeaning",
+          "title": "वचन बदलो:",
+          "items": [
+            "पुस्तक",
+            "आँख",
+            "संतरा",
+            "माला",
+            "शाखा"
+          ]
+        },
+        {
+          "id": "q_35",
+          "type": "wordMeaning",
+          "title": "विलोम शब्द लिखो:",
+          "items": [
+            "एक",
+            "मान",
+            "ज्ञान",
+            "आशा",
+            "धर्म"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sec_9",
+      "heading": "आवेदन पत्र",
+      "questions": [
+        {
+          "id": "q_36",
+          "type": "essayLetter",
+          "title": "बीमारी के लिए अवकाश हेतु प्रधानाध्यापक को आवेदन पत्र लिखिए।",
+          "lines": 8
+        }
+      ]
+    },
+    {
+      "id": "sec_10",
+      "heading": "निबंध लिखिए।",
+      "questions": [
+        {
+          "id": "q_37",
+          "type": "essayLetter",
+          "title": "मेरा प्यारा देश या समाचार पत्र में से किन्हीं एक पर निबंध लिखिए।",
+          "lines": 8
+        }
+      ]
+    }
+  ],
+  "standaloneQuestions": []
+}
+
+// Or JS Variable:
+const questionPaperGeneratorData = {
+  "paperDetails": {
+    "schoolName": "ST. Columbus Public School",
+    "schoolAddress": "Ekdara, Jhajha",
+    "examName": "Half Yearly Examination - 2026",
+    "className": "STD- II",
+    "subjectName": "Hindi",
+    "fullMarks": "___",
+    "examTime": "2 Hours",
+    "numberingScheme": "restart"
+  },
+  "sections": [
+    {
+      "id": "sec_1",
+      "heading": "सही विकल्प पर सही (✓) का निशान लगाइए।",
+      "questions": [
+        {
+          "id": "q_1",
+          "type": "mcq",
+          "title": "देश बड़ा बनता है -",
+          "options": [
+            "लोगों के धन-धान्य से",
+            "लोगों की महत्त्वाकांक्षाओं से",
+            "लोगों के अच्छे सच्चे काम करने से",
+            "भ्रष्ट कर्म करने से"
+          ]
+        },
+        {
+          "id": "q_2",
+          "type": "mcq",
+          "title": "रामदास एक था -",
+          "options": [
+            "किसान",
+            "व्यापारी",
+            "डॉक्टर",
+            "मास्टर"
+          ]
+        },
+        {
+          "id": "q_3",
+          "type": "mcq",
+          "title": "राम बहुत था -",
+          "options": [
+            "परिश्रमी",
+            "वाचाल",
+            "आलसी",
+            "घुमक्कड़"
+          ]
+        },
+        {
+          "id": "q_4",
+          "type": "mcq",
+          "title": "तेंदुआ किन पशुओं का शिकार करता था?",
+          "options": [
+            "जिनके सींग होते थे",
+            "जिनके सींग नहीं होते थे",
+            "जो दौड़ते थे",
+            "जो दौड़ नहीं सकते थे"
+          ]
+        },
+        {
+          "id": "q_5",
+          "type": "mcq",
+          "title": "शिकारी शिकार करना चाहता था -",
+          "options": [
+            "बाज का",
+            "कबूतर का",
+            "इन दोनों का"
+          ]
+        },
+        {
+          "id": "q_6",
+          "type": "mcq",
+          "title": "हमें आजाद पानी किसने दिया?",
+          "options": [
+            "नदियों ने",
+            "ईश्वर ने",
+            "समुद्रों ने"
+          ]
+        },
+        {
+          "id": "q_7",
+          "type": "mcq",
+          "title": "जगन सेठ ने लालच में आकर क्या किया?",
+          "options": [
+            "चोरी",
+            "बेईमानी",
+            "धोखाधड़ी",
+            "मारपीट"
+          ]
+        },
+        {
+          "id": "q_8",
+          "type": "mcq",
+          "title": "जगन के घर का दरवाजा खटखटाने वाली कौन थी?",
+          "options": [
+            "शोभा",
+            "मालती",
+            "सोना",
+            "शीला"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sec_2",
+      "heading": "निम्नलिखित प्रश्नों का उत्तर लिखिए।",
+      "questions": [
+        {
+          "id": "q_9",
+          "type": "shortAnswer",
+          "title": "बीज बोने पर वह क्या बन जाता है?",
+          "answerLines": 2
+        },
+        {
+          "id": "q_10",
+          "type": "shortAnswer",
+          "title": "सफेद हंस क्या है?",
+          "answerLines": 2
+        },
+        {
+          "id": "q_11",
+          "type": "shortAnswer",
+          "title": "तेंदुआ कैसे पशुओं का शिकार करता था?",
+          "answerLines": 2
+        },
+        {
+          "id": "q_12",
+          "type": "shortAnswer",
+          "title": "कबूतर को किस पर दया आयी?",
+          "answerLines": 2
+        },
+        {
+          "id": "q_13",
+          "type": "shortAnswer",
+          "title": "श्री कृष्ण और सुदामा मित्र कैसे बने?",
+          "answerLines": 2
+        },
+        {
+          "id": "q_14",
+          "type": "shortAnswer",
+          "title": "धरती पर किस प्रकार का पानी बहुत कम है?",
+          "answerLines": 2
+        },
+        {
+          "id": "q_15",
+          "type": "shortAnswer",
+          "title": "लोगों ने तुलसी को क्या दर्जा प्रदान किया है?",
+          "answerLines": 2
+        }
+      ]
+    },
+    {
+      "id": "sec_3",
+      "heading": "रिक्त स्थानों को भरिए।",
+      "questions": [
+        {
+          "id": "q_16",
+          "type": "fillInBlanks",
+          "title": "_____ के उत्पात से लोग परेशान थे।",
+          "wordBank": [
+            "अमूल्य",
+            "बहुत",
+            "मित्र",
+            "तेंदुआ",
+            "बहादुर"
+          ]
+        },
+        {
+          "id": "q_17",
+          "type": "fillInBlanks",
+          "title": "तेंदुआ झट से _____ को लेकर चलता बना।",
+          "wordBank": []
+        },
+        {
+          "id": "q_18",
+          "type": "fillInBlanks",
+          "title": "श्री कृष्ण और सुदामा _____ थे।",
+          "wordBank": []
+        },
+        {
+          "id": "q_19",
+          "type": "fillInBlanks",
+          "title": "श्री कृष्ण ने सुदामा का _____ सत्कार किया।",
+          "wordBank": []
+        },
+        {
+          "id": "q_20",
+          "type": "fillInBlanks",
+          "title": "स्वास्थ्य _____ है।",
+          "wordBank": []
+        }
+      ]
+    },
+    {
+      "id": "sec_4",
+      "heading": "सही कथन पर ✓ का और गलत पर ✗ निशान लगाइए।",
+      "questions": [
+        {
+          "id": "q_21",
+          "type": "trueFalse",
+          "title": "तेंदुआ दिन भर गाँव में घूमता रहता था।"
+        },
+        {
+          "id": "q_22",
+          "type": "trueFalse",
+          "title": "गाय ने तेंदुए का पीछा किया।"
+        },
+        {
+          "id": "q_23",
+          "type": "trueFalse",
+          "title": "पशु भी अपने बच्चों को प्यार करते हैं।"
+        }
+      ]
+    },
+    {
+      "id": "sec_5",
+      "heading": "किसने किससे कहा?",
+      "questions": [
+        {
+          "id": "q_24",
+          "type": "shortAnswer",
+          "title": "आपने मेरी चिंता दूर कर दी — _____ ने _____ से कहा।",
+          "answerLines": 1
+        },
+        {
+          "id": "q_25",
+          "type": "shortAnswer",
+          "title": "मैं इस महिला को पहचानता नहीं — _____ ने _____ से कहा।",
+          "answerLines": 1
+        }
+      ]
+    },
+    {
+      "id": "sec_6",
+      "heading": "शब्दार्थ लिखो।",
+      "questions": [
+        {
+          "id": "q_26",
+          "type": "wordMeaning",
+          "title": "निम्नलिखित शब्दों के अर्थ लिखो:",
+          "items": [
+            "कथा",
+            "विपत्ति",
+            "उत्पात",
+            "तीर",
+            "संकट",
+            "व्याकरण"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sec_7",
+      "heading": "प्रश्नों का उत्तर लिखिए।",
+      "questions": [
+        {
+          "id": "q_27",
+          "type": "shortAnswer",
+          "title": "भाषा किसे कहते हैं?",
+          "answerLines": 2
+        },
+        {
+          "id": "q_28",
+          "type": "shortAnswer",
+          "title": "वर्ण किसे कहते हैं?",
+          "answerLines": 2
+        },
+        {
+          "id": "q_29",
+          "type": "shortAnswer",
+          "title": "अर्थ के आधार पर शब्द के कितने भेद होते हैं?",
+          "answerLines": 2
+        },
+        {
+          "id": "q_30",
+          "type": "shortAnswer",
+          "title": "लिंग किसे कहते हैं?",
+          "answerLines": 2
+        }
+      ]
+    },
+    {
+      "id": "sec_8",
+      "heading": "भाषा ज्ञान",
+      "questions": [
+        {
+          "id": "q_31",
+          "type": "wordMeaning",
+          "title": "लिंग बदलो:",
+          "items": [
+            "नर",
+            "देव",
+            "दादा",
+            "नाग",
+            "मामा"
+          ]
+        },
+        {
+          "id": "q_32",
+          "type": "wordMeaning",
+          "title": "पर्यायवाची शब्द लिखो:",
+          "items": [
+            "आकाश",
+            "शरीर",
+            "कमल",
+            "चाँद",
+            "ईश्वर"
+          ]
+        },
+        {
+          "id": "q_33",
+          "type": "wordMeaning",
+          "title": "मुहावरों का अर्थ लिखो:",
+          "items": [
+            "अंधे की लकड़ी",
+            "मोहरे दिखाना"
+          ]
+        },
+        {
+          "id": "q_34",
+          "type": "wordMeaning",
+          "title": "वचन बदलो:",
+          "items": [
+            "पुस्तक",
+            "आँख",
+            "संतरा",
+            "माला",
+            "शाखा"
+          ]
+        },
+        {
+          "id": "q_35",
+          "type": "wordMeaning",
+          "title": "विलोम शब्द लिखो:",
+          "items": [
+            "एक",
+            "मान",
+            "ज्ञान",
+            "आशा",
+            "धर्म"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sec_9",
+      "heading": "आवेदन पत्र",
+      "questions": [
+        {
+          "id": "q_36",
+          "type": "essayLetter",
+          "title": "बीमारी के लिए अवकाश हेतु प्रधानाध्यापक को आवेदन पत्र लिखिए।",
+          "lines": 8
+        }
+      ]
+    },
+    {
+      "id": "sec_10",
+      "heading": "निबंध लिखिए।",
+      "questions": [
+        {
+          "id": "q_37",
+          "type": "essayLetter",
+          "title": "मेरा प्यारा देश या समाचार पत्र में से किन्हीं एक पर निबंध लिखिए।",
+          "lines": 8
+        }
+      ]
+    }
+  ],
+  "standaloneQuestions": []
+};
+__________________________________________________________
+
+---- class III  Hindi
+
+KEY:
+questionPaperGeneratorData
+
+VALUE:
+{
+  "paperDetails": {
+    "schoolName": "ST. Columbus Public School",
+    "schoolAddress": "Ekdara, Jhajha",
+    "examName": "Half Yearly Examination - 2026",
+    "className": "STD- III",
+    "subjectName": "Hindi",
+    "fullMarks": "",
+    "examTime": "2 Hours",
+    "numberingScheme": "restart"
+  },
+  "sections": [
+    {
+      "id": "sec_1",
+      "heading": "सही विकल्प पर सही (✓) का निशान लगाइए।",
+      "questions": [
+        {
+          "id": "q_1",
+          "type": "mcq",
+          "title": "धनी सेठ अपने दरवाजे पर किसकी पिटाई कर रहा था?",
+          "options": [
+            "अपनी पत्नी की",
+            "पुत्री की",
+            "दासी की",
+            "बहन की"
+          ]
+        },
+        {
+          "id": "q_2",
+          "type": "mcq",
+          "title": "व्यक्ति की महिमा किससे बढ़ती है?",
+          "options": [
+            "नाम से",
+            "अभिमान से",
+            "काम से",
+            "धन से"
+          ]
+        },
+        {
+          "id": "q_3",
+          "type": "mcq",
+          "title": "निषाद के जाल में कितने तोते फँस गए?",
+          "options": [
+            "एक",
+            "दो",
+            "चार",
+            "कोई नहीं"
+          ]
+        },
+        {
+          "id": "q_4",
+          "type": "mcq",
+          "title": "हंस को बाण किसने मारा था?",
+          "options": [
+            "देवदत्त ने",
+            "सिद्धार्थ ने",
+            "माली ने",
+            "बहेलिये ने"
+          ]
+        },
+        {
+          "id": "q_5",
+          "type": "mcq",
+          "title": "हंस की रक्षा किसने की?",
+          "options": [
+            "राजा ने",
+            "मंत्री ने",
+            "देवदत्त ने",
+            "सिद्धार्थ ने"
+          ]
+        },
+        {
+          "id": "q_6",
+          "type": "mcq",
+          "title": "ऋषि पुत्र का नाम क्या था?",
+          "options": [
+            "पाणिन",
+            "सुखर्मा",
+            "यवक्रीत",
+            "ब्रह्मकीर्ति"
+          ]
+        },
+        {
+          "id": "q_7",
+          "type": "mcq",
+          "title": "भरत ने मंत्रहीन न पढ़ना शुरू किया?",
+          "options": [
+            "कुरान से",
+            "मेहनत से",
+            "उत्साह से",
+            "जोश से"
+          ]
+        },
+        {
+          "id": "q_8",
+          "type": "mcq",
+          "title": "होलिका प्रह्लाद की कौन थी?",
+          "options": [
+            "माँ",
+            "बुआ",
+            "बहन",
+            "दादी"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sec_2",
+      "heading": "निम्नलिखित प्रश्नों के उत्तर दीजिए।",
+      "questions": [
+        {
+          "id": "q_9",
+          "type": "shortAnswer",
+          "title": "कृषि क्या विमल बनाना चाहता है?",
+          "answerLines": 2
+        },
+        {
+          "id": "q_10",
+          "type": "shortAnswer",
+          "title": "आचार्य के पास जाकर पापक ने क्या कहा?",
+          "answerLines": 2
+        },
+        {
+          "id": "q_11",
+          "type": "shortAnswer",
+          "title": "यात्री ने जेब से पिस्तौल क्यों निकाल ली?",
+          "answerLines": 2
+        },
+        {
+          "id": "q_12",
+          "type": "shortAnswer",
+          "title": "राजकुमार सिद्धार्थ क्यों घूम रहे थे?",
+          "answerLines": 2
+        },
+        {
+          "id": "q_13",
+          "type": "shortAnswer",
+          "title": "वर माँगने पर यवक्रीत से इंद्र ने क्या कहा?",
+          "answerLines": 2
+        },
+        {
+          "id": "q_14",
+          "type": "shortAnswer",
+          "title": "हमें किसको अपना वैरी समझना चाहिए?",
+          "answerLines": 2
+        },
+        {
+          "id": "q_15",
+          "type": "shortAnswer",
+          "title": "होलिका कुमार का नाम क्या था?",
+          "answerLines": 2
+        },
+        {
+          "id": "q_16",
+          "type": "shortAnswer",
+          "title": "होली का त्यौहार कब मनाया जाता है?",
+          "answerLines": 2
+        }
+      ]
+    },
+    {
+      "id": "sec_3",
+      "heading": "रिक्त स्थानों को भरिए।",
+      "questions": [
+        {
+          "id": "q_17",
+          "type": "fillInBlanks",
+          "title": "पापक अत्यन्त _____ होकर वहाँ से निकल पड़े।",
+          "wordBank": [
+            "गज़न",
+            "सम्मान",
+            "प्रसन्न",
+            "अभ्यास",
+            "परदा"
+          ]
+        },
+        {
+          "id": "q_18",
+          "type": "fillInBlanks",
+          "title": "अब पापक की आँखों का _____ हटा।",
+          "wordBank": []
+        },
+        {
+          "id": "q_19",
+          "type": "fillInBlanks",
+          "title": "धीरे-धीरे तोते ने भी _____ करना सीख लिया।",
+          "wordBank": []
+        },
+        {
+          "id": "q_20",
+          "type": "fillInBlanks",
+          "title": "यवक्रीत चाहता था कि लोग उसका भी _____ करें।",
+          "wordBank": []
+        },
+        {
+          "id": "q_21",
+          "type": "fillInBlanks",
+          "title": "विद्या प्राप्त करने के लिए निरंतर _____ करना पड़ता है।",
+          "wordBank": []
+        }
+      ]
+    },
+    {
+      "id": "sec_4",
+      "heading": "किसने किससे कहा?",
+      "questions": [
+        {
+          "id": "q_22",
+          "type": "shortAnswer",
+          "title": "सभी राह भूल चुके, चाहे गाँव पथिक हो या कोई पथिक।",
+          "answerLines": 1
+        },
+        {
+          "id": "q_23",
+          "type": "shortAnswer",
+          "title": "नाम तो पहचान के लिए होता है।",
+          "answerLines": 1
+        },
+        {
+          "id": "q_24",
+          "type": "shortAnswer",
+          "title": "नाम से महिमा नहीं बढ़ती, काम से बढ़ती है।",
+          "answerLines": 1
+        },
+        {
+          "id": "q_25",
+          "type": "shortAnswer",
+          "title": "यह मेरा हंस है, इसे मुझे दे दो।",
+          "answerLines": 1
+        },
+        {
+          "id": "q_26",
+          "type": "shortAnswer",
+          "title": "आप ही बताइए, हंस किसका है?",
+          "answerLines": 1
+        }
+      ]
+    },
+    {
+      "id": "sec_5",
+      "heading": "शब्दार्थ लिखो।",
+      "questions": [
+        {
+          "id": "q_27",
+          "type": "wordMeaning",
+          "title": "निम्नलिखित शब्दों के अर्थ लिखो:",
+          "items": [
+            "तन",
+            "चकमक",
+            "प्रभाव",
+            "लड्डू",
+            "उबना"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sec_6",
+      "heading": "व्याकरण - प्रश्नों का उत्तर दीजिए।",
+      "questions": [
+        {
+          "id": "q_28",
+          "type": "shortAnswer",
+          "title": "हमारी राष्ट्रभाषा का क्या नाम है और किस लिपि में लिखी जाती है?",
+          "answerLines": 2
+        },
+        {
+          "id": "q_29",
+          "type": "shortAnswer",
+          "title": "वर्ण किसे कहते हैं? इसके कितने भेद हैं?",
+          "answerLines": 2
+        },
+        {
+          "id": "q_30",
+          "type": "shortAnswer",
+          "title": "संज्ञा किसे कहते हैं? उदाहरण सहित बताइए।",
+          "answerLines": 2
+        },
+        {
+          "id": "q_31",
+          "type": "shortAnswer",
+          "title": "लिंग किसे कहते हैं? उदाहरण सहित दीजिए।",
+          "answerLines": 2
+        }
+      ]
+    },
+    {
+      "id": "sec_7",
+      "heading": "भाषा ज्ञान",
+      "questions": [
+        {
+          "id": "q_32",
+          "type": "wordMeaning",
+          "title": "लिंग बदलो:",
+          "items": [
+            "पुत्र",
+            "चूहा",
+            "दास",
+            "देवर",
+            "एक"
+          ]
+        },
+        {
+          "id": "q_33",
+          "type": "wordMeaning",
+          "title": "वचन बदलो:",
+          "items": [
+            "गधा",
+            "कपड़ा",
+            "गदा",
+            "कथा",
+            "कविता"
+          ]
+        },
+        {
+          "id": "q_34",
+          "type": "wordMeaning",
+          "title": "विलोम शब्द लिखो:",
+          "items": [
+            "अच्छा",
+            "अपना",
+            "आयात",
+            "कोमल"
+          ]
+        },
+        {
+          "id": "q_35",
+          "type": "wordMeaning",
+          "title": "पर्यायवाची शब्द लिखो:",
+          "items": [
+            "दुर्जन",
+            "अमृत",
+            "बदली"
+          ]
+        },
+        {
+          "id": "q_36",
+          "type": "wordMeaning",
+          "title": "मुहावरे का अर्थ लिखो:",
+          "items": [
+            "आँखें दिखाना",
+            "कमर कसना",
+            "टाँग अड़ाना"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sec_8",
+      "heading": "आवेदन पत्र",
+      "questions": [
+        {
+          "id": "q_37",
+          "type": "essayLetter",
+          "title": "भाई के विवाह के कारण अवकाश के लिए प्रधानाचार्य को आवेदन पत्र लिखो।",
+          "lines": 8
+        }
+      ]
+    },
+    {
+      "id": "sec_9",
+      "heading": "निबंध लेखन",
+      "questions": [
+        {
+          "id": "q_38",
+          "type": "essayLetter",
+          "title": "मेरा घर या होली में से किन्हीं एक पर निबंध लिखो।",
+          "lines": 8
+        }
+      ]
+    }
+  ],
+  "standaloneQuestions": []
+}
+
+// Or JS Variable:
+const questionPaperGeneratorData = {
+  "paperDetails": {
+    "schoolName": "ST. Columbus Public School",
+    "schoolAddress": "Ekdara, Jhajha",
+    "examName": "Half Yearly Examination - 2026",
+    "className": "STD- III",
+    "subjectName": "Hindi",
+    "fullMarks": "",
+    "examTime": "2 Hours",
+    "numberingScheme": "restart"
+  },
+  "sections": [
+    {
+      "id": "sec_1",
+      "heading": "सही विकल्प पर सही (✓) का निशान लगाइए।",
+      "questions": [
+        {
+          "id": "q_1",
+          "type": "mcq",
+          "title": "धनी सेठ अपने दरवाजे पर किसकी पिटाई कर रहा था?",
+          "options": [
+            "अपनी पत्नी की",
+            "पुत्री की",
+            "दासी की",
+            "बहन की"
+          ]
+        },
+        {
+          "id": "q_2",
+          "type": "mcq",
+          "title": "व्यक्ति की महिमा किससे बढ़ती है?",
+          "options": [
+            "नाम से",
+            "अभिमान से",
+            "काम से",
+            "धन से"
+          ]
+        },
+        {
+          "id": "q_3",
+          "type": "mcq",
+          "title": "निषाद के जाल में कितने तोते फँस गए?",
+          "options": [
+            "एक",
+            "दो",
+            "चार",
+            "कोई नहीं"
+          ]
+        },
+        {
+          "id": "q_4",
+          "type": "mcq",
+          "title": "हंस को बाण किसने मारा था?",
+          "options": [
+            "देवदत्त ने",
+            "सिद्धार्थ ने",
+            "माली ने",
+            "बहेलिये ने"
+          ]
+        },
+        {
+          "id": "q_5",
+          "type": "mcq",
+          "title": "हंस की रक्षा किसने की?",
+          "options": [
+            "राजा ने",
+            "मंत्री ने",
+            "देवदत्त ने",
+            "सिद्धार्थ ने"
+          ]
+        },
+        {
+          "id": "q_6",
+          "type": "mcq",
+          "title": "ऋषि पुत्र का नाम क्या था?",
+          "options": [
+            "पाणिन",
+            "सुखर्मा",
+            "यवक्रीत",
+            "ब्रह्मकीर्ति"
+          ]
+        },
+        {
+          "id": "q_7",
+          "type": "mcq",
+          "title": "भरत ने मंत्रहीन न पढ़ना शुरू किया?",
+          "options": [
+            "कुरान से",
+            "मेहनत से",
+            "उत्साह से",
+            "जोश से"
+          ]
+        },
+        {
+          "id": "q_8",
+          "type": "mcq",
+          "title": "होलिका प्रह्लाद की कौन थी?",
+          "options": [
+            "माँ",
+            "बुआ",
+            "बहन",
+            "दादी"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sec_2",
+      "heading": "निम्नलिखित प्रश्नों के उत्तर दीजिए।",
+      "questions": [
+        {
+          "id": "q_9",
+          "type": "shortAnswer",
+          "title": "कृषि क्या विमल बनाना चाहता है?",
+          "answerLines": 2
+        },
+        {
+          "id": "q_10",
+          "type": "shortAnswer",
+          "title": "आचार्य के पास जाकर पापक ने क्या कहा?",
+          "answerLines": 2
+        },
+        {
+          "id": "q_11",
+          "type": "shortAnswer",
+          "title": "यात्री ने जेब से पिस्तौल क्यों निकाल ली?",
+          "answerLines": 2
+        },
+        {
+          "id": "q_12",
+          "type": "shortAnswer",
+          "title": "राजकुमार सिद्धार्थ क्यों घूम रहे थे?",
+          "answerLines": 2
+        },
+        {
+          "id": "q_13",
+          "type": "shortAnswer",
+          "title": "वर माँगने पर यवक्रीत से इंद्र ने क्या कहा?",
+          "answerLines": 2
+        },
+        {
+          "id": "q_14",
+          "type": "shortAnswer",
+          "title": "हमें किसको अपना वैरी समझना चाहिए?",
+          "answerLines": 2
+        },
+        {
+          "id": "q_15",
+          "type": "shortAnswer",
+          "title": "होलिका कुमार का नाम क्या था?",
+          "answerLines": 2
+        },
+        {
+          "id": "q_16",
+          "type": "shortAnswer",
+          "title": "होली का त्यौहार कब मनाया जाता है?",
+          "answerLines": 2
+        }
+      ]
+    },
+    {
+      "id": "sec_3",
+      "heading": "रिक्त स्थानों को भरिए।",
+      "questions": [
+        {
+          "id": "q_17",
+          "type": "fillInBlanks",
+          "title": "पापक अत्यन्त _____ होकर वहाँ से निकल पड़े।",
+          "wordBank": [
+            "गज़न",
+            "सम्मान",
+            "प्रसन्न",
+            "अभ्यास",
+            "परदा"
+          ]
+        },
+        {
+          "id": "q_18",
+          "type": "fillInBlanks",
+          "title": "अब पापक की आँखों का _____ हटा।",
+          "wordBank": []
+        },
+        {
+          "id": "q_19",
+          "type": "fillInBlanks",
+          "title": "धीरे-धीरे तोते ने भी _____ करना सीख लिया।",
+          "wordBank": []
+        },
+        {
+          "id": "q_20",
+          "type": "fillInBlanks",
+          "title": "यवक्रीत चाहता था कि लोग उसका भी _____ करें।",
+          "wordBank": []
+        },
+        {
+          "id": "q_21",
+          "type": "fillInBlanks",
+          "title": "विद्या प्राप्त करने के लिए निरंतर _____ करना पड़ता है।",
+          "wordBank": []
+        }
+      ]
+    },
+    {
+      "id": "sec_4",
+      "heading": "किसने किससे कहा?",
+      "questions": [
+        {
+          "id": "q_22",
+          "type": "shortAnswer",
+          "title": "सभी राह भूल चुके, चाहे गाँव पथिक हो या कोई पथिक।",
+          "answerLines": 1
+        },
+        {
+          "id": "q_23",
+          "type": "shortAnswer",
+          "title": "नाम तो पहचान के लिए होता है।",
+          "answerLines": 1
+        },
+        {
+          "id": "q_24",
+          "type": "shortAnswer",
+          "title": "नाम से महिमा नहीं बढ़ती, काम से बढ़ती है।",
+          "answerLines": 1
+        },
+        {
+          "id": "q_25",
+          "type": "shortAnswer",
+          "title": "यह मेरा हंस है, इसे मुझे दे दो।",
+          "answerLines": 1
+        },
+        {
+          "id": "q_26",
+          "type": "shortAnswer",
+          "title": "आप ही बताइए, हंस किसका है?",
+          "answerLines": 1
+        }
+      ]
+    },
+    {
+      "id": "sec_5",
+      "heading": "शब्दार्थ लिखो।",
+      "questions": [
+        {
+          "id": "q_27",
+          "type": "wordMeaning",
+          "title": "निम्नलिखित शब्दों के अर्थ लिखो:",
+          "items": [
+            "तन",
+            "चकमक",
+            "प्रभाव",
+            "लड्डू",
+            "उबना"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sec_6",
+      "heading": "व्याकरण - प्रश्नों का उत्तर दीजिए।",
+      "questions": [
+        {
+          "id": "q_28",
+          "type": "shortAnswer",
+          "title": "हमारी राष्ट्रभाषा का क्या नाम है और किस लिपि में लिखी जाती है?",
+          "answerLines": 2
+        },
+        {
+          "id": "q_29",
+          "type": "shortAnswer",
+          "title": "वर्ण किसे कहते हैं? इसके कितने भेद हैं?",
+          "answerLines": 2
+        },
+        {
+          "id": "q_30",
+          "type": "shortAnswer",
+          "title": "संज्ञा किसे कहते हैं? उदाहरण सहित बताइए।",
+          "answerLines": 2
+        },
+        {
+          "id": "q_31",
+          "type": "shortAnswer",
+          "title": "लिंग किसे कहते हैं? उदाहरण सहित दीजिए।",
+          "answerLines": 2
+        }
+      ]
+    },
+    {
+      "id": "sec_7",
+      "heading": "भाषा ज्ञान",
+      "questions": [
+        {
+          "id": "q_32",
+          "type": "wordMeaning",
+          "title": "लिंग बदलो:",
+          "items": [
+            "पुत्र",
+            "चूहा",
+            "दास",
+            "देवर",
+            "एक"
+          ]
+        },
+        {
+          "id": "q_33",
+          "type": "wordMeaning",
+          "title": "वचन बदलो:",
+          "items": [
+            "गधा",
+            "कपड़ा",
+            "गदा",
+            "कथा",
+            "कविता"
+          ]
+        },
+        {
+          "id": "q_34",
+          "type": "wordMeaning",
+          "title": "विलोम शब्द लिखो:",
+          "items": [
+            "अच्छा",
+            "अपना",
+            "आयात",
+            "कोमल"
+          ]
+        },
+        {
+          "id": "q_35",
+          "type": "wordMeaning",
+          "title": "पर्यायवाची शब्द लिखो:",
+          "items": [
+            "दुर्जन",
+            "अमृत",
+            "बदली"
+          ]
+        },
+        {
+          "id": "q_36",
+          "type": "wordMeaning",
+          "title": "मुहावरे का अर्थ लिखो:",
+          "items": [
+            "आँखें दिखाना",
+            "कमर कसना",
+            "टाँग अड़ाना"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sec_8",
+      "heading": "आवेदन पत्र",
+      "questions": [
+        {
+          "id": "q_37",
+          "type": "essayLetter",
+          "title": "भाई के विवाह के कारण अवकाश के लिए प्रधानाचार्य को आवेदन पत्र लिखो।",
+          "lines": 8
+        }
+      ]
+    },
+    {
+      "id": "sec_9",
+      "heading": "निबंध लेखन",
+      "questions": [
+        {
+          "id": "q_38",
+          "type": "essayLetter",
+          "title": "मेरा घर या होली में से किन्हीं एक पर निबंध लिखो।",
+          "lines": 8
+        }
+      ]
+    }
+  ],
+  "standaloneQuestions": []
+};
+
+__________________________________________________________
+
+---- class I Hindi
+
+KEY:
+questionPaperGeneratorData
+
+VALUE:
+{
+  "paperDetails": {
+    "schoolName": "ST. Columbus Public School",
+    "schoolAddress": "Ekdara, Jhajha",
+    "examName": "Half Yearly - 2026",
+    "className": "STD-I",
+    "subjectName": "Hindi",
+    "fullMarks": "",
+    "examTime": "2 Hours",
+    "numberingScheme": "restart"
+  },
+  "sections": [
+    {
+      "id": "sec_1",
+      "heading": "सही विकल्प पर सही (✓) का चिन्ह लगाइए।",
+      "questions": [
+        {
+          "id": "q_1",
+          "type": "mcq",
+          "title": "चुनमुन के गले में ______ का एक दाना अटक गया।",
+          "options": [
+            "मटर",
+            "गेहूँ",
+            "चने"
+          ]
+        },
+        {
+          "id": "q_2",
+          "type": "mcq",
+          "title": "जिस्मी कैसी बच्ची थी?",
+          "options": [
+            "सुन्दर",
+            "बड़ी",
+            "साहसी"
+          ]
+        },
+        {
+          "id": "q_3",
+          "type": "mcq",
+          "title": "पहले अंडे में से कौन निकला?",
+          "options": [
+            "चूजा",
+            "चूहा",
+            "बतख का बच्चा"
+          ]
+        },
+        {
+          "id": "q_4",
+          "type": "mcq",
+          "title": "बच्चा किसे झूला लगाने को कह रहा है?",
+          "options": [
+            "बहन",
+            "अम्मा",
+            "बुआ"
+          ]
+        },
+        {
+          "id": "q_5",
+          "type": "mcq",
+          "title": "कुत्तों से डरकर रक्षा के लिए खरगोश अंत में किसके पास गया?",
+          "options": [
+            "गाय",
+            "बकरी",
+            "हिरण"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sec_3",
+      "heading": "निम्नलिखित प्रश्नों के उत्तर दीजिए।",
+      "questions": [
+        {
+          "id": "q_11",
+          "type": "shortAnswer",
+          "title": "गेंद-बल्ला खेलने के लिए कितने लोग चाहिए?",
+          "answerLines": 2
+        },
+        {
+          "id": "q_12",
+          "type": "shortAnswer",
+          "title": "चूजा किसको कहते हैं?",
+          "answerLines": 2
+        },
+        {
+          "id": "q_13",
+          "type": "shortAnswer",
+          "title": "झूले पर चढ़कर बच्चा किसे छूने को कह रहा है?",
+          "answerLines": 2
+        },
+        {
+          "id": "q_14",
+          "type": "shortAnswer",
+          "title": "खरगोश के कितने मित्र थे?",
+          "answerLines": 2
+        },
+        {
+          "id": "q_15",
+          "type": "shortAnswer",
+          "title": "नानीजी का घर कहाँ है?",
+          "answerLines": 2
+        }
+      ]
+    },
+    {
+      "id": "sec_4",
+      "heading": "व्याकरण - निम्नलिखित प्रश्नों के उत्तर दीजिए।",
+      "questions": [
+        {
+          "id": "q_16",
+          "type": "shortAnswer",
+          "title": "भाषा किसे कहते हैं?",
+          "answerLines": 2
+        },
+        {
+          "id": "q_17",
+          "type": "shortAnswer",
+          "title": "वचन के कितने भेद हैं? उनके नाम लिखिए।",
+          "answerLines": 2
+        }
+      ]
+    },
+    {
+      "id": "sec_6",
+      "heading": "भाषा ज्ञान",
+      "questions": [
+        {
+          "id": "q_20",
+          "type": "wordMeaning",
+          "title": "इनके स्त्रीलिंग रूप लिखिए:",
+          "items": [
+            "लड़का",
+            "नौकर",
+            "बेटा",
+            "नायक",
+            "नाना"
+          ]
+        },
+        {
+          "id": "q_21",
+          "type": "wordMeaning",
+          "title": "दो-दो पर्यायवाची शब्द लिखिए:",
+          "items": [
+            "आँख",
+            "आग",
+            "जल",
+            "आकाश",
+            "गाय"
+          ]
+        },
+        {
+          "id": "q_22",
+          "type": "wordMeaning",
+          "title": "विलोम शब्द लिखिए:",
+          "items": [
+            "अच्छा",
+            "ऊपर",
+            "दिन",
+            "एक",
+            "पास"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sec_1788191861120",
+      "heading": "लेखन : ",
+      "questions": [
+        {
+          "id": "q_1788191883836_756",
+          "type": "longAnswer",
+          "title": " गाय पर निबंध लिखें।",
+          "answerLines": 5
+        },
+        {
+          "id": "q_1788191910590_427",
+          "type": "longAnswer",
+          "title": "बीमारी के कारण प्रधानाचार्य को आवेदन-पत्र लिखें।",
+          "answerLines": 5
+        }
+      ]
+    },
+    {
+      "id": "sec_1788192085932",
+      "heading": "खाली स्थान को भरें।",
+      "questions": [
+        {
+          "id": "q_1788192124783_3",
+          "type": "longAnswer",
+          "title": "मुर्गी की चोंच __ थीं। ( लंबी/ छोटी )",
+          "answerLines": 5
+        },
+        {
+          "id": "q_1788192138368_764",
+          "type": "longAnswer",
+          "title": "मुझे स्वयं डर __ । (लगता है / किया)",
+          "answerLines": 5
+        },
+        {
+          "id": "q_1788192156795_641",
+          "type": "longAnswer",
+          "title": "मुर्गी  भागकर __ के पास गयी। (चुनमुन/ बगुले)",
+          "answerLines": 5
+        },
+        {
+          "id": "q_1788192175925_908",
+          "type": "longAnswer",
+          "title": "राजा , रानी और __ की एक कहानी रोज सुनाती। (परियाँ / जानवर)",
+          "answerLines": 5
+        },
+        {
+          "id": "q_1788192191145_997",
+          "type": "longAnswer",
+          "title": "दादी माँ ने ___ कपड़ा जिस्मी को पकड़ाया। (धुला/साफ)",
+          "answerLines": 5
+        },
+        {
+          "id": "q_1788192204862_253",
+          "type": "longAnswer",
+          "title": "__ लिखित भाषा का उदाहरण है। (पुस्तक / बातचीत)",
+          "answerLines": 5
+        },
+        {
+          "id": "q_1788192235363_769",
+          "type": "longAnswer",
+          "title": "__ द्वारा मन के विचार प्रकट किए जा सकते हैं। (भाषा / कान)",
+          "answerLines": 5
+        }
+      ]
+    }
+  ],
+  "standaloneQuestions": []
+}
+
+// Or JS Variable:
+const questionPaperGeneratorData = {
+  "paperDetails": {
+    "schoolName": "ST. Columbus Public School",
+    "schoolAddress": "Ekdara, Jhajha",
+    "examName": "Half Yearly - 2026",
+    "className": "STD-I",
+    "subjectName": "Hindi",
+    "fullMarks": "",
+    "examTime": "2 Hours",
+    "numberingScheme": "restart"
+  },
+  "sections": [
+    {
+      "id": "sec_1",
+      "heading": "सही विकल्प पर सही (✓) का चिन्ह लगाइए।",
+      "questions": [
+        {
+          "id": "q_1",
+          "type": "mcq",
+          "title": "चुनमुन के गले में ______ का एक दाना अटक गया।",
+          "options": [
+            "मटर",
+            "गेहूँ",
+            "चने"
+          ]
+        },
+        {
+          "id": "q_2",
+          "type": "mcq",
+          "title": "जिस्मी कैसी बच्ची थी?",
+          "options": [
+            "सुन्दर",
+            "बड़ी",
+            "साहसी"
+          ]
+        },
+        {
+          "id": "q_3",
+          "type": "mcq",
+          "title": "पहले अंडे में से कौन निकला?",
+          "options": [
+            "चूजा",
+            "चूहा",
+            "बतख का बच्चा"
+          ]
+        },
+        {
+          "id": "q_4",
+          "type": "mcq",
+          "title": "बच्चा किसे झूला लगाने को कह रहा है?",
+          "options": [
+            "बहन",
+            "अम्मा",
+            "बुआ"
+          ]
+        },
+        {
+          "id": "q_5",
+          "type": "mcq",
+          "title": "कुत्तों से डरकर रक्षा के लिए खरगोश अंत में किसके पास गया?",
+          "options": [
+            "गाय",
+            "बकरी",
+            "हिरण"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sec_3",
+      "heading": "निम्नलिखित प्रश्नों के उत्तर दीजिए।",
+      "questions": [
+        {
+          "id": "q_11",
+          "type": "shortAnswer",
+          "title": "गेंद-बल्ला खेलने के लिए कितने लोग चाहिए?",
+          "answerLines": 2
+        },
+        {
+          "id": "q_12",
+          "type": "shortAnswer",
+          "title": "चूजा किसको कहते हैं?",
+          "answerLines": 2
+        },
+        {
+          "id": "q_13",
+          "type": "shortAnswer",
+          "title": "झूले पर चढ़कर बच्चा किसे छूने को कह रहा है?",
+          "answerLines": 2
+        },
+        {
+          "id": "q_14",
+          "type": "shortAnswer",
+          "title": "खरगोश के कितने मित्र थे?",
+          "answerLines": 2
+        },
+        {
+          "id": "q_15",
+          "type": "shortAnswer",
+          "title": "नानीजी का घर कहाँ है?",
+          "answerLines": 2
+        }
+      ]
+    },
+    {
+      "id": "sec_4",
+      "heading": "व्याकरण - निम्नलिखित प्रश्नों के उत्तर दीजिए।",
+      "questions": [
+        {
+          "id": "q_16",
+          "type": "shortAnswer",
+          "title": "भाषा किसे कहते हैं?",
+          "answerLines": 2
+        },
+        {
+          "id": "q_17",
+          "type": "shortAnswer",
+          "title": "वचन के कितने भेद हैं? उनके नाम लिखिए।",
+          "answerLines": 2
+        }
+      ]
+    },
+    {
+      "id": "sec_6",
+      "heading": "भाषा ज्ञान",
+      "questions": [
+        {
+          "id": "q_20",
+          "type": "wordMeaning",
+          "title": "इनके स्त्रीलिंग रूप लिखिए:",
+          "items": [
+            "लड़का",
+            "नौकर",
+            "बेटा",
+            "नायक",
+            "नाना"
+          ]
+        },
+        {
+          "id": "q_21",
+          "type": "wordMeaning",
+          "title": "दो-दो पर्यायवाची शब्द लिखिए:",
+          "items": [
+            "आँख",
+            "आग",
+            "जल",
+            "आकाश",
+            "गाय"
+          ]
+        },
+        {
+          "id": "q_22",
+          "type": "wordMeaning",
+          "title": "विलोम शब्द लिखिए:",
+          "items": [
+            "अच्छा",
+            "ऊपर",
+            "दिन",
+            "एक",
+            "पास"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sec_1788191861120",
+      "heading": "लेखन : ",
+      "questions": [
+        {
+          "id": "q_1788191883836_756",
+          "type": "longAnswer",
+          "title": " गाय पर निबंध लिखें।",
+          "answerLines": 5
+        },
+        {
+          "id": "q_1788191910590_427",
+          "type": "longAnswer",
+          "title": "बीमारी के कारण प्रधानाचार्य को आवेदन-पत्र लिखें।",
+          "answerLines": 5
+        }
+      ]
+    },
+    {
+      "id": "sec_1788192085932",
+      "heading": "खाली स्थान को भरें।",
+      "questions": [
+        {
+          "id": "q_1788192124783_3",
+          "type": "longAnswer",
+          "title": "मुर्गी की चोंच __ थीं। ( लंबी/ छोटी )",
+          "answerLines": 5
+        },
+        {
+          "id": "q_1788192138368_764",
+          "type": "longAnswer",
+          "title": "मुझे स्वयं डर __ । (लगता है / किया)",
+          "answerLines": 5
+        },
+        {
+          "id": "q_1788192156795_641",
+          "type": "longAnswer",
+          "title": "मुर्गी  भागकर __ के पास गयी। (चुनमुन/ बगुले)",
+          "answerLines": 5
+        },
+        {
+          "id": "q_1788192175925_908",
+          "type": "longAnswer",
+          "title": "राजा , रानी और __ की एक कहानी रोज सुनाती। (परियाँ / जानवर)",
+          "answerLines": 5
+        },
+        {
+          "id": "q_1788192191145_997",
+          "type": "longAnswer",
+          "title": "दादी माँ ने ___ कपड़ा जिस्मी को पकड़ाया। (धुला/साफ)",
+          "answerLines": 5
+        },
+        {
+          "id": "q_1788192204862_253",
+          "type": "longAnswer",
+          "title": "__ लिखित भाषा का उदाहरण है। (पुस्तक / बातचीत)",
+          "answerLines": 5
+        },
+        {
+          "id": "q_1788192235363_769",
+          "type": "longAnswer",
+          "title": "__ द्वारा मन के विचार प्रकट किए जा सकते हैं। (भाषा / कान)",
+          "answerLines": 5
+        }
+      ]
+    }
+  ],
+  "standaloneQuestions": []
+};
+
+
+
+
+
+
+__________________________________________________________
+
+---- class V 
+
+KEY:
+questionPaperGeneratorData
+
+VALUE:
+{
+  "paperDetails": {
+    "schoolName": "ST. Columbus Public School",
+    "schoolAddress": "Ekdara, Jhajha",
+    "examName": "Half Yearly Examination - 2026",
+    "className": "STD- V",
+    "subjectName": "Hindi",
+    "fullMarks": "___",
+    "examTime": "2 Hours",
+    "numberingScheme": "restart"
+  },
+  "sections": [
+    {
+      "id": "sec_1",
+      "heading": "सही विकल्प पर (✓) का निशान लगाइए।",
+      "questions": [
+        {
+          "id": "q_1",
+          "type": "mcq",
+          "title": "धरती को स्वर्ग कैसे बनाया जा सकता है?",
+          "options": [
+            "परिश्रम से",
+            "भ्रमण से",
+            "आलस्य से",
+            "मनोकामना से"
+          ]
+        },
+        {
+          "id": "q_2",
+          "type": "mcq",
+          "title": "कवि ने विद्या के रूप में क्या सीखने को कहा है?",
+          "options": [
+            "पथ पर चलना",
+            "प्यार से रहना",
+            "नभ में उड़ना",
+            "घोंसला बनाना"
+          ]
+        },
+        {
+          "id": "q_3",
+          "type": "mcq",
+          "title": "महाराज गोपीचन्द कैसे राजा थे?",
+          "options": [
+            "क्रूर",
+            "अहंकारी",
+            "परोपकारी",
+            "दुराचारी"
+          ]
+        },
+        {
+          "id": "q_4",
+          "type": "mcq",
+          "title": "दोरासिंह के बैल कैसे थे?",
+          "options": [
+            "लड़ाकू",
+            "ताकतवर",
+            "दुबले और कमजोर",
+            "सीधे नहीं"
+          ]
+        },
+        {
+          "id": "q_5",
+          "type": "mcq",
+          "title": "दुला कहाँ रहता था?",
+          "options": [
+            "बंगाल में",
+            "लखनऊ में",
+            "गुजरात में",
+            "बनारस में"
+          ]
+        },
+        {
+          "id": "q_6",
+          "type": "mcq",
+          "title": "जीवन की प्रतिकूल परिस्थितियों में भी हमें क्या नहीं खोना चाहिए?",
+          "options": [
+            "दृढ़ निश्चय",
+            "आत्मविश्वास",
+            "साहस",
+            "ये सभी"
+          ]
+        },
+        {
+          "id": "q_7",
+          "type": "mcq",
+          "title": "घोंसला बनाने के लिए चिड़िया तिनके कहाँ रखी थी?",
+          "options": [
+            "खिड़की पर",
+            "छत पर",
+            "दरवाजे पर",
+            "पेड़ पर"
+          ]
+        },
+        {
+          "id": "q_8",
+          "type": "mcq",
+          "title": "इनमें से आप किसे देशभक्त का दर्जा देंगे?",
+          "options": [
+            "लालाजी को",
+            "डॉ० साहब को",
+            "अमर फौजी को",
+            "ये सभी"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sec_2",
+      "heading": "निम्नलिखित प्रश्नों के उत्तर लिखिए।",
+      "questions": [
+        {
+          "id": "q_9",
+          "type": "shortAnswer",
+          "title": "हृदय का अंधकार कौन दूर करना चाहता है?",
+          "answerLines": 2
+        },
+        {
+          "id": "q_10",
+          "type": "shortAnswer",
+          "title": "गुरु गोरखनाथ के उपदेशों का गोपीचन्द पर क्या प्रभाव पड़ा?",
+          "answerLines": 2
+        },
+        {
+          "id": "q_11",
+          "type": "shortAnswer",
+          "title": "शेरसिंह ने दयाराम को किसलिए सफर से हानि पहुँचायी?",
+          "answerLines": 2
+        },
+        {
+          "id": "q_12",
+          "type": "shortAnswer",
+          "title": "इला स्वामी क्या काम करती थी?",
+          "answerLines": 2
+        },
+        {
+          "id": "q_13",
+          "type": "shortAnswer",
+          "title": "निःस्वार्थ सेवा से आप क्या समझते हैं?",
+          "answerLines": 2
+        },
+        {
+          "id": "q_14",
+          "type": "shortAnswer",
+          "title": "चिड़िया चोंच में क्या लाई?",
+          "answerLines": 2
+        },
+        {
+          "id": "q_15",
+          "type": "shortAnswer",
+          "title": "रात में बेल हिलाने पर माँ ने काजल से क्या कहा?",
+          "answerLines": 2
+        },
+        {
+          "id": "q_16",
+          "type": "shortAnswer",
+          "title": "कौरवों और पांडवों की सेनाएँ कहाँ खड़ी थीं?",
+          "answerLines": 2
+        }
+      ]
+    },
+    {
+      "id": "sec_3",
+      "heading": "रिक्त स्थानों को भरिए।",
+      "questions": [
+        {
+          "id": "q_17",
+          "type": "fillInBlanks",
+          "title": "राजा गोपीचन्द की _____ में गहरी रुचि थी।",
+          "wordBank": []
+        },
+        {
+          "id": "q_18",
+          "type": "fillInBlanks",
+          "title": "गुरु गोरखनाथ के उपदेश सुनकर इनके मन में _____ उत्पन्न हो गया।",
+          "wordBank": []
+        },
+        {
+          "id": "q_19",
+          "type": "fillInBlanks",
+          "title": "माता ने भिक्षा पात्र में _____ के तीन दाने डाल दिए।",
+          "wordBank": []
+        },
+        {
+          "id": "q_20",
+          "type": "fillInBlanks",
+          "title": "सभी गाँव वाले दयाराम का _____ करते थे।",
+          "wordBank": []
+        },
+        {
+          "id": "q_21",
+          "type": "fillInBlanks",
+          "title": "इला परेशानियों के आगे _____ वाली नहीं थी।",
+          "wordBank": []
+        }
+      ]
+    },
+    {
+      "id": "sec_4",
+      "heading": "भावार्थ लिखिए।",
+      "questions": [
+        {
+          "id": "q_22",
+          "type": "shortAnswer",
+          "title": "दृढ़ निश्चय हिम्मत के बल पर, मन में आत्मविश्वास जगाए।",
+          "answerLines": 3
+        },
+        {
+          "id": "q_23",
+          "type": "shortAnswer",
+          "title": "घोंसला बिखर गया तो क्या, एक नये नीड़ का निर्माण दूजा।",
+          "answerLines": 3
+        }
+      ]
+    },
+    {
+      "id": "sec_5",
+      "heading": "शब्दार्थ लिखिए।",
+      "questions": [
+        {
+          "id": "q_24",
+          "type": "wordMeaning",
+          "title": "निम्नलिखित शब्दों के अर्थ लिखिए:",
+          "items": [
+            "पथ",
+            "विराग",
+            "अहंकारी"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sec_6",
+      "heading": "व्याकरण - प्रश्नों के उत्तर लिखिए।",
+      "questions": [
+        {
+          "id": "q_25",
+          "type": "shortAnswer",
+          "title": "बोली किसे कहते हैं?",
+          "answerLines": 2
+        },
+        {
+          "id": "q_26",
+          "type": "shortAnswer",
+          "title": "वर्ण किसे कहते हैं? वर्णों के कितने भेद हैं?",
+          "answerLines": 2
+        },
+        {
+          "id": "q_27",
+          "type": "shortAnswer",
+          "title": "संज्ञा किसे कहते हैं? उदाहरण सहित बताइए।",
+          "answerLines": 2
+        },
+        {
+          "id": "q_28",
+          "type": "shortAnswer",
+          "title": "व्यंजन किसे कहते हैं? कोई पाँच शब्द लिखें।",
+          "answerLines": 2
+        }
+      ]
+    },
+    {
+      "id": "sec_7",
+      "heading": "भाषा ज्ञान",
+      "questions": [
+        {
+          "id": "q_29",
+          "type": "wordMeaning",
+          "title": "लिंग बदलो:",
+          "items": [
+            "देव",
+            "सखा",
+            "लेखक",
+            "नायक",
+            "बालक"
+          ]
+        },
+        {
+          "id": "q_30",
+          "type": "wordMeaning",
+          "title": "वचन बदलो:",
+          "items": [
+            "औरत",
+            "बात",
+            "वचन",
+            "आत्मा",
+            "माला"
+          ]
+        },
+        {
+          "id": "q_31",
+          "type": "wordMeaning",
+          "title": "विलोम शब्द लिखो:",
+          "items": [
+            "उपचार",
+            "खुशबू",
+            "आदर",
+            "शत्रु",
+            "नवीन"
+          ]
+        },
+        {
+          "id": "q_32",
+          "type": "wordMeaning",
+          "title": "पर्यायवाची शब्द लिखो:",
+          "items": [
+            "अमृत",
+            "सारंग",
+            "ईश्वर",
+            "किरण",
+            "गंगा"
+          ]
+        },
+        {
+          "id": "q_33",
+          "type": "wordMeaning",
+          "title": "वाक्यांश लिखें:",
+          "items": [
+            "जो काम कठिन हो",
+            "जहाँ कोई न रहता हो",
+            "जिसकी पूजा हो"
+          ]
+        },
+        {
+          "id": "q_34",
+          "type": "wordMeaning",
+          "title": "मुहावरों का अर्थ लिखें:",
+          "items": [
+            "आँखें चुराना",
+            "अगर-मगर करना",
+            "कमर कसना"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sec_8",
+      "heading": "लेखन कौशल",
+      "questions": [
+        {
+          "id": "q_35",
+          "type": "essayLetter",
+          "title": "मित्र को जन्मदिन के अवसर पर निमंत्रण पत्र लिखें।",
+          "lines": 8
+        },
+        {
+          "id": "q_36",
+          "type": "essayLetter",
+          "title": "प्रातः काल की सैर या मेरा प्रिय खेल फुटबॉल में से किसी एक पर निबंध लिखें।",
+          "lines": 8
+        }
+      ]
+    }
+  ],
+  "standaloneQuestions": []
+}
+
+// Or JS Variable:
+const questionPaperGeneratorData = {
+  "paperDetails": {
+    "schoolName": "ST. Columbus Public School",
+    "schoolAddress": "Ekdara, Jhajha",
+    "examName": "Half Yearly Examination - 2026",
+    "className": "STD- V",
+    "subjectName": "Hindi",
+    "fullMarks": "___",
+    "examTime": "2 Hours",
+    "numberingScheme": "restart"
+  },
+  "sections": [
+    {
+      "id": "sec_1",
+      "heading": "सही विकल्प पर (✓) का निशान लगाइए।",
+      "questions": [
+        {
+          "id": "q_1",
+          "type": "mcq",
+          "title": "धरती को स्वर्ग कैसे बनाया जा सकता है?",
+          "options": [
+            "परिश्रम से",
+            "भ्रमण से",
+            "आलस्य से",
+            "मनोकामना से"
+          ]
+        },
+        {
+          "id": "q_2",
+          "type": "mcq",
+          "title": "कवि ने विद्या के रूप में क्या सीखने को कहा है?",
+          "options": [
+            "पथ पर चलना",
+            "प्यार से रहना",
+            "नभ में उड़ना",
+            "घोंसला बनाना"
+          ]
+        },
+        {
+          "id": "q_3",
+          "type": "mcq",
+          "title": "महाराज गोपीचन्द कैसे राजा थे?",
+          "options": [
+            "क्रूर",
+            "अहंकारी",
+            "परोपकारी",
+            "दुराचारी"
+          ]
+        },
+        {
+          "id": "q_4",
+          "type": "mcq",
+          "title": "दोरासिंह के बैल कैसे थे?",
+          "options": [
+            "लड़ाकू",
+            "ताकतवर",
+            "दुबले और कमजोर",
+            "सीधे नहीं"
+          ]
+        },
+        {
+          "id": "q_5",
+          "type": "mcq",
+          "title": "दुला कहाँ रहता था?",
+          "options": [
+            "बंगाल में",
+            "लखनऊ में",
+            "गुजरात में",
+            "बनारस में"
+          ]
+        },
+        {
+          "id": "q_6",
+          "type": "mcq",
+          "title": "जीवन की प्रतिकूल परिस्थितियों में भी हमें क्या नहीं खोना चाहिए?",
+          "options": [
+            "दृढ़ निश्चय",
+            "आत्मविश्वास",
+            "साहस",
+            "ये सभी"
+          ]
+        },
+        {
+          "id": "q_7",
+          "type": "mcq",
+          "title": "घोंसला बनाने के लिए चिड़िया तिनके कहाँ रखी थी?",
+          "options": [
+            "खिड़की पर",
+            "छत पर",
+            "दरवाजे पर",
+            "पेड़ पर"
+          ]
+        },
+        {
+          "id": "q_8",
+          "type": "mcq",
+          "title": "इनमें से आप किसे देशभक्त का दर्जा देंगे?",
+          "options": [
+            "लालाजी को",
+            "डॉ० साहब को",
+            "अमर फौजी को",
+            "ये सभी"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sec_2",
+      "heading": "निम्नलिखित प्रश्नों के उत्तर लिखिए।",
+      "questions": [
+        {
+          "id": "q_9",
+          "type": "shortAnswer",
+          "title": "हृदय का अंधकार कौन दूर करना चाहता है?",
+          "answerLines": 2
+        },
+        {
+          "id": "q_10",
+          "type": "shortAnswer",
+          "title": "गुरु गोरखनाथ के उपदेशों का गोपीचन्द पर क्या प्रभाव पड़ा?",
+          "answerLines": 2
+        },
+        {
+          "id": "q_11",
+          "type": "shortAnswer",
+          "title": "शेरसिंह ने दयाराम को किसलिए सफर से हानि पहुँचायी?",
+          "answerLines": 2
+        },
+        {
+          "id": "q_12",
+          "type": "shortAnswer",
+          "title": "इला स्वामी क्या काम करती थी?",
+          "answerLines": 2
+        },
+        {
+          "id": "q_13",
+          "type": "shortAnswer",
+          "title": "निःस्वार्थ सेवा से आप क्या समझते हैं?",
+          "answerLines": 2
+        },
+        {
+          "id": "q_14",
+          "type": "shortAnswer",
+          "title": "चिड़िया चोंच में क्या लाई?",
+          "answerLines": 2
+        },
+        {
+          "id": "q_15",
+          "type": "shortAnswer",
+          "title": "रात में बेल हिलाने पर माँ ने काजल से क्या कहा?",
+          "answerLines": 2
+        },
+        {
+          "id": "q_16",
+          "type": "shortAnswer",
+          "title": "कौरवों और पांडवों की सेनाएँ कहाँ खड़ी थीं?",
+          "answerLines": 2
+        }
+      ]
+    },
+    {
+      "id": "sec_3",
+      "heading": "रिक्त स्थानों को भरिए।",
+      "questions": [
+        {
+          "id": "q_17",
+          "type": "fillInBlanks",
+          "title": "राजा गोपीचन्द की _____ में गहरी रुचि थी।",
+          "wordBank": []
+        },
+        {
+          "id": "q_18",
+          "type": "fillInBlanks",
+          "title": "गुरु गोरखनाथ के उपदेश सुनकर इनके मन में _____ उत्पन्न हो गया।",
+          "wordBank": []
+        },
+        {
+          "id": "q_19",
+          "type": "fillInBlanks",
+          "title": "माता ने भिक्षा पात्र में _____ के तीन दाने डाल दिए।",
+          "wordBank": []
+        },
+        {
+          "id": "q_20",
+          "type": "fillInBlanks",
+          "title": "सभी गाँव वाले दयाराम का _____ करते थे।",
+          "wordBank": []
+        },
+        {
+          "id": "q_21",
+          "type": "fillInBlanks",
+          "title": "इला परेशानियों के आगे _____ वाली नहीं थी।",
+          "wordBank": []
+        }
+      ]
+    },
+    {
+      "id": "sec_4",
+      "heading": "भावार्थ लिखिए।",
+      "questions": [
+        {
+          "id": "q_22",
+          "type": "shortAnswer",
+          "title": "दृढ़ निश्चय हिम्मत के बल पर, मन में आत्मविश्वास जगाए।",
+          "answerLines": 3
+        },
+        {
+          "id": "q_23",
+          "type": "shortAnswer",
+          "title": "घोंसला बिखर गया तो क्या, एक नये नीड़ का निर्माण दूजा।",
+          "answerLines": 3
+        }
+      ]
+    },
+    {
+      "id": "sec_5",
+      "heading": "शब्दार्थ लिखिए।",
+      "questions": [
+        {
+          "id": "q_24",
+          "type": "wordMeaning",
+          "title": "निम्नलिखित शब्दों के अर्थ लिखिए:",
+          "items": [
+            "पथ",
+            "विराग",
+            "अहंकारी"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sec_6",
+      "heading": "व्याकरण - प्रश्नों के उत्तर लिखिए।",
+      "questions": [
+        {
+          "id": "q_25",
+          "type": "shortAnswer",
+          "title": "बोली किसे कहते हैं?",
+          "answerLines": 2
+        },
+        {
+          "id": "q_26",
+          "type": "shortAnswer",
+          "title": "वर्ण किसे कहते हैं? वर्णों के कितने भेद हैं?",
+          "answerLines": 2
+        },
+        {
+          "id": "q_27",
+          "type": "shortAnswer",
+          "title": "संज्ञा किसे कहते हैं? उदाहरण सहित बताइए।",
+          "answerLines": 2
+        },
+        {
+          "id": "q_28",
+          "type": "shortAnswer",
+          "title": "व्यंजन किसे कहते हैं? कोई पाँच शब्द लिखें।",
+          "answerLines": 2
+        }
+      ]
+    },
+    {
+      "id": "sec_7",
+      "heading": "भाषा ज्ञान",
+      "questions": [
+        {
+          "id": "q_29",
+          "type": "wordMeaning",
+          "title": "लिंग बदलो:",
+          "items": [
+            "देव",
+            "सखा",
+            "लेखक",
+            "नायक",
+            "बालक"
+          ]
+        },
+        {
+          "id": "q_30",
+          "type": "wordMeaning",
+          "title": "वचन बदलो:",
+          "items": [
+            "औरत",
+            "बात",
+            "वचन",
+            "आत्मा",
+            "माला"
+          ]
+        },
+        {
+          "id": "q_31",
+          "type": "wordMeaning",
+          "title": "विलोम शब्द लिखो:",
+          "items": [
+            "उपचार",
+            "खुशबू",
+            "आदर",
+            "शत्रु",
+            "नवीन"
+          ]
+        },
+        {
+          "id": "q_32",
+          "type": "wordMeaning",
+          "title": "पर्यायवाची शब्द लिखो:",
+          "items": [
+            "अमृत",
+            "सारंग",
+            "ईश्वर",
+            "किरण",
+            "गंगा"
+          ]
+        },
+        {
+          "id": "q_33",
+          "type": "wordMeaning",
+          "title": "वाक्यांश लिखें:",
+          "items": [
+            "जो काम कठिन हो",
+            "जहाँ कोई न रहता हो",
+            "जिसकी पूजा हो"
+          ]
+        },
+        {
+          "id": "q_34",
+          "type": "wordMeaning",
+          "title": "मुहावरों का अर्थ लिखें:",
+          "items": [
+            "आँखें चुराना",
+            "अगर-मगर करना",
+            "कमर कसना"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sec_8",
+      "heading": "लेखन कौशल",
+      "questions": [
+        {
+          "id": "q_35",
+          "type": "essayLetter",
+          "title": "मित्र को जन्मदिन के अवसर पर निमंत्रण पत्र लिखें।",
+          "lines": 8
+        },
+        {
+          "id": "q_36",
+          "type": "essayLetter",
+          "title": "प्रातः काल की सैर या मेरा प्रिय खेल फुटबॉल में से किसी एक पर निबंध लिखें।",
+          "lines": 8
+        }
+      ]
+    }
+  ],
+  "standaloneQuestions": []
+};
+
+__________________________________________________________
+
+---- class VI 
+
+KEY:
+questionPaperGeneratorData
+
+VALUE:
+{
+  "paperDetails": {
+    "schoolName": "ST. Columbus Public School",
+    "schoolAddress": "Ekdara, Jhajha",
+    "examName": "Half Yearly Examination - 2026",
+    "className": "STD- VI",
+    "subjectName": "Hindi",
+    "fullMarks": "",
+    "examTime": "2 Hours",
+    "numberingScheme": "restart"
+  },
+  "sections": [
+    {
+      "id": "sec_1",
+      "heading": "सही विकल्प पर सही (✓) का निशान लगाइए।",
+      "questions": [
+        {
+          "id": "q_1",
+          "type": "mcq",
+          "title": "भले ही हमारे अन्दर में हो -",
+          "options": [
+            "आकाश",
+            "कस्तूरी",
+            "जल",
+            "प्राण"
+          ]
+        },
+        {
+          "id": "q_2",
+          "type": "mcq",
+          "title": "दोनों बालक जिस गाँव में रहते थे, एक-दूसरे को क्या पुकारते थे -",
+          "options": [
+            "हॉरन",
+            "साथी",
+            "सखा",
+            "मीत"
+          ]
+        },
+        {
+          "id": "q_3",
+          "type": "mcq",
+          "title": "\"क्या मैंने गलत कहा\" पाठ की लेखिका कौन हैं?",
+          "options": [
+            "वनो सूरमज",
+            "सांवर वाला",
+            "महादेवी वर्मा",
+            "कोई नहीं"
+          ]
+        },
+        {
+          "id": "q_4",
+          "type": "mcq",
+          "title": "कवि अपने साथ किसे हँसाना चाहता है?",
+          "options": [
+            "उपवन को",
+            "फूल को",
+            "धूल को",
+            "भूल को"
+          ]
+        },
+        {
+          "id": "q_5",
+          "type": "mcq",
+          "title": "कवि को क्या भाता है?",
+          "options": [
+            "मधुरत्व",
+            "अमरत्व",
+            "अभिमान",
+            "स्वर्ग"
+          ]
+        },
+        {
+          "id": "q_6",
+          "type": "mcq",
+          "title": "इनमें से कौन-सा विशेषण कुत्ते के लिए प्रयुक्त नहीं किया गया है?",
+          "options": [
+            "स्वामिभक्त",
+            "असहाय",
+            "कर्तव्यपरायण",
+            "साहसी"
+          ]
+        },
+        {
+          "id": "q_7",
+          "type": "mcq",
+          "title": "अच्छा भोजन और प्यार पाकर खाकपड़ताल बिल्लो कैसा हो गया?",
+          "options": [
+            "हट्टा-कट्टा कुत्ता",
+            "धूल-धूसरित कुत्ता",
+            "डरपोक कुत्ता",
+            "प्रफुल्ल सुडौल युवा कुत्ता"
+          ]
+        },
+        {
+          "id": "q_8",
+          "type": "mcq",
+          "title": "तला हुआ भोजन कैसा होता है?",
+          "options": [
+            "सुपाच्य",
+            "निंद्य",
+            "सुपाच्य",
+            "दुष्पाच्य"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sec_2",
+      "heading": "निम्नलिखित प्रश्नों का उत्तर लिखिए।",
+      "questions": [
+        {
+          "id": "q_9",
+          "type": "shortAnswer",
+          "title": "जीवन को चलायमान आश्चर्य कौन-कौन से हैं?",
+          "answerLines": 2
+        },
+        {
+          "id": "q_10",
+          "type": "shortAnswer",
+          "title": "मित्र की विवशता देखकर धनी मित्र ने पिता से क्या कहा?",
+          "answerLines": 2
+        },
+        {
+          "id": "q_11",
+          "type": "shortAnswer",
+          "title": "शिविका ने क्षमा के लिए कौन-सा विकल्प लिया?",
+          "answerLines": 2
+        },
+        {
+          "id": "q_12",
+          "type": "shortAnswer",
+          "title": "काका इधर गाँव क्या कर रहा था?",
+          "answerLines": 2
+        },
+        {
+          "id": "q_13",
+          "type": "shortAnswer",
+          "title": "कवि किसे अपना आराध्य मानता है?",
+          "answerLines": 2
+        },
+        {
+          "id": "q_14",
+          "type": "shortAnswer",
+          "title": "लेखक ने गोताखोरों को गोता लगाने से क्यों मना किया?",
+          "answerLines": 2
+        },
+        {
+          "id": "q_15",
+          "type": "shortAnswer",
+          "title": "बूढ़े कुत्ते की दशा कैसी हो गई थी?",
+          "answerLines": 2
+        },
+        {
+          "id": "q_16",
+          "type": "shortAnswer",
+          "title": "भोजन करने पूर्व हमें क्या काम करना चाहिए?",
+          "answerLines": 2
+        }
+      ]
+    },
+    {
+      "id": "sec_3",
+      "heading": "रिक्त स्थानों को भरिए।",
+      "questions": [
+        {
+          "id": "q_17",
+          "type": "fillInBlanks",
+          "title": "हमें हमेशा _____ भोजन करना चाहिए।",
+          "wordBank": []
+        },
+        {
+          "id": "q_18",
+          "type": "fillInBlanks",
+          "title": "डाटा लगे सड़े-गले _____ भोजन से बचना चाहिए।",
+          "wordBank": []
+        },
+        {
+          "id": "q_19",
+          "type": "fillInBlanks",
+          "title": "_____ ही संसार का आधार है।",
+          "wordBank": []
+        },
+        {
+          "id": "q_20",
+          "type": "fillInBlanks",
+          "title": "ज्यादा तला-भुना और मसालेदार भोजन _____ होता है।",
+          "wordBank": []
+        },
+        {
+          "id": "q_21",
+          "type": "fillInBlanks",
+          "title": "हरी सब्जियाँ और फल _____ होते हैं।",
+          "wordBank": []
+        }
+      ]
+    },
+    {
+      "id": "sec_4",
+      "heading": "भावार्थ लिखें।",
+      "questions": [
+        {
+          "id": "q_22",
+          "type": "shortAnswer",
+          "title": "एक मित्र का आदमी नहीं देखता है।",
+          "answerLines": 3
+        },
+        {
+          "id": "q_23",
+          "type": "shortAnswer",
+          "title": "हम सफलता दुर्लभ कदम चूमती है।",
+          "answerLines": 3
+        }
+      ]
+    },
+    {
+      "id": "sec_5",
+      "heading": "शब्दार्थ लिखें।",
+      "questions": [
+        {
+          "id": "q_24",
+          "type": "wordMeaning",
+          "title": "निम्नलिखित शब्दों के अर्थ लिखें:",
+          "items": [
+            "क्षमा",
+            "स्मरण",
+            "हिदायत",
+            "पराया"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sec_6",
+      "heading": "व्याकरण - प्रश्नों के उत्तर दीजिए।",
+      "questions": [
+        {
+          "id": "q_25",
+          "type": "shortAnswer",
+          "title": "भाषा किसे कहते हैं? इसके सभी रूपों का वर्णन कीजिए।",
+          "answerLines": 3
+        },
+        {
+          "id": "q_26",
+          "type": "shortAnswer",
+          "title": "व्यंजन किसे कहते हैं? इनके कितने भेद हैं?",
+          "answerLines": 3
+        },
+        {
+          "id": "q_27",
+          "type": "shortAnswer",
+          "title": "संधि की परिभाषा उदाहरण सहित दीजिए।",
+          "answerLines": 3
+        },
+        {
+          "id": "q_28",
+          "type": "shortAnswer",
+          "title": "शब्द की परिभाषा उदाहरण सहित दीजिए।",
+          "answerLines": 3
+        }
+      ]
+    },
+    {
+      "id": "sec_7",
+      "heading": "भाषा ज्ञान",
+      "questions": [
+        {
+          "id": "q_29",
+          "type": "wordMeaning",
+          "title": "लिंग बदलो:",
+          "items": [
+            "बाल",
+            "शिष्य",
+            "ठाकुर",
+            "याचक",
+            "सुनार"
+          ]
+        },
+        {
+          "id": "q_30",
+          "type": "wordMeaning",
+          "title": "वचन बदलो:",
+          "items": [
+            "माला",
+            "पत्ता",
+            "तितली",
+            "माला"
+          ]
+        },
+        {
+          "id": "q_31",
+          "type": "wordMeaning",
+          "title": "विलोम शब्द लिखो:",
+          "items": [
+            "सौभाग्य",
+            "दुःख",
+            "समान",
+            "सरल",
+            "आदर"
+          ]
+        },
+        {
+          "id": "q_32",
+          "type": "wordMeaning",
+          "title": "पर्यायवाची शब्द लिखो:",
+          "items": [
+            "साहस",
+            "इन्द्र",
+            "छात्र",
+            "आदमी",
+            "गंगा"
+          ]
+        },
+        {
+          "id": "q_33",
+          "type": "wordMeaning",
+          "title": "उपसर्ग से दो-दो शब्द बनाओ:",
+          "items": [
+            "कु",
+            "जाति",
+            "अध"
+          ]
+        },
+        {
+          "id": "q_34",
+          "type": "wordMeaning",
+          "title": "प्रत्यय से दो-दो शब्द बनाओ:",
+          "items": [
+            "आऊ",
+            "आई"
+          ]
+        },
+        {
+          "id": "q_35",
+          "type": "wordMeaning",
+          "title": "संधि-विच्छेद कीजिए:",
+          "items": [
+            "श्रीमान",
+            "वार्तालाप"
+          ]
+        },
+        {
+          "id": "q_36",
+          "type": "wordMeaning",
+          "title": "मुहावरे का अर्थ लिखें:",
+          "items": [
+            "अपने ही पैरों पर कुल्हाड़ी मारना",
+            "उँगली पर नचाना"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sec_8",
+      "heading": "पत्र एवं निबंध लेखन",
+      "questions": [
+        {
+          "id": "q_37",
+          "type": "essayLetter",
+          "title": "बड़ी बहन की कुशलता जानने के लिए पत्र लिखें।",
+          "lines": 8
+        },
+        {
+          "id": "q_38",
+          "type": "essayLetter",
+          "title": "दीपावली अथवा गणतंत्र दिवस पर निबंध लिखें।",
+          "lines": 8
+        }
+      ]
+    }
+  ],
+  "standaloneQuestions": []
+}
+
+// Or JS Variable:
+const questionPaperGeneratorData = {
+  "paperDetails": {
+    "schoolName": "ST. Columbus Public School",
+    "schoolAddress": "Ekdara, Jhajha",
+    "examName": "Half Yearly Examination - 2026",
+    "className": "STD- VI",
+    "subjectName": "Hindi",
+    "fullMarks": "",
+    "examTime": "2 Hours",
+    "numberingScheme": "restart"
+  },
+  "sections": [
+    {
+      "id": "sec_1",
+      "heading": "सही विकल्प पर सही (✓) का निशान लगाइए।",
+      "questions": [
+        {
+          "id": "q_1",
+          "type": "mcq",
+          "title": "भले ही हमारे अन्दर में हो -",
+          "options": [
+            "आकाश",
+            "कस्तूरी",
+            "जल",
+            "प्राण"
+          ]
+        },
+        {
+          "id": "q_2",
+          "type": "mcq",
+          "title": "दोनों बालक जिस गाँव में रहते थे, एक-दूसरे को क्या पुकारते थे -",
+          "options": [
+            "हॉरन",
+            "साथी",
+            "सखा",
+            "मीत"
+          ]
+        },
+        {
+          "id": "q_3",
+          "type": "mcq",
+          "title": "\"क्या मैंने गलत कहा\" पाठ की लेखिका कौन हैं?",
+          "options": [
+            "वनो सूरमज",
+            "सांवर वाला",
+            "महादेवी वर्मा",
+            "कोई नहीं"
+          ]
+        },
+        {
+          "id": "q_4",
+          "type": "mcq",
+          "title": "कवि अपने साथ किसे हँसाना चाहता है?",
+          "options": [
+            "उपवन को",
+            "फूल को",
+            "धूल को",
+            "भूल को"
+          ]
+        },
+        {
+          "id": "q_5",
+          "type": "mcq",
+          "title": "कवि को क्या भाता है?",
+          "options": [
+            "मधुरत्व",
+            "अमरत्व",
+            "अभिमान",
+            "स्वर्ग"
+          ]
+        },
+        {
+          "id": "q_6",
+          "type": "mcq",
+          "title": "इनमें से कौन-सा विशेषण कुत्ते के लिए प्रयुक्त नहीं किया गया है?",
+          "options": [
+            "स्वामिभक्त",
+            "असहाय",
+            "कर्तव्यपरायण",
+            "साहसी"
+          ]
+        },
+        {
+          "id": "q_7",
+          "type": "mcq",
+          "title": "अच्छा भोजन और प्यार पाकर खाकपड़ताल बिल्लो कैसा हो गया?",
+          "options": [
+            "हट्टा-कट्टा कुत्ता",
+            "धूल-धूसरित कुत्ता",
+            "डरपोक कुत्ता",
+            "प्रफुल्ल सुडौल युवा कुत्ता"
+          ]
+        },
+        {
+          "id": "q_8",
+          "type": "mcq",
+          "title": "तला हुआ भोजन कैसा होता है?",
+          "options": [
+            "सुपाच्य",
+            "निंद्य",
+            "सुपाच्य",
+            "दुष्पाच्य"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sec_2",
+      "heading": "निम्नलिखित प्रश्नों का उत्तर लिखिए।",
+      "questions": [
+        {
+          "id": "q_9",
+          "type": "shortAnswer",
+          "title": "जीवन को चलायमान आश्चर्य कौन-कौन से हैं?",
+          "answerLines": 2
+        },
+        {
+          "id": "q_10",
+          "type": "shortAnswer",
+          "title": "मित्र की विवशता देखकर धनी मित्र ने पिता से क्या कहा?",
+          "answerLines": 2
+        },
+        {
+          "id": "q_11",
+          "type": "shortAnswer",
+          "title": "शिविका ने क्षमा के लिए कौन-सा विकल्प लिया?",
+          "answerLines": 2
+        },
+        {
+          "id": "q_12",
+          "type": "shortAnswer",
+          "title": "काका इधर गाँव क्या कर रहा था?",
+          "answerLines": 2
+        },
+        {
+          "id": "q_13",
+          "type": "shortAnswer",
+          "title": "कवि किसे अपना आराध्य मानता है?",
+          "answerLines": 2
+        },
+        {
+          "id": "q_14",
+          "type": "shortAnswer",
+          "title": "लेखक ने गोताखोरों को गोता लगाने से क्यों मना किया?",
+          "answerLines": 2
+        },
+        {
+          "id": "q_15",
+          "type": "shortAnswer",
+          "title": "बूढ़े कुत्ते की दशा कैसी हो गई थी?",
+          "answerLines": 2
+        },
+        {
+          "id": "q_16",
+          "type": "shortAnswer",
+          "title": "भोजन करने पूर्व हमें क्या काम करना चाहिए?",
+          "answerLines": 2
+        }
+      ]
+    },
+    {
+      "id": "sec_3",
+      "heading": "रिक्त स्थानों को भरिए।",
+      "questions": [
+        {
+          "id": "q_17",
+          "type": "fillInBlanks",
+          "title": "हमें हमेशा _____ भोजन करना चाहिए।",
+          "wordBank": []
+        },
+        {
+          "id": "q_18",
+          "type": "fillInBlanks",
+          "title": "डाटा लगे सड़े-गले _____ भोजन से बचना चाहिए।",
+          "wordBank": []
+        },
+        {
+          "id": "q_19",
+          "type": "fillInBlanks",
+          "title": "_____ ही संसार का आधार है।",
+          "wordBank": []
+        },
+        {
+          "id": "q_20",
+          "type": "fillInBlanks",
+          "title": "ज्यादा तला-भुना और मसालेदार भोजन _____ होता है।",
+          "wordBank": []
+        },
+        {
+          "id": "q_21",
+          "type": "fillInBlanks",
+          "title": "हरी सब्जियाँ और फल _____ होते हैं।",
+          "wordBank": []
+        }
+      ]
+    },
+    {
+      "id": "sec_4",
+      "heading": "भावार्थ लिखें।",
+      "questions": [
+        {
+          "id": "q_22",
+          "type": "shortAnswer",
+          "title": "एक मित्र का आदमी नहीं देखता है।",
+          "answerLines": 3
+        },
+        {
+          "id": "q_23",
+          "type": "shortAnswer",
+          "title": "हम सफलता दुर्लभ कदम चूमती है।",
+          "answerLines": 3
+        }
+      ]
+    },
+    {
+      "id": "sec_5",
+      "heading": "शब्दार्थ लिखें।",
+      "questions": [
+        {
+          "id": "q_24",
+          "type": "wordMeaning",
+          "title": "निम्नलिखित शब्दों के अर्थ लिखें:",
+          "items": [
+            "क्षमा",
+            "स्मरण",
+            "हिदायत",
+            "पराया"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sec_6",
+      "heading": "व्याकरण - प्रश्नों के उत्तर दीजिए।",
+      "questions": [
+        {
+          "id": "q_25",
+          "type": "shortAnswer",
+          "title": "भाषा किसे कहते हैं? इसके सभी रूपों का वर्णन कीजिए।",
+          "answerLines": 3
+        },
+        {
+          "id": "q_26",
+          "type": "shortAnswer",
+          "title": "व्यंजन किसे कहते हैं? इनके कितने भेद हैं?",
+          "answerLines": 3
+        },
+        {
+          "id": "q_27",
+          "type": "shortAnswer",
+          "title": "संधि की परिभाषा उदाहरण सहित दीजिए।",
+          "answerLines": 3
+        },
+        {
+          "id": "q_28",
+          "type": "shortAnswer",
+          "title": "शब्द की परिभाषा उदाहरण सहित दीजिए।",
+          "answerLines": 3
+        }
+      ]
+    },
+    {
+      "id": "sec_7",
+      "heading": "भाषा ज्ञान",
+      "questions": [
+        {
+          "id": "q_29",
+          "type": "wordMeaning",
+          "title": "लिंग बदलो:",
+          "items": [
+            "बाल",
+            "शिष्य",
+            "ठाकुर",
+            "याचक",
+            "सुनार"
+          ]
+        },
+        {
+          "id": "q_30",
+          "type": "wordMeaning",
+          "title": "वचन बदलो:",
+          "items": [
+            "माला",
+            "पत्ता",
+            "तितली",
+            "माला"
+          ]
+        },
+        {
+          "id": "q_31",
+          "type": "wordMeaning",
+          "title": "विलोम शब्द लिखो:",
+          "items": [
+            "सौभाग्य",
+            "दुःख",
+            "समान",
+            "सरल",
+            "आदर"
+          ]
+        },
+        {
+          "id": "q_32",
+          "type": "wordMeaning",
+          "title": "पर्यायवाची शब्द लिखो:",
+          "items": [
+            "साहस",
+            "इन्द्र",
+            "छात्र",
+            "आदमी",
+            "गंगा"
+          ]
+        },
+        {
+          "id": "q_33",
+          "type": "wordMeaning",
+          "title": "उपसर्ग से दो-दो शब्द बनाओ:",
+          "items": [
+            "कु",
+            "जाति",
+            "अध"
+          ]
+        },
+        {
+          "id": "q_34",
+          "type": "wordMeaning",
+          "title": "प्रत्यय से दो-दो शब्द बनाओ:",
+          "items": [
+            "आऊ",
+            "आई"
+          ]
+        },
+        {
+          "id": "q_35",
+          "type": "wordMeaning",
+          "title": "संधि-विच्छेद कीजिए:",
+          "items": [
+            "श्रीमान",
+            "वार्तालाप"
+          ]
+        },
+        {
+          "id": "q_36",
+          "type": "wordMeaning",
+          "title": "मुहावरे का अर्थ लिखें:",
+          "items": [
+            "अपने ही पैरों पर कुल्हाड़ी मारना",
+            "उँगली पर नचाना"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sec_8",
+      "heading": "पत्र एवं निबंध लेखन",
+      "questions": [
+        {
+          "id": "q_37",
+          "type": "essayLetter",
+          "title": "बड़ी बहन की कुशलता जानने के लिए पत्र लिखें।",
+          "lines": 8
+        },
+        {
+          "id": "q_38",
+          "type": "essayLetter",
+          "title": "दीपावली अथवा गणतंत्र दिवस पर निबंध लिखें।",
+          "lines": 8
+        }
+      ]
+    }
+  ],
+  "standaloneQuestions": []
+};
+
+
+__________________________________________________________ 
+
+---- class VIII
+
+
+KEY:
+questionPaperGeneratorData
+
+VALUE:
+{
+  "paperDetails": {
+    "schoolName": "ST. Columbus Public School",
+    "schoolAddress": "Ekdara, Jhajha",
+    "examName": "Half Yearly Examination - 2026",
+    "className": "STD- VIII",
+    "subjectName": "Hindi",
+    "fullMarks": "____",
+    "examTime": "2 Hours",
+    "numberingScheme": "restart"
+  },
+  "sections": [
+    {
+      "id": "sec_1",
+      "heading": "सही विकल्प पर सही (✓) का निशान लगाइए।",
+      "questions": [
+        {
+          "id": "q_1",
+          "type": "mcq",
+          "title": "भोलो-वाली झगड़ किस भाषा से संबंधित है?",
+          "options": [
+            "मराठी",
+            "कन्नड़",
+            "बंगला",
+            "गुजराती"
+          ]
+        },
+        {
+          "id": "q_2",
+          "type": "mcq",
+          "title": "कविता के अनुसार उत्कर्ष की किस भाषा की है?",
+          "options": [
+            "के. पी.",
+            "अंग्रेजी",
+            "उर्दू",
+            "दूसरी"
+          ]
+        },
+        {
+          "id": "q_3",
+          "type": "mcq",
+          "title": "जीवन में सफल होने के लिए क्या करना आवश्यक है?",
+          "options": [
+            "अव्यवसाय को त्यागना",
+            "मंजिल का सही समय पर चुनाव",
+            "नित्य एक-एक वचन",
+            "रुचि का काम चुनना"
+          ]
+        },
+        {
+          "id": "q_4",
+          "type": "mcq",
+          "title": "किसकी तरह बिना समझे पढ़ना व्यर्थ जाता है?",
+          "options": [
+            "कोयल की",
+            "तितली की",
+            "तोते की",
+            "मोर की"
+          ]
+        },
+        {
+          "id": "q_5",
+          "type": "mcq",
+          "title": "किसके मधुरत्व के लिए सुमति कहाँ अच्छी थी बहुत अच्छी?",
+          "options": [
+            "आलसी",
+            "दूसरे",
+            "उद्यमी",
+            "कमजोर"
+          ]
+        },
+        {
+          "id": "q_6",
+          "type": "mcq",
+          "title": "डॉक्टर कलाम का जन्म किस शहर में हुआ था?",
+          "options": [
+            "देहरादून",
+            "लखनऊ",
+            "रामेश्वरम",
+            "मुंबई"
+          ]
+        },
+        {
+          "id": "q_7",
+          "type": "mcq",
+          "title": "इसरो के चेयरमैन का क्या नाम है?",
+          "options": [
+            "विक्रम साराभाई",
+            "अब्दुल कलाम",
+            "सतीश धवन",
+            "वर्तमान"
+          ]
+        },
+        {
+          "id": "q_8",
+          "type": "mcq",
+          "title": "रेल, बस में फैली भीड़ का क्या कारण है?",
+          "options": [
+            "बढ़ती जनसंख्या",
+            "महंगाई",
+            "शिक्षा का अभाव",
+            "भ्रष्टाचार"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sec_2",
+      "heading": "निम्नलिखित प्रश्नों का उत्तर लिखिए।",
+      "questions": [
+        {
+          "id": "q_9",
+          "type": "shortAnswer",
+          "title": "हिन्दी सबको खुश क्यों रखती है?",
+          "answerLines": 2
+        },
+        {
+          "id": "q_10",
+          "type": "shortAnswer",
+          "title": "कैसे व्यक्ति को महान माना जाता है?",
+          "answerLines": 2
+        },
+        {
+          "id": "q_11",
+          "type": "shortAnswer",
+          "title": "उपनिषद में क्या कहा गया है?",
+          "answerLines": 2
+        },
+        {
+          "id": "q_12",
+          "type": "shortAnswer",
+          "title": "स्वतंत्रता प्राप्ति की किस बात से हमें सबक लेना चाहिए?",
+          "answerLines": 2
+        },
+        {
+          "id": "q_13",
+          "type": "shortAnswer",
+          "title": "अमर चित्र पर शोक नहीं करता है?",
+          "answerLines": 2
+        },
+        {
+          "id": "q_14",
+          "type": "shortAnswer",
+          "title": "मनुष्य फिर बंधन-मुक्त पर आसीन रहा है?",
+          "answerLines": 2
+        },
+        {
+          "id": "q_15",
+          "type": "shortAnswer",
+          "title": "श्याम लाल के परिवार में सदस्य कितने थे?",
+          "answerLines": 2
+        },
+        {
+          "id": "q_16",
+          "type": "shortAnswer",
+          "title": "स्वप्न को बुलबुले के समान क्यों बताया गया है?",
+          "answerLines": 2
+        }
+      ]
+    },
+    {
+      "id": "sec_3",
+      "heading": "रिक्त स्थानों की पूर्ति करें।",
+      "questions": [
+        {
+          "id": "q_17",
+          "type": "fillInBlanks",
+          "title": "प्रस्तुत _____ बढ़ती आबादी की समस्या को आधार बनाती है।",
+          "wordBank": []
+        },
+        {
+          "id": "q_18",
+          "type": "fillInBlanks",
+          "title": "_____ दरिद्रता, बेकारी, महंगाई जैसे संकटों को जन्म देती है।",
+          "wordBank": []
+        },
+        {
+          "id": "q_19",
+          "type": "fillInBlanks",
+          "title": "बढ़ती भारत की जनसंख्या निरंतर _____ जा रही है।",
+          "wordBank": []
+        },
+        {
+          "id": "q_20",
+          "type": "fillInBlanks",
+          "title": "बेरोजगारी, भुखमरी तथा महँगाई _____ के कारण बढ़ रही है।",
+          "wordBank": []
+        },
+        {
+          "id": "q_21",
+          "type": "fillInBlanks",
+          "title": "जनसंख्या नियंत्रण के उपायों को _____ को लागू करना चाहिए।",
+          "wordBank": []
+        }
+      ]
+    },
+    {
+      "id": "sec_4",
+      "heading": "भावार्थ लिखें।",
+      "questions": [
+        {
+          "id": "q_22",
+          "type": "shortAnswer",
+          "title": "संकल्प दृढ़ हो तो क्या नहीं हो सकता।",
+          "answerLines": 3
+        },
+        {
+          "id": "q_23",
+          "type": "shortAnswer",
+          "title": "जो अग्नि के साथ पग बढ़ाता है वह स्वामी बन जाता है।",
+          "answerLines": 3
+        }
+      ]
+    },
+    {
+      "id": "sec_5",
+      "heading": "शब्दार्थ लिखें।",
+      "questions": [
+        {
+          "id": "q_24",
+          "type": "wordMeaning",
+          "title": "निम्नलिखित शब्दों के अर्थ लिखें:",
+          "items": [
+            "कामना",
+            "निरन्तर",
+            "सहज"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sec_6",
+      "heading": "व्याकरण - प्रश्नों के उत्तर लिखें।",
+      "questions": [
+        {
+          "id": "q_25",
+          "type": "shortAnswer",
+          "title": "भाषा किसे कहते हैं? भाषा के कौन-कौन से रूप हैं?",
+          "answerLines": 3
+        },
+        {
+          "id": "q_26",
+          "type": "shortAnswer",
+          "title": "सर्वनाम किसे कहते हैं?",
+          "answerLines": 2
+        },
+        {
+          "id": "q_27",
+          "type": "shortAnswer",
+          "title": "संधि किसे कहते हैं?",
+          "answerLines": 2
+        },
+        {
+          "id": "q_28",
+          "type": "shortAnswer",
+          "title": "समास किसे कहते हैं? दो उदाहरण लिखिए।",
+          "answerLines": 3
+        }
+      ]
+    },
+    {
+      "id": "sec_7",
+      "heading": "भाषा ज्ञान",
+      "questions": [
+        {
+          "id": "q_29",
+          "type": "wordMeaning",
+          "title": "लिंग बदलो:",
+          "items": [
+            "शिष्य",
+            "मूर्ख",
+            "वैद्य",
+            "पापी",
+            "तेली"
+          ]
+        },
+        {
+          "id": "q_30",
+          "type": "wordMeaning",
+          "title": "वचन बदलो:",
+          "items": [
+            "क्षेत्र",
+            "उपमा",
+            "माला",
+            "माता",
+            "धेनु"
+          ]
+        },
+        {
+          "id": "q_31",
+          "type": "wordMeaning",
+          "title": "समानार्थी शब्द लिखें:",
+          "items": [
+            "अनुपम",
+            "अमृत",
+            "कपड़ा",
+            "गंगा",
+            "धन"
+          ]
+        },
+        {
+          "id": "q_32",
+          "type": "wordMeaning",
+          "title": "विशेषण लिखिए:",
+          "items": [
+            "सच",
+            "उपेक्षा",
+            "क्रोध",
+            "धर्म",
+            "गधा"
+          ]
+        },
+        {
+          "id": "q_33",
+          "type": "wordMeaning",
+          "title": "उपसर्ग से बने दो-दो शब्द लिखिए:",
+          "items": [
+            "उत्",
+            "नि"
+          ]
+        },
+        {
+          "id": "q_34",
+          "type": "wordMeaning",
+          "title": "प्रत्यय से दो-दो शब्द लिखिए:",
+          "items": [
+            "आन",
+            "इया"
+          ]
+        },
+        {
+          "id": "q_35",
+          "type": "wordMeaning",
+          "title": "मुहावरे का अर्थ लिखें:",
+          "items": [
+            "कोसों दूर भागना",
+            "अगर-मगर करना",
+            "आटे में नमक"
+          ]
+        },
+        {
+          "id": "q_36",
+          "type": "wordMeaning",
+          "title": "संधि-विच्छेद करें:",
+          "items": [
+            "परमार्थ",
+            "परमात्मा",
+            "सूर्यास्त"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sec_8",
+      "heading": "पत्र एवं निबंध लेखन",
+      "questions": [
+        {
+          "id": "q_37",
+          "type": "essayLetter",
+          "title": "प्रधानाध्यापक को चरित्र प्रमाण-पत्र देने का अनुरोध करते हुए प्रार्थना-पत्र लिखें।",
+          "lines": 8
+        },
+        {
+          "id": "q_38",
+          "type": "essayLetter",
+          "title": "हमारा देश भारत अथवा महात्मा गाँधी पर निबंध लिखें।",
+          "lines": 8
+        }
+      ]
+    }
+  ],
+  "standaloneQuestions": []
+}
+
+// Or JS Variable:
+const questionPaperGeneratorData = {
+  "paperDetails": {
+    "schoolName": "ST. Columbus Public School",
+    "schoolAddress": "Ekdara, Jhajha",
+    "examName": "Half Yearly Examination - 2026",
+    "className": "STD- VIII",
+    "subjectName": "Hindi",
+    "fullMarks": "____",
+    "examTime": "2 Hours",
+    "numberingScheme": "restart"
+  },
+  "sections": [
+    {
+      "id": "sec_1",
+      "heading": "सही विकल्प पर सही (✓) का निशान लगाइए।",
+      "questions": [
+        {
+          "id": "q_1",
+          "type": "mcq",
+          "title": "भोलो-वाली झगड़ किस भाषा से संबंधित है?",
+          "options": [
+            "मराठी",
+            "कन्नड़",
+            "बंगला",
+            "गुजराती"
+          ]
+        },
+        {
+          "id": "q_2",
+          "type": "mcq",
+          "title": "कविता के अनुसार उत्कर्ष की किस भाषा की है?",
+          "options": [
+            "के. पी.",
+            "अंग्रेजी",
+            "उर्दू",
+            "दूसरी"
+          ]
+        },
+        {
+          "id": "q_3",
+          "type": "mcq",
+          "title": "जीवन में सफल होने के लिए क्या करना आवश्यक है?",
+          "options": [
+            "अव्यवसाय को त्यागना",
+            "मंजिल का सही समय पर चुनाव",
+            "नित्य एक-एक वचन",
+            "रुचि का काम चुनना"
+          ]
+        },
+        {
+          "id": "q_4",
+          "type": "mcq",
+          "title": "किसकी तरह बिना समझे पढ़ना व्यर्थ जाता है?",
+          "options": [
+            "कोयल की",
+            "तितली की",
+            "तोते की",
+            "मोर की"
+          ]
+        },
+        {
+          "id": "q_5",
+          "type": "mcq",
+          "title": "किसके मधुरत्व के लिए सुमति कहाँ अच्छी थी बहुत अच्छी?",
+          "options": [
+            "आलसी",
+            "दूसरे",
+            "उद्यमी",
+            "कमजोर"
+          ]
+        },
+        {
+          "id": "q_6",
+          "type": "mcq",
+          "title": "डॉक्टर कलाम का जन्म किस शहर में हुआ था?",
+          "options": [
+            "देहरादून",
+            "लखनऊ",
+            "रामेश्वरम",
+            "मुंबई"
+          ]
+        },
+        {
+          "id": "q_7",
+          "type": "mcq",
+          "title": "इसरो के चेयरमैन का क्या नाम है?",
+          "options": [
+            "विक्रम साराभाई",
+            "अब्दुल कलाम",
+            "सतीश धवन",
+            "वर्तमान"
+          ]
+        },
+        {
+          "id": "q_8",
+          "type": "mcq",
+          "title": "रेल, बस में फैली भीड़ का क्या कारण है?",
+          "options": [
+            "बढ़ती जनसंख्या",
+            "महंगाई",
+            "शिक्षा का अभाव",
+            "भ्रष्टाचार"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sec_2",
+      "heading": "निम्नलिखित प्रश्नों का उत्तर लिखिए।",
+      "questions": [
+        {
+          "id": "q_9",
+          "type": "shortAnswer",
+          "title": "हिन्दी सबको खुश क्यों रखती है?",
+          "answerLines": 2
+        },
+        {
+          "id": "q_10",
+          "type": "shortAnswer",
+          "title": "कैसे व्यक्ति को महान माना जाता है?",
+          "answerLines": 2
+        },
+        {
+          "id": "q_11",
+          "type": "shortAnswer",
+          "title": "उपनिषद में क्या कहा गया है?",
+          "answerLines": 2
+        },
+        {
+          "id": "q_12",
+          "type": "shortAnswer",
+          "title": "स्वतंत्रता प्राप्ति की किस बात से हमें सबक लेना चाहिए?",
+          "answerLines": 2
+        },
+        {
+          "id": "q_13",
+          "type": "shortAnswer",
+          "title": "अमर चित्र पर शोक नहीं करता है?",
+          "answerLines": 2
+        },
+        {
+          "id": "q_14",
+          "type": "shortAnswer",
+          "title": "मनुष्य फिर बंधन-मुक्त पर आसीन रहा है?",
+          "answerLines": 2
+        },
+        {
+          "id": "q_15",
+          "type": "shortAnswer",
+          "title": "श्याम लाल के परिवार में सदस्य कितने थे?",
+          "answerLines": 2
+        },
+        {
+          "id": "q_16",
+          "type": "shortAnswer",
+          "title": "स्वप्न को बुलबुले के समान क्यों बताया गया है?",
+          "answerLines": 2
+        }
+      ]
+    },
+    {
+      "id": "sec_3",
+      "heading": "रिक्त स्थानों की पूर्ति करें।",
+      "questions": [
+        {
+          "id": "q_17",
+          "type": "fillInBlanks",
+          "title": "प्रस्तुत _____ बढ़ती आबादी की समस्या को आधार बनाती है।",
+          "wordBank": []
+        },
+        {
+          "id": "q_18",
+          "type": "fillInBlanks",
+          "title": "_____ दरिद्रता, बेकारी, महंगाई जैसे संकटों को जन्म देती है।",
+          "wordBank": []
+        },
+        {
+          "id": "q_19",
+          "type": "fillInBlanks",
+          "title": "बढ़ती भारत की जनसंख्या निरंतर _____ जा रही है।",
+          "wordBank": []
+        },
+        {
+          "id": "q_20",
+          "type": "fillInBlanks",
+          "title": "बेरोजगारी, भुखमरी तथा महँगाई _____ के कारण बढ़ रही है।",
+          "wordBank": []
+        },
+        {
+          "id": "q_21",
+          "type": "fillInBlanks",
+          "title": "जनसंख्या नियंत्रण के उपायों को _____ को लागू करना चाहिए।",
+          "wordBank": []
+        }
+      ]
+    },
+    {
+      "id": "sec_4",
+      "heading": "भावार्थ लिखें।",
+      "questions": [
+        {
+          "id": "q_22",
+          "type": "shortAnswer",
+          "title": "संकल्प दृढ़ हो तो क्या नहीं हो सकता।",
+          "answerLines": 3
+        },
+        {
+          "id": "q_23",
+          "type": "shortAnswer",
+          "title": "जो अग्नि के साथ पग बढ़ाता है वह स्वामी बन जाता है।",
+          "answerLines": 3
+        }
+      ]
+    },
+    {
+      "id": "sec_5",
+      "heading": "शब्दार्थ लिखें।",
+      "questions": [
+        {
+          "id": "q_24",
+          "type": "wordMeaning",
+          "title": "निम्नलिखित शब्दों के अर्थ लिखें:",
+          "items": [
+            "कामना",
+            "निरन्तर",
+            "सहज"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sec_6",
+      "heading": "व्याकरण - प्रश्नों के उत्तर लिखें।",
+      "questions": [
+        {
+          "id": "q_25",
+          "type": "shortAnswer",
+          "title": "भाषा किसे कहते हैं? भाषा के कौन-कौन से रूप हैं?",
+          "answerLines": 3
+        },
+        {
+          "id": "q_26",
+          "type": "shortAnswer",
+          "title": "सर्वनाम किसे कहते हैं?",
+          "answerLines": 2
+        },
+        {
+          "id": "q_27",
+          "type": "shortAnswer",
+          "title": "संधि किसे कहते हैं?",
+          "answerLines": 2
+        },
+        {
+          "id": "q_28",
+          "type": "shortAnswer",
+          "title": "समास किसे कहते हैं? दो उदाहरण लिखिए।",
+          "answerLines": 3
+        }
+      ]
+    },
+    {
+      "id": "sec_7",
+      "heading": "भाषा ज्ञान",
+      "questions": [
+        {
+          "id": "q_29",
+          "type": "wordMeaning",
+          "title": "लिंग बदलो:",
+          "items": [
+            "शिष्य",
+            "मूर्ख",
+            "वैद्य",
+            "पापी",
+            "तेली"
+          ]
+        },
+        {
+          "id": "q_30",
+          "type": "wordMeaning",
+          "title": "वचन बदलो:",
+          "items": [
+            "क्षेत्र",
+            "उपमा",
+            "माला",
+            "माता",
+            "धेनु"
+          ]
+        },
+        {
+          "id": "q_31",
+          "type": "wordMeaning",
+          "title": "समानार्थी शब्द लिखें:",
+          "items": [
+            "अनुपम",
+            "अमृत",
+            "कपड़ा",
+            "गंगा",
+            "धन"
+          ]
+        },
+        {
+          "id": "q_32",
+          "type": "wordMeaning",
+          "title": "विशेषण लिखिए:",
+          "items": [
+            "सच",
+            "उपेक्षा",
+            "क्रोध",
+            "धर्म",
+            "गधा"
+          ]
+        },
+        {
+          "id": "q_33",
+          "type": "wordMeaning",
+          "title": "उपसर्ग से बने दो-दो शब्द लिखिए:",
+          "items": [
+            "उत्",
+            "नि"
+          ]
+        },
+        {
+          "id": "q_34",
+          "type": "wordMeaning",
+          "title": "प्रत्यय से दो-दो शब्द लिखिए:",
+          "items": [
+            "आन",
+            "इया"
+          ]
+        },
+        {
+          "id": "q_35",
+          "type": "wordMeaning",
+          "title": "मुहावरे का अर्थ लिखें:",
+          "items": [
+            "कोसों दूर भागना",
+            "अगर-मगर करना",
+            "आटे में नमक"
+          ]
+        },
+        {
+          "id": "q_36",
+          "type": "wordMeaning",
+          "title": "संधि-विच्छेद करें:",
+          "items": [
+            "परमार्थ",
+            "परमात्मा",
+            "सूर्यास्त"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sec_8",
+      "heading": "पत्र एवं निबंध लेखन",
+      "questions": [
+        {
+          "id": "q_37",
+          "type": "essayLetter",
+          "title": "प्रधानाध्यापक को चरित्र प्रमाण-पत्र देने का अनुरोध करते हुए प्रार्थना-पत्र लिखें।",
+          "lines": 8
+        },
+        {
+          "id": "q_38",
+          "type": "essayLetter",
+          "title": "हमारा देश भारत अथवा महात्मा गाँधी पर निबंध लिखें।",
+          "lines": 8
+        }
+      ]
+    }
+  ],
+  "standaloneQuestions": []
+};

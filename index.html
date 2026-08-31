@@ -1,218 +1,458 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Question Paper Generator</title>
-<link rel="stylesheet" href="css/style.css">
-<link rel="stylesheet" href="css/print.css">
+  <meta charset="UTF-8">
+
+  <!-- Responsive Design -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- SEO -->
+  <title>DKUMARJAJ | Question Paper Generator</title>
+
+  <meta
+    name="description"
+    content="Create, customize, import, preview and print professional school examination question papers easily with DKUMARJAJ Question Paper Generator."
+  >
+
+  <meta
+    name="keywords"
+    content="DKUMARJAJ, Question Paper Generator, School Question Paper, Exam Paper Generator, Online Question Paper Maker, School Exam Paper Creator"
+  >
+
+  <meta name="author" content="DKUMARJAJ">
+  <meta name="robots" content="index, follow">
+
+  <!-- Favicon -->
+  <link
+    rel="icon"
+    type="image/png"
+    sizes="96x96"
+    href="favicon-96x96.png"
+  >
+
+  <!-- Theme -->
+  <meta name="theme-color" content="#1a1a1a">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="style.css">
+
 </head>
+
 <body>
-<div class="app">
 
-<header class="top-header">
-  <div class="brand-block">
-    <h1>Question Paper Generator</h1>
-    <p>Create, save and print question papers easily.</p>
-  </div>
+  <!-- ================= HEADER ================= -->
 
-  <div class="header-actions">
-    <span id="saveStatus" class="save-status">Ready</span>
+  <header class="app-header">
 
-    <div class="quick-add-section">
-      <select id="questionTypeSelect" aria-label="Select question type">
-        <option value="">Add Section...</option>
-        <optgroup label="Objective">
-          <option value="mcq">Tick (✓) the Correct Option</option>
-          <option value="truefalse">True / False</option>
-          <option value="yesno">Yes / No</option>
-          <option value="fillblank">Fill in the Blanks</option>
-          <option value="oneword">Answer in One Word</option>
-          <option value="oddoneout">Odd One Out</option>
-          <option value="series">Complete the Series / Pattern</option>
-          <option value="sequence">Arrange in Correct Order</option>
-        </optgroup>
-        <optgroup label="Matching / Classification">
-          <option value="match">Match the Following</option>
-          <option value="identify">Identify / Name the Following</option>
-          <option value="classification">Classify / Group the Following</option>
-        </optgroup>
-        <optgroup label="Descriptive">
-          <option value="veryshort">Very Short Answer</option>
-          <option value="shortanswer">Short Answer</option>
-          <option value="longanswer">Long Answer</option>
-          <option value="define">Define</option>
-          <option value="examples">Give Examples</option>
-          <option value="reason">Give Reasons</option>
-          <option value="differentiate">Differentiate Between</option>
-        </optgroup>
-        <optgroup label="Language / Writing">
-          <option value="grammar">Grammar / Language Exercise</option>
-          <option value="passage">Passage / Comprehension</option>
-          <option value="writing">Letter / Application / Essay / Story</option>
-        </optgroup>
-        <optgroup label="Maths / Science / Computer">
-          <option value="solve">Solve / Calculate</option>
-          <option value="diagram">Draw / Label / Diagram</option>
-          <option value="case">Case Study / Situation Based</option>
-          <option value="coding">Coding / Output / Debugging</option>
-        </optgroup>
-        <option value="custom">Custom Question Section</option>
+    <div class="logo-area">
+
+      <span class="icon">📝</span>
+
+      <div>
+
+        <h1>
+          Question Paper Generator
+
+          <a
+            href="https://www.google.com/search?q=DKUMARJAJ"
+            target="_blank"
+            rel="noopener noreferrer"
+            title="Search DKUMARJAJ on Google"
+            style="
+              display: inline-flex;
+              align-items: center;
+              gap: 5px;
+              margin-left: 8px;
+              font-size: 0.55em;
+              font-weight: 600;
+              text-decoration: none;
+              color: inherit;
+              opacity: 0.75;
+              vertical-align: middle;
+              transition: opacity 0.2s ease;
+            "
+            onmouseover="this.style.opacity='1'"
+            onmouseout="this.style.opacity='0.75'"
+          >
+            <span>🔍</span>
+            <span>DKUMARJAJ</span>
+          </a>
+
+        </h1>
+
+        <p>Build, import, preview &amp; print school exam papers</p>
+
+      </div>
+
+    </div>
+
+  </header>
+
+
+  <!-- ================= TOOLBAR ================= -->
+
+  <nav class="sticky-toolbar">
+
+    <div class="toolbar-group">
+
+      <select id="addQuestionTypeSelect" class="form-control">
+
+        <option value="mcq">Multiple Choice (MCQ)</option>
+
+        <option value="fillInBlanks">Fill in the Blanks</option>
+
+        <option value="trueFalse">True / False</option>
+
+        <option value="matchFollowing">Match the Following</option>
+
+        <option value="oneWord">One Word Answer</option>
+
+        <option value="shortAnswer">Short Answer</option>
+
+        <option value="longAnswer">Long Answer</option>
+
+        <option value="numerical">Numerical / Solve</option>
+
+        <option value="arrangeOrder">Arrange in Order</option>
+
+        <option value="wordMeaning">Word Meaning / Grammar</option>
+
+        <option value="essayLetter">Writing / Essay / Letter</option>
+
+        <option value="drawDiagram">Draw / Diagram</option>
+
+        <option value="standalone">Standalone Direct Question</option>
+
+        <option value="custom">Custom Question</option>
+
       </select>
-      <button id="addSectionBtn" class="primary-btn" type="button">+ Add Section</button>
+
+      <button id="btnAddQuestion" class="btn btn-primary">
+        + Add Question
+      </button>
+
+      <button id="btnAddSection" class="btn btn-secondary">
+        + Add Section
+      </button>
+
     </div>
 
-    <button id="previewBtn" class="primary-btn" type="button">Preview</button>
-  </div>
-</header>
 
-<main class="container">
+    <div class="toolbar-group">
 
-<section class="card">
-  <div class="card-title-row">
-    <div>
-      <h2>Question Paper Details</h2>
-      <p>Enter the information that should appear in the printed heading.</p>
-    </div>
-  </div>
+      <button id="btnSaveDraft" class="btn btn-success">
+        Save Draft
+      </button>
 
-  <div class="form-grid">
-    <div class="form-group">
-      <label for="schoolName">School Name</label>
-      <input id="schoolName" type="text" value="ST. Columbus Public School, Ekdara, Jhajha" placeholder="Enter school name">
-    </div>
-    <div class="form-group">
-      <label for="schoolAddress">School Address</label>
-      <input id="schoolAddress" type="text" placeholder="Enter school address">
-    </div>
-    <div class="form-group">
-      <label for="examName">Examination Name</label>
-      <input id="examName" type="text" value="Half Yearly Examination - 2026" placeholder="Enter examination name">
-    </div>
-    <div class="form-group">
-      <label for="className">Class</label>
-      <input id="className" type="text" placeholder="Class IV">
-    </div>
-    <div class="form-group">
-      <label for="subjectName">Subject</label>
-      <input id="subjectName" type="text" placeholder="Computer">
-    </div>
-    <div class="form-group">
-      <label for="fullMarks">Full Marks</label>
-      <input id="fullMarks" type="text" placeholder="80">
-    </div>
-    <div class="form-group">
-      <label for="examTime">Time</label>
-      <input id="examTime" type="text" placeholder="2 Hours">
-    </div>
-  </div>
-</section>
+      <button id="btnLoadDraft" class="btn btn-info">
+        Load Draft
+      </button>
 
-<section class="card">
-  <div class="section-header">
-    <div>
-      <h2>Question Sections</h2>
-      <p>Choose only the formats you need. Sections can be mixed in one paper.</p>
+      <button id="btnClearDraft" class="btn btn-warning">
+        Clear Draft
+      </button>
+
+      <button id="btnImport" class="btn btn-outline">
+        Import
+      </button>
+
+      <button id="btnExport" class="btn btn-outline">
+        Export
+      </button>
+
+      <button id="btnTogglePreview" class="btn btn-accent">
+        Preview Layout
+      </button>
+
+      <button id="btnPrint" class="btn btn-print">
+        🖨️ Print / Save PDF
+      </button>
+
     </div>
 
-  </div>
+  </nav>
 
-  <div id="sectionsContainer">
-    <div class="empty-state">
-      <h3>No Question Sections Added</h3>
-      <p>Select a question type and click “Add Section”.</p>
-    </div>
-  </div>
-</section>
 
-<section class="action-area">
-  <button id="saveDraftBtn" class="secondary-btn" type="button">Save Draft</button>
-  <button id="loadDraftBtn" class="secondary-btn" type="button">Load Draft</button>
-  <button id="clearDraftBtn" class="danger-btn" type="button">Clear Draft</button>
-  <button id="importStorageBtn" class="secondary-btn" type="button">Import LocalStorage</button>
-  <button id="exportStorageBtn" class="secondary-btn" type="button">Export LocalStorage</button>
-  <button id="previewBtnBottom" class="primary-btn" type="button">Preview Question Paper</button>
-  <button id="printBtn" class="dark-btn" type="button">Print / Save PDF</button>
-</section>
+  <!-- ================= MAIN ================= -->
 
-</main>
-</div>
+  <main class="main-container">
 
-<div id="storageImportModal" class="storage-import-modal" aria-hidden="true">
-  <div class="storage-import-header">
-    <div>
-      <h2>Import LocalStorage</h2>
-      <p>Paste the JSON value or the complete KEY / VALUE backup below.</p>
-    </div>
-    <div class="preview-actions">
-      <button id="loadImportedStorageBtn" class="primary-btn" type="button">Load Draft</button>
-      <button id="closeImportStorageBtn" class="danger-btn" type="button">Close</button>
-    </div>
-  </div>
-  <main class="storage-import-paper">
-    <h1>Import Question Paper Data</h1>
+    <!-- Editor Panel -->
 
-    <div class="import-help">
-      <strong>Expected key:</strong>
-      <code>questionPaperGeneratorData</code>
-      <br>
-      Paste either:
-      <ul>
-        <li>Only the JSON value: <code>{"paperDetails":...,"sections":[...]}</code></li>
-        <li>Or the complete exported <strong>KEY / VALUE</strong> text.</li>
-      </ul>
-    </div>
+    <section id="editorPanel" class="panel editor-panel">
 
-    <div class="form-group">
-      <label for="storageImportText">LocalStorage Value / Backup Text</label>
-      <textarea id="storageImportText" spellcheck="false"
-        placeholder='Paste your questionPaperGeneratorData value here...'></textarea>
-    </div>
+      <!-- Examination Details -->
 
-    <div class="import-actions">
-      <button id="validateImportBtn" class="secondary-btn" type="button">Validate</button>
-      <button id="loadImportedStorageBtnBottom" class="primary-btn" type="button">Import &amp; Load Draft</button>
-    </div>
+      <div class="card details-card">
 
-    <div id="importStatus" class="import-status"></div>
+        <h2>Header &amp; Examination Details</h2>
+
+        <div class="form-grid">
+
+
+          <!-- School Name -->
+
+          <div class="form-group span-2">
+
+            <label for="schoolName">
+              School Name
+            </label>
+
+            <input
+              type="text"
+              id="schoolName"
+              placeholder="e.g. St. Xavier's High School"
+              class="form-control"
+            >
+
+          </div>
+
+
+          <!-- School Address -->
+
+          <div class="form-group span-2">
+
+            <label for="schoolAddress">
+              School Address
+            </label>
+
+            <input
+              type="text"
+              id="schoolAddress"
+              placeholder="e.g. Main Road, City, State - 400001"
+              class="form-control"
+            >
+
+          </div>
+
+
+          <!-- Examination Name -->
+
+          <div class="form-group span-2">
+
+            <label for="examName">
+              Examination Name
+            </label>
+
+            <input
+              type="text"
+              id="examName"
+              placeholder="e.g. Annual Examination 2025-26"
+              class="form-control"
+            >
+
+          </div>
+
+
+          <!-- Class -->
+
+          <div class="form-group">
+
+            <label for="className">
+              Class / Grade
+            </label>
+
+            <input
+              type="text"
+              id="className"
+              placeholder="e.g. Class VIII"
+              class="form-control"
+            >
+
+          </div>
+
+
+          <!-- Subject -->
+
+          <div class="form-group">
+
+            <label for="subjectName">
+              Subject
+            </label>
+
+            <input
+              type="text"
+              id="subjectName"
+              placeholder="e.g. Science"
+              class="form-control"
+            >
+
+          </div>
+
+
+          <!-- Full Marks -->
+
+          <div class="form-group">
+
+            <label for="fullMarks">
+              Full Marks
+            </label>
+
+            <input
+              type="text"
+              id="fullMarks"
+              placeholder="e.g. 80"
+              class="form-control"
+            >
+
+          </div>
+
+
+          <!-- Exam Time -->
+
+          <div class="form-group">
+
+            <label for="examTime">
+              Exam Duration
+            </label>
+
+            <input
+              type="text"
+              id="examTime"
+              placeholder="e.g. 3 Hours"
+              class="form-control"
+            >
+
+          </div>
+
+
+          <!-- Numbering -->
+
+          <div class="form-group span-2">
+
+            <label for="numberingScheme">
+              Question Numbering Mode
+            </label>
+
+            <select
+              id="numberingScheme"
+              class="form-control"
+            >
+
+              <option value="restart">
+                Restart numbering per section (1, 2, 3... per section)
+              </option>
+
+              <option value="continuous">
+                Continuous numbering throughout paper (1 to N)
+              </option>
+
+            </select>
+
+          </div>
+
+        </div>
+
+      </div>
+
+
+      <!-- Question Canvas -->
+
+      <div
+        id="paperCanvas"
+        class="paper-canvas"
+      >
+      </div>
+
+    </section>
+
+
+    <!-- Preview Panel -->
+
+    <section
+      id="previewPanel"
+      class="panel preview-panel hidden"
+    >
+
+      <div class="preview-actions">
+
+        <span>
+          A4 Landscape Twin-Copy Live View
+        </span>
+
+        <button
+          id="btnClosePreview"
+          class="btn btn-sm btn-secondary"
+        >
+          Close Preview
+        </button>
+
+      </div>
+
+
+      <div
+        id="printContainer"
+        class="print-container"
+      >
+      </div>
+
+    </section>
+
   </main>
-</div>
 
-<div id="storageExportModal" class="storage-export-modal" aria-hidden="true">
-  <div class="storage-export-header">
-    <div>
-      <h2>LocalStorage Export</h2>
-      <p>Copy this plain-text block and keep it for future import.</p>
+
+  <!-- ================= IMPORT / EXPORT MODAL ================= -->
+
+  <div
+    id="dataModal"
+    class="modal hidden"
+  >
+
+    <div class="modal-content">
+
+      <h3 id="modalTitle">
+        Import Data
+      </h3>
+
+      <p id="modalDescription">
+        Paste JSON or JavaScript variable string below:
+      </p>
+
+
+      <textarea
+        id="modalTextarea"
+        class="form-control code-textarea"
+        rows="12"
+      ></textarea>
+
+
+      <div class="modal-actions">
+
+        <button
+          id="btnModalSubmit"
+          class="btn btn-primary"
+        >
+          Process Import
+        </button>
+
+
+        <button
+          id="btnModalCopy"
+          class="btn btn-secondary hidden"
+        >
+          Copy to Clipboard
+        </button>
+
+
+        <button
+          id="btnModalClose"
+          class="btn btn-outline"
+        >
+          Close
+        </button>
+
+      </div>
+
     </div>
-    <div class="preview-actions">
-      <button id="copyStorageBtn" class="primary-btn" type="button">Copy Text</button>
-      <button id="printStorageBtn" class="dark-btn" type="button">Print / Save PDF</button>
-      <button id="closeStorageBtn" class="danger-btn" type="button">Close</button>
-    </div>
+
   </div>
-  <main class="storage-export-paper">
-    <h1>Question Paper Generator - LocalStorage Backup</h1>
-    <div class="storage-export-note">
-      <strong>Storage Key:</strong> <span id="storageExportKey"></span>
-    </div>
-    <textarea id="storageExportText" spellcheck="false" readonly></textarea>
-  </main>
-</div>
 
-<div id="previewModal" class="preview-modal" aria-hidden="true">
-  <div class="preview-header">
-    <h2>Question Paper Preview</h2>
-    <div class="preview-actions">
-      <button id="printPreviewBtn" class="dark-btn" type="button">Print</button>
-      <button id="closePreviewBtn" class="danger-btn" type="button">Close</button>
-    </div>
-  </div>
-  <div id="paperPreview"></div>
-</div>
 
-<script src="js/sections.js"></script>
-<script src="js/storage.js"></script>
-<script src="js/generator.js"></script>
-<script src="js/app.js"></script>
+  <!-- JavaScript -->
+
+  <script src="app.js"></script>
+
 </body>
+
 </html>

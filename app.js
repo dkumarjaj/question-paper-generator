@@ -7,11 +7,11 @@ const STORAGE_KEY = "questionPaperGeneratorData";
 // Default Application State
 let paperData = {
   paperDetails: {
-    schoolName: "EXCELLENCE PUBLIC SCHOOL",
-    schoolAddress: "Sector 4, Academic Zone, New Delhi - 110001",
+    schoolName: "Bharat Tech Force ",
+    schoolAddress: "Harhanja, Jhajha - 811308 ",
     examName: "ANNUAL EXAMINATION 2025-26",
     className: "Class VIII",
-    subjectName: "Science",
+    subjectName: "Compute Science",
     fullMarks: "80",
     examTime: "3 Hours",
     numberingScheme: "restart"

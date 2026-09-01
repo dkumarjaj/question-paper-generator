@@ -457,5 +457,949 @@ const questionPaperGeneratorData = {
 
 __________________________________________________________
 
----- class II
+---- class III
+
+KEY:
+questionPaperGeneratorData
+
+VALUE:
+{
+  "paperDetails": {
+    "schoolName": "ST. Columbus Public School",
+    "schoolAddress": "Ekdara, Jhajha",
+    "examName": "Half Yearly Examination - 2026-27",
+    "className": "STD- III",
+    "subjectName": "Sanskrit",
+    "fullMarks": "___",
+    "examTime": "2 Hours",
+    "numberingScheme": "restart"
+  },
+  "sections": [
+    {
+      "id": "sec_1",
+      "heading": "सही विकल्प चुनें।",
+      "questions": [
+        {
+          "id": "q_1",
+          "type": "mcq",
+          "title": "शशकस्य मित्रः कः?",
+          "options": [
+            "सिंहः",
+            "कच्छपः",
+            "चटका"
+          ]
+        },
+        {
+          "id": "q_2",
+          "type": "mcq",
+          "title": "कृषकाः केन कर्षन्ति?",
+          "options": [
+            "पुस्तकेन",
+            "दण्डेन",
+            "हलेन"
+          ]
+        },
+        {
+          "id": "q_3",
+          "type": "mcq",
+          "title": "भारतस्य पश्चिम दिशि कः अस्ति?",
+          "options": [
+            "समुद्रौ",
+            "हिमालयः",
+            "पाकिस्तानम्"
+          ]
+        },
+        {
+          "id": "q_4",
+          "type": "mcq",
+          "title": "बालकः बालिकाश्च _____ आज्ञां पालयन्ति।",
+          "options": [
+            "शिक्षकानाम्",
+            "सहपाठीनाम्",
+            "अपरिचितानाम्"
+          ]
+        },
+        {
+          "id": "q_5",
+          "type": "mcq",
+          "title": "_____ धनं सर्वप्रधानं।",
+          "options": [
+            "विद्याधनं",
+            "अन्नधनं",
+            "स्वर्णधनं"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sec_2",
+      "heading": "रिक्त स्थानों को भरें।",
+      "questions": [
+        {
+          "id": "q_6",
+          "type": "fillInBlanks",
+          "title": "शशकः मार्गे एकं _____ पश्यति।",
+          "wordBank": []
+        },
+        {
+          "id": "q_7",
+          "type": "fillInBlanks",
+          "title": "तत्र _____ क्षेत्रं कर्षन्ति।",
+          "wordBank": []
+        },
+        {
+          "id": "q_8",
+          "type": "fillInBlanks",
+          "title": "अस्य _____ दिशि हिमालयः पर्वतः अस्ति।",
+          "wordBank": []
+        },
+        {
+          "id": "q_9",
+          "type": "fillInBlanks",
+          "title": "मम विद्यालये एकः शोभनं _____ अस्ति।",
+          "wordBank": []
+        },
+        {
+          "id": "q_10",
+          "type": "fillInBlanks",
+          "title": "_____ तुल्यं तपो नास्ति।",
+          "wordBank": []
+        }
+      ]
+    },
+    {
+      "id": "sec_3",
+      "heading": "सत्य / असत्य लिखें।",
+      "questions": [
+        {
+          "id": "q_11",
+          "type": "trueFalse",
+          "title": "शशकः पराजितः भवति।"
+        },
+        {
+          "id": "q_12",
+          "type": "trueFalse",
+          "title": "कृषकाः नगरेषु वसन्ति।"
+        },
+        {
+          "id": "q_13",
+          "type": "trueFalse",
+          "title": "वयं भारतवर्षे निवसामः।"
+        },
+        {
+          "id": "q_14",
+          "type": "trueFalse",
+          "title": "स्वर्णस्य पणिकः अतीव दुष्टः आसीत्।"
+        },
+        {
+          "id": "q_15",
+          "type": "trueFalse",
+          "title": "मूर्खैः सह मित्रता उचिता न।"
+        }
+      ]
+    },
+    {
+      "id": "sec_4",
+      "heading": "सुमेल करें।",
+      "questions": [
+        {
+          "id": "q_16",
+          "type": "matchFollowing",
+          "title": "सही मिलान कीजिए।",
+          "colAName": "संस्कृत",
+          "colBName": "हिंदी",
+          "rows": [
+            {
+              "a": "कृषकाः",
+              "b": "अत्र"
+            },
+            {
+              "a": "ग्रामेषु",
+              "b": "तत्र"
+            },
+            {
+              "a": "हलेन",
+              "b": "किसान"
+            },
+            {
+              "a": "यहाँ",
+              "b": "गाँव में"
+            },
+            {
+              "a": "वहाँ",
+              "b": "हल से"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sec_5",
+      "heading": "निम्नलिखित प्रश्नों के उत्तर लिखें।",
+      "questions": [
+        {
+          "id": "q_17",
+          "type": "shortAnswer",
+          "title": "शशकः पराजितः कथं भवति?",
+          "answerLines": 2
+        },
+        {
+          "id": "q_18",
+          "type": "shortAnswer",
+          "title": "कृषकेषु दशा कस्या अस्ति?",
+          "answerLines": 2
+        },
+        {
+          "id": "q_19",
+          "type": "shortAnswer",
+          "title": "भारतवर्षे उत्तरस्यां दिशि कः अस्ति?",
+          "answerLines": 2
+        },
+        {
+          "id": "q_20",
+          "type": "shortAnswer",
+          "title": "त्वं कस्यां कक्षायां पठसि?",
+          "answerLines": 2
+        },
+        {
+          "id": "q_21",
+          "type": "shortAnswer",
+          "title": "पुस्तकानां पठनेन किं भवति?",
+          "answerLines": 2
+        },
+        {
+          "id": "q_22",
+          "type": "shortAnswer",
+          "title": "कः प्रथमो धर्मः?",
+          "answerLines": 2
+        },
+        {
+          "id": "q_23",
+          "type": "shortAnswer",
+          "title": "कः गर्वं न करोति?",
+          "answerLines": 2
+        },
+        {
+          "id": "q_24",
+          "type": "shortAnswer",
+          "title": "पणिकस्य स्वभावः कीदृशः आसीत्?",
+          "answerLines": 2
+        }
+      ]
+    }
+  ],
+  "standaloneQuestions": []
+}
+
+// Or JS Variable:
+const questionPaperGeneratorData = {
+  "paperDetails": {
+    "schoolName": "ST. Columbus Public School",
+    "schoolAddress": "Ekdara, Jhajha",
+    "examName": "Half Yearly Examination - 2026-27",
+    "className": "STD- III",
+    "subjectName": "Sanskrit",
+    "fullMarks": "___",
+    "examTime": "2 Hours",
+    "numberingScheme": "restart"
+  },
+  "sections": [
+    {
+      "id": "sec_1",
+      "heading": "सही विकल्प चुनें।",
+      "questions": [
+        {
+          "id": "q_1",
+          "type": "mcq",
+          "title": "शशकस्य मित्रः कः?",
+          "options": [
+            "सिंहः",
+            "कच्छपः",
+            "चटका"
+          ]
+        },
+        {
+          "id": "q_2",
+          "type": "mcq",
+          "title": "कृषकाः केन कर्षन्ति?",
+          "options": [
+            "पुस्तकेन",
+            "दण्डेन",
+            "हलेन"
+          ]
+        },
+        {
+          "id": "q_3",
+          "type": "mcq",
+          "title": "भारतस्य पश्चिम दिशि कः अस्ति?",
+          "options": [
+            "समुद्रौ",
+            "हिमालयः",
+            "पाकिस्तानम्"
+          ]
+        },
+        {
+          "id": "q_4",
+          "type": "mcq",
+          "title": "बालकः बालिकाश्च _____ आज्ञां पालयन्ति।",
+          "options": [
+            "शिक्षकानाम्",
+            "सहपाठीनाम्",
+            "अपरिचितानाम्"
+          ]
+        },
+        {
+          "id": "q_5",
+          "type": "mcq",
+          "title": "_____ धनं सर्वप्रधानं।",
+          "options": [
+            "विद्याधनं",
+            "अन्नधनं",
+            "स्वर्णधनं"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sec_2",
+      "heading": "रिक्त स्थानों को भरें।",
+      "questions": [
+        {
+          "id": "q_6",
+          "type": "fillInBlanks",
+          "title": "शशकः मार्गे एकं _____ पश्यति।",
+          "wordBank": []
+        },
+        {
+          "id": "q_7",
+          "type": "fillInBlanks",
+          "title": "तत्र _____ क्षेत्रं कर्षन्ति।",
+          "wordBank": []
+        },
+        {
+          "id": "q_8",
+          "type": "fillInBlanks",
+          "title": "अस्य _____ दिशि हिमालयः पर्वतः अस्ति।",
+          "wordBank": []
+        },
+        {
+          "id": "q_9",
+          "type": "fillInBlanks",
+          "title": "मम विद्यालये एकः शोभनं _____ अस्ति।",
+          "wordBank": []
+        },
+        {
+          "id": "q_10",
+          "type": "fillInBlanks",
+          "title": "_____ तुल्यं तपो नास्ति।",
+          "wordBank": []
+        }
+      ]
+    },
+    {
+      "id": "sec_3",
+      "heading": "सत्य / असत्य लिखें।",
+      "questions": [
+        {
+          "id": "q_11",
+          "type": "trueFalse",
+          "title": "शशकः पराजितः भवति।"
+        },
+        {
+          "id": "q_12",
+          "type": "trueFalse",
+          "title": "कृषकाः नगरेषु वसन्ति।"
+        },
+        {
+          "id": "q_13",
+          "type": "trueFalse",
+          "title": "वयं भारतवर्षे निवसामः।"
+        },
+        {
+          "id": "q_14",
+          "type": "trueFalse",
+          "title": "स्वर्णस्य पणिकः अतीव दुष्टः आसीत्।"
+        },
+        {
+          "id": "q_15",
+          "type": "trueFalse",
+          "title": "मूर्खैः सह मित्रता उचिता न।"
+        }
+      ]
+    },
+    {
+      "id": "sec_4",
+      "heading": "सुमेल करें।",
+      "questions": [
+        {
+          "id": "q_16",
+          "type": "matchFollowing",
+          "title": "सही मिलान कीजिए।",
+          "colAName": "संस्कृत",
+          "colBName": "हिंदी",
+          "rows": [
+            {
+              "a": "कृषकाः",
+              "b": "अत्र"
+            },
+            {
+              "a": "ग्रामेषु",
+              "b": "तत्र"
+            },
+            {
+              "a": "हलेन",
+              "b": "किसान"
+            },
+            {
+              "a": "यहाँ",
+              "b": "गाँव में"
+            },
+            {
+              "a": "वहाँ",
+              "b": "हल से"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sec_5",
+      "heading": "निम्नलिखित प्रश्नों के उत्तर लिखें।",
+      "questions": [
+        {
+          "id": "q_17",
+          "type": "shortAnswer",
+          "title": "शशकः पराजितः कथं भवति?",
+          "answerLines": 2
+        },
+        {
+          "id": "q_18",
+          "type": "shortAnswer",
+          "title": "कृषकेषु दशा कस्या अस्ति?",
+          "answerLines": 2
+        },
+        {
+          "id": "q_19",
+          "type": "shortAnswer",
+          "title": "भारतवर्षे उत्तरस्यां दिशि कः अस्ति?",
+          "answerLines": 2
+        },
+        {
+          "id": "q_20",
+          "type": "shortAnswer",
+          "title": "त्वं कस्यां कक्षायां पठसि?",
+          "answerLines": 2
+        },
+        {
+          "id": "q_21",
+          "type": "shortAnswer",
+          "title": "पुस्तकानां पठनेन किं भवति?",
+          "answerLines": 2
+        },
+        {
+          "id": "q_22",
+          "type": "shortAnswer",
+          "title": "कः प्रथमो धर्मः?",
+          "answerLines": 2
+        },
+        {
+          "id": "q_23",
+          "type": "shortAnswer",
+          "title": "कः गर्वं न करोति?",
+          "answerLines": 2
+        },
+        {
+          "id": "q_24",
+          "type": "shortAnswer",
+          "title": "पणिकस्य स्वभावः कीदृशः आसीत्?",
+          "answerLines": 2
+        }
+      ]
+    }
+  ],
+  "standaloneQuestions": []
+};
+
+
+
+__________________________________________________________
+
+---- Class II 
+
+KEY:
+questionPaperGeneratorData
+
+VALUE:
+{
+  "paperDetails": {
+    "schoolName": "ST. COLUMBUS PUBLIC SCHOOL",
+    "schoolAddress": "Ekdara, Jhajha",
+    "examName": "HALF YEARLY EXAMINATION - 2026",
+    "className": "STD- II",
+    "subjectName": "Sanskrit",
+    "fullMarks": "",
+    "examTime": "2 Hours",
+    "numberingScheme": "restart"
+  },
+  "sections": [
+    {
+      "id": "sec_1",
+      "heading": "सही विकल्प पर (✓) का चिह्न लगाइए।",
+      "questions": [
+        {
+          "id": "q_1",
+          "type": "mcq",
+          "title": "छाता को संस्कृत में _____ कहते हैं।",
+          "options": [
+            "छत्रम्",
+            "गृहम्",
+            "क्षेत्रम्"
+          ]
+        },
+        {
+          "id": "q_2",
+          "type": "mcq",
+          "title": "बसयानम् को हिंदी में क्या कहते हैं?",
+          "options": [
+            "कार",
+            "बस",
+            "जीप"
+          ]
+        },
+        {
+          "id": "q_3",
+          "type": "mcq",
+          "title": "उपनेत्रम् को हिंदी में क्या कहते हैं?",
+          "options": [
+            "बस",
+            "फूल",
+            "चश्मा"
+          ]
+        },
+        {
+          "id": "q_4",
+          "type": "mcq",
+          "title": "छुरी को संस्कृत में _____ कहते हैं।",
+          "options": [
+            "क्षुरीका",
+            "कली",
+            "मक्षिका"
+          ]
+        },
+        {
+          "id": "q_5",
+          "type": "mcq",
+          "title": "घटिका किं करोति?",
+          "options": [
+            "धावति",
+            "चलति",
+            "खादति"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sec_2",
+      "heading": "रिक्त स्थानों को भरें।",
+      "questions": [
+        {
+          "id": "q_6",
+          "type": "fillInBlanks",
+          "title": "कपोतः को हिंदी में _____ कहते हैं।",
+          "wordBank": []
+        },
+        {
+          "id": "q_7",
+          "type": "fillInBlanks",
+          "title": "_____ नृत्यति।",
+          "wordBank": []
+        },
+        {
+          "id": "q_8",
+          "type": "fillInBlanks",
+          "title": "अश्वः _____।",
+          "wordBank": []
+        },
+        {
+          "id": "q_9",
+          "type": "fillInBlanks",
+          "title": "रजकः को हिंदी में _____ कहते हैं।",
+          "wordBank": []
+        },
+        {
+          "id": "q_10",
+          "type": "fillInBlanks",
+          "title": "पत्रवाहकः को हिंदी में _____ कहते हैं।",
+          "wordBank": []
+        }
+      ]
+    },
+    {
+      "id": "sec_3",
+      "heading": "सत्य / असत्य लिखें।",
+      "questions": [
+        {
+          "id": "q_11",
+          "type": "trueFalse",
+          "title": "साँप को संस्कृत में सर्पः कहते हैं।"
+        },
+        {
+          "id": "q_12",
+          "type": "trueFalse",
+          "title": "घोड़ा को संस्कृत में बकः कहते हैं।"
+        },
+        {
+          "id": "q_13",
+          "type": "trueFalse",
+          "title": "गजः कन्दुकेन क्रीडति।"
+        },
+        {
+          "id": "q_14",
+          "type": "trueFalse",
+          "title": "नेत्रम् को हिंदी में नाक कहते हैं।"
+        },
+        {
+          "id": "q_15",
+          "type": "trueFalse",
+          "title": "मक्षिका को हिंदी में मक्खी कहते हैं।"
+        }
+      ]
+    },
+    {
+      "id": "sec_4",
+      "heading": "निम्नलिखित शब्दों का हिंदी में अनुवाद करें।",
+      "questions": [
+        {
+          "id": "q_16",
+          "type": "wordMeaning",
+          "title": "निम्नलिखित शब्दों का हिंदी में अनुवाद लिखिए:",
+          "items": [
+            "अजा",
+            "धेनुः",
+            "बसयानम्",
+            "करवस्त्रम्",
+            "सोपानम्"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sec_5",
+      "heading": "सुमेल करें।",
+      "questions": [
+        {
+          "id": "q_17",
+          "type": "matchFollowing",
+          "title": "सही मिलान कीजिए।",
+          "colAName": "संस्कृत",
+          "colBName": "हिंदी",
+          "rows": [
+            {
+              "a": "कुक्कुरः",
+              "b": "रुमाल"
+            },
+            {
+              "a": "मृदङ्गः",
+              "b": "प्रकृति"
+            },
+            {
+              "a": "सैनिकः",
+              "b": "सैनिक"
+            },
+            {
+              "a": "परस्परम्",
+              "b": "युद्ध"
+            },
+            {
+              "a": "प्रकृति",
+              "b": "कुत्ता"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sec_6",
+      "heading": "निम्नलिखित प्रश्नों के उत्तर संस्कृत में लिखें।",
+      "questions": [
+        {
+          "id": "q_18",
+          "type": "shortAnswer",
+          "title": "सिंहः कुत्र निवसति?",
+          "answerLines": 1
+        },
+        {
+          "id": "q_19",
+          "type": "shortAnswer",
+          "title": "अश्वः किं करोति?",
+          "answerLines": 1
+        },
+        {
+          "id": "q_20",
+          "type": "shortAnswer",
+          "title": "पत्रवाहकः किं करोति?",
+          "answerLines": 1
+        },
+        {
+          "id": "q_21",
+          "type": "shortAnswer",
+          "title": "पाँच फलों के नाम संस्कृत में लिखें।",
+          "answerLines": 2
+        },
+        {
+          "id": "q_22",
+          "type": "shortAnswer",
+          "title": "संस्कृत में अधिकांश स्त्रीलिंग शब्द क्या होते हैं?",
+          "answerLines": 1
+        },
+        {
+          "id": "q_23",
+          "type": "shortAnswer",
+          "title": "गायिका किं करोति?",
+          "answerLines": 1
+        }
+      ]
+    }
+  ],
+  "standaloneQuestions": []
+}
+
+// Or JS Variable:
+const questionPaperGeneratorData = {
+  "paperDetails": {
+    "schoolName": "ST. COLUMBUS PUBLIC SCHOOL",
+    "schoolAddress": "Ekdara, Jhajha",
+    "examName": "HALF YEARLY EXAMINATION - 2026",
+    "className": "STD- II",
+    "subjectName": "Sanskrit",
+    "fullMarks": "",
+    "examTime": "2 Hours",
+    "numberingScheme": "restart"
+  },
+  "sections": [
+    {
+      "id": "sec_1",
+      "heading": "सही विकल्प पर (✓) का चिह्न लगाइए।",
+      "questions": [
+        {
+          "id": "q_1",
+          "type": "mcq",
+          "title": "छाता को संस्कृत में _____ कहते हैं।",
+          "options": [
+            "छत्रम्",
+            "गृहम्",
+            "क्षेत्रम्"
+          ]
+        },
+        {
+          "id": "q_2",
+          "type": "mcq",
+          "title": "बसयानम् को हिंदी में क्या कहते हैं?",
+          "options": [
+            "कार",
+            "बस",
+            "जीप"
+          ]
+        },
+        {
+          "id": "q_3",
+          "type": "mcq",
+          "title": "उपनेत्रम् को हिंदी में क्या कहते हैं?",
+          "options": [
+            "बस",
+            "फूल",
+            "चश्मा"
+          ]
+        },
+        {
+          "id": "q_4",
+          "type": "mcq",
+          "title": "छुरी को संस्कृत में _____ कहते हैं।",
+          "options": [
+            "क्षुरीका",
+            "कली",
+            "मक्षिका"
+          ]
+        },
+        {
+          "id": "q_5",
+          "type": "mcq",
+          "title": "घटिका किं करोति?",
+          "options": [
+            "धावति",
+            "चलति",
+            "खादति"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sec_2",
+      "heading": "रिक्त स्थानों को भरें।",
+      "questions": [
+        {
+          "id": "q_6",
+          "type": "fillInBlanks",
+          "title": "कपोतः को हिंदी में _____ कहते हैं।",
+          "wordBank": []
+        },
+        {
+          "id": "q_7",
+          "type": "fillInBlanks",
+          "title": "_____ नृत्यति।",
+          "wordBank": []
+        },
+        {
+          "id": "q_8",
+          "type": "fillInBlanks",
+          "title": "अश्वः _____।",
+          "wordBank": []
+        },
+        {
+          "id": "q_9",
+          "type": "fillInBlanks",
+          "title": "रजकः को हिंदी में _____ कहते हैं।",
+          "wordBank": []
+        },
+        {
+          "id": "q_10",
+          "type": "fillInBlanks",
+          "title": "पत्रवाहकः को हिंदी में _____ कहते हैं।",
+          "wordBank": []
+        }
+      ]
+    },
+    {
+      "id": "sec_3",
+      "heading": "सत्य / असत्य लिखें।",
+      "questions": [
+        {
+          "id": "q_11",
+          "type": "trueFalse",
+          "title": "साँप को संस्कृत में सर्पः कहते हैं।"
+        },
+        {
+          "id": "q_12",
+          "type": "trueFalse",
+          "title": "घोड़ा को संस्कृत में बकः कहते हैं।"
+        },
+        {
+          "id": "q_13",
+          "type": "trueFalse",
+          "title": "गजः कन्दुकेन क्रीडति।"
+        },
+        {
+          "id": "q_14",
+          "type": "trueFalse",
+          "title": "नेत्रम् को हिंदी में नाक कहते हैं।"
+        },
+        {
+          "id": "q_15",
+          "type": "trueFalse",
+          "title": "मक्षिका को हिंदी में मक्खी कहते हैं।"
+        }
+      ]
+    },
+    {
+      "id": "sec_4",
+      "heading": "निम्नलिखित शब्दों का हिंदी में अनुवाद करें।",
+      "questions": [
+        {
+          "id": "q_16",
+          "type": "wordMeaning",
+          "title": "निम्नलिखित शब्दों का हिंदी में अनुवाद लिखिए:",
+          "items": [
+            "अजा",
+            "धेनुः",
+            "बसयानम्",
+            "करवस्त्रम्",
+            "सोपानम्"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sec_5",
+      "heading": "सुमेल करें।",
+      "questions": [
+        {
+          "id": "q_17",
+          "type": "matchFollowing",
+          "title": "सही मिलान कीजिए।",
+          "colAName": "संस्कृत",
+          "colBName": "हिंदी",
+          "rows": [
+            {
+              "a": "कुक्कुरः",
+              "b": "रुमाल"
+            },
+            {
+              "a": "मृदङ्गः",
+              "b": "प्रकृति"
+            },
+            {
+              "a": "सैनिकः",
+              "b": "सैनिक"
+            },
+            {
+              "a": "परस्परम्",
+              "b": "युद्ध"
+            },
+            {
+              "a": "प्रकृति",
+              "b": "कुत्ता"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sec_6",
+      "heading": "निम्नलिखित प्रश्नों के उत्तर संस्कृत में लिखें।",
+      "questions": [
+        {
+          "id": "q_18",
+          "type": "shortAnswer",
+          "title": "सिंहः कुत्र निवसति?",
+          "answerLines": 1
+        },
+        {
+          "id": "q_19",
+          "type": "shortAnswer",
+          "title": "अश्वः किं करोति?",
+          "answerLines": 1
+        },
+        {
+          "id": "q_20",
+          "type": "shortAnswer",
+          "title": "पत्रवाहकः किं करोति?",
+          "answerLines": 1
+        },
+        {
+          "id": "q_21",
+          "type": "shortAnswer",
+          "title": "पाँच फलों के नाम संस्कृत में लिखें।",
+          "answerLines": 2
+        },
+        {
+          "id": "q_22",
+          "type": "shortAnswer",
+          "title": "संस्कृत में अधिकांश स्त्रीलिंग शब्द क्या होते हैं?",
+          "answerLines": 1
+        },
+        {
+          "id": "q_23",
+          "type": "shortAnswer",
+          "title": "गायिका किं करोति?",
+          "answerLines": 1
+        }
+      ]
+    }
+  ],
+  "standaloneQuestions": []
+};
+
+
+  
+
 

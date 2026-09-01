@@ -363,8 +363,7 @@ body {
 }
 
 .print-exam-name {
-  font-size: 13pt;
-  font-weight: bold;
+  font-size: 11pt;
   text-transform: uppercase;
 }
 
@@ -372,7 +371,7 @@ body {
   display: flex;
   justify-content: space-between;
   font-size: 10pt;
-  font-weight: bold;
+  font-weight: 700;
   border-top: 1px solid #000;
   border-bottom: 1px solid #000;
 }
@@ -388,7 +387,7 @@ body {
 /* Section & Question Formatting inside Print Copy */
 .print-section-heading {
   font-size: 10.5pt;
-  font-weight: bold;
+  font-weight: 700;
   margin-top: 3px;
 }
 
@@ -398,7 +397,7 @@ body {
 
 .print-question-text {
   font-size: 11pt;
-  font-weight: 500;
+  font-weight: 400;
   margin-left: 12px;
 }
 
